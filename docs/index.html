@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>笔记docsify</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: 'https://gitlab.com/xuyq123/mynotes',
+	  loadSidebar: true,
+      subMaxLevel: 3,
+      loadNavbar: true,
+      mergeNavbar: true,
+      auto2top: true,
+      
+      search: {
+      noData: {
+      	'/': 'No results!',
+      	'/zh-cn/': '没有结果!',
+      	'/zh-tw/': '沒有結果!',
+      },
+      paths: 'auto',
+      placeholder: {
+      	'/': 'Search',
+      	'/zh-cn/': '搜索',
+      	'/zh-tw/': '搜索',
+      }
+      },
+	  
+	  plugins: [
+		function(hook) {
+		  var footer = [
+			'<hr/>',
+			'<footer>',
+			'<span><a href="./" target="_blank">博客docsify</a>  myblog and calligraphy.</span>',
+			'<span> My git warehouse is <a href="https://gitlab.com/xuyq123/mynotes" target="_blank">MyNotes</a>.</span>',
+			'</footer>'
+		  ].join('');
+
+		  hook.afterEach(function(html) {
+			return html + footer;
+		  });
+		}
+	  ]
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
