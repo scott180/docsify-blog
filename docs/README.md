@@ -3,7 +3,7 @@
 
 ### 仓库
 
-[gitlab]( https://gitlab.com/xuyq123/myblog-docsify ) &ensp; [gitee]( https://gitee.com/xy180/myblog-docsify ) &ensp; [github]( https://github.com/scott180/myblog-docsify ) &ensp; [gitlab_mkdocs]( https://xuyq123.gitlab.io/myblog-docsify/ )  &ensp; [github_mkdocs]( https://scott180.github.io/myblog-docsify/ ) 
+[gitlab]( https://gitlab.com/xuyq123/myblog-docsify ) &ensp; [gitee]( https://gitee.com/xy180/myblog-docsify ) &ensp; [github]( https://github.com/scott180/myblog-docsify ) &ensp; [gitlab_myblog-docsify]( https://xuyq123.gitlab.io/myblog-docsify/ )  &ensp; [github_myblog-docsify]( https://scott180.github.io/myblog-docsify/ ) 
 	
 ### 文档
 
