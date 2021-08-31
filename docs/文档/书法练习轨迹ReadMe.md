@@ -67,6 +67,14 @@
 
 ---
 
+> 书法练习轨迹--明月几时有-简洁版 <br/>
+
+| 序号 | 1    | 2    | 3    | 4    | 5    | 6    |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|  **链接**   | [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) |  [知乎]( https://zhuanlan.zhihu.com/p/403400860 )  | [语雀]( https://www.yuque.com/longguang123/ccgbto/dm3duy ) | [豆瓣]( https://www.douban.com/note/811096721/ )   | [博客园]( https://www.cnblogs.com/scott123/p/15184752.html )   | [csdn]( https://blog.csdn.net/xu180/article/details/119910067 )   |
+
+---
+
 ```
 
 自二零二零年九月底练习书法以来，刚开始一直在gitee仓库记录更新每周练习情况，毕竟这是国产网站，还是要支持的。
@@ -282,11 +290,17 @@ note-mkdocs   个人笔记，含书法练习及java笔记。
 
 
 docsify主题仓库 	
+plain-docsify
 	https://gitlab.com/xuyq123/plain-docsify 
 	https://xuyq123.gitlab.io/plain-docsify/
-	
 	https://github.com/scott180/plain-docsify
 	https://scott180.github.io/plain-docsify/ 
+
+myblog-docsify	
+	https://gitlab.com/xuyq123/myblog-docsify 
+	https://xuyq123.gitlab.io/myblog-docsify/
+	https://github.com/scott180/myblog-docsify
+	https://scott180.github.io/myblog-docsify/ 
 
 	
 古文诗词
@@ -296,6 +310,15 @@ https://www.jianshu.com/p/1c8613c90c7c
 https://www.zybuluo.com/scott180/note/1815061
 https://www.douban.com/note/810205173/
 https://www.cnblogs.com/scott123/p/15141189.html	
+
+
+书法练习轨迹--明月几时有-简洁版
+https://zhuanlan.zhihu.com/p/403400860
+https://www.jianshu.com/p/af695e39963a
+https://www.douban.com/note/811096721/
+https://www.cnblogs.com/scott123/p/15184752.html
+https://blog.csdn.net/xu180/article/details/119910067
+
 
 ```
 
@@ -470,12 +493,19 @@ pages:
 
 ## 四、个人账号
 
-> 若有志同道合的小伙伴想联系本人，可通过以下方式发邮件或私信。路漫漫其修远兮，吾将上下而求索。共勉。
+> 若有志同道合的小伙伴想联系本人，可通过以下方式发邮件或私信。路漫漫其修远兮，吾将上下而求索。共勉。--202107
 
+- **项目仓库** &ensp; [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [csdn_code]( https://codechina.csdn.net/xu180/calligraphy ) &ensp; [github]( https://github.com/scott180/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitlab_docsify]( https://xuyq123.gitlab.io/plain-docsify/ )
 - **个人邮箱** &ensp; 1021151991@qq.com 
 - **资讯账号** &ensp; [头条]( https://www.toutiao.com/c/user/token/MS4wLjABAAAA2_bWhiknCbcKNu4c6VTM2B7m2vr7zBrh0x6fSyOrtGU ) &ensp;  [豆瓣]( https://www.douban.com/people/80730595/photos ) &ensp;  [知乎]( https://www.zhihu.com/people/xu-xian-sheng-72-29/posts ) &ensp; 
-- **项目仓库** &ensp; [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [csdn_code]( https://codechina.csdn.net/xu180/calligraphy ) &ensp; [github]( https://github.com/scott180/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitlab_docsify]( https://xuyq123.gitlab.io/plain-docsify/ )
 
+---
+
+---
+
+> 注册了微信公众号：**无为徐生**，以后会将书法练习轨迹、程序员笔记及一些随笔感想更新在此处。若有兴趣，可扫码关注。
+
+![wuweixusheng]( https://codechina.csdn.net/xu180/document/-/raw/master/imgs/weixin/wuweixusheng.png )
 
 ***
 

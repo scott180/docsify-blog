@@ -28,7 +28,7 @@
 复制文件       		| cp srcname  targetname
 复制目录 			| cp -r dir1/ dir2/
 修改名称(移动文件)  | mv readme.txt readme.doc
-跨服务器复制        | scp /data/ROOT.tar.gz root@192.168.239.35:/opt/sudytech/db_backup
+跨服务器复制        | scp /data/ROOT.tar.gz root@192.168.239.35:/opt/saiwen/db_backup
 删除普通文件a.txt   | rm a.txt (-f:表示强制)
 目录a删除           | rm -rf a       (-f:表示强制; -r:表示目录)
 建立新文件  		| touch test.txt
@@ -316,18 +316,18 @@ usr/lib/mysql 是指：mysql的安装路径
 
 导出数据库 /opt/tech/mysql/bin/mysqldump -uroot -p1234 webpro > /opt/tech/20170814.sql
  
-导入数据  mysql -uroot -pSudy.web123 UCPPLUS < /opt/sql/ucpplus_v4_0_5.sql
+导入数据  mysql -uroot -pSai.web123 YCKPLUS < /opt/sql/uccpplus_v4_0_5.sql
 
 mysql导入时出现"ERROR at line : Unknown command '\''."的解决办法
-		 mysql -uroot -p12344  --default-character-set=utf8 IMP_V12_1 < E:\ids-1.1.2.sql
+		 mysql -uroot -p12344  --default-character-set=utf8 IMP_V12_1 < E:\isds-1.1.2.sql
 
-导出查询语句 /opt/sudytech/mysql/bin/mysql -uroot -p12344 -e "use IDSPLUS;select id,loginName from T_USER where id=1\G;" >> /opt/test.txt
+导出查询语句 /opt/saiwen/mysql/bin/mysql -uroot -p12344 -e "use YCKPLUS;select id,loginName from T_USER where id=1\G;" >> /opt/test.txt
 
 导出表   /opt/tech/mysql/bin/mysqldump -uroot -p1234 webpro t_user > /opt/tech/t_user.sql
 
 创建数据库
-CREATE DATABASE UCPPLUS DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-use UCPPLUS;
+CREATE DATABASE YCKPLUS DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+use YCKPLUS;
  
 登录mysql  /opt/tech/mysql/bin/mysql -uroot -p1234 
            /opt/tech/mysql/bin/mysql -uroot -padmin
@@ -351,9 +351,9 @@ mysql -u root -p12344
 
 navicat连接mysql失败，授权：
 GRANT ALL PRIVILEGES ON `db1`.* TO 'user1'@'192.171.1.18' identified by 'pwd1' WITH GRANT OPTION;
-GRANT ALL PRIVILEGES ON `IDSPLUS`.* TO 'sudy'@'192.171.1.18' identified by 'shhg12344' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON `YCKPLUS`.* TO 'saiwen'@'192.171.1.18' identified by 'test12344' WITH GRANT OPTION;
 
-grant all privileges on *.* to root@'%' identified by 'Sudy.web123' with grant option;
+grant all privileges on *.* to root@'%' identified by 'saiwen.web123' with grant option;
 
 -- flush privileges;
 
@@ -385,19 +385,19 @@ SELECT @@GLOBAL.sql_mode;
 lower_case_table_names = 2
 
 启动mysql
-  /opt/sudytech/mysql/support-files/mysql.server start
+  /opt/saiwen/mysql/support-files/mysql.server start
   
-  /opt/sudytech/mysql/bin/mysqld_safe --user=mysql --basedir=/opt/sudytech/mysql --datadir=/opt/sudytech/mysql/data & 
+  /opt/saiwen/mysql/bin/mysqld_safe --user=mysql --basedir=/opt/saiwen/mysql --datadir=/opt/saiwen/mysql/data & 
   
-  cd /opt/sudytech/mysql/
+  cd /opt/saiwen/mysql/
   ./bin/mysqld_safe &
   
   
   chmod -R 775 mysql
   
   
-  cd /data/sudytech/mysql/&&./bin/mysqld_safe &
-  cd /opt/sudytech/mysql/ && bin/mysqld_safe --user=root &
+  cd /data/saiwen/mysql/&&./bin/mysqld_safe &
+  cd /opt/saiwen/mysql/ && bin/mysqld_safe --user=root &
   
 ```
 ********************************************************************
@@ -407,14 +407,14 @@ lower_case_table_names = 2
 [mongo笔记]( https://github.com/scott180/MyNotes/blob/master/mongo.md )
 ```
 配置文件启动
-cd /opt/sudytech/mongodb           
+cd /opt/saiwen/mongodb           
 ./bin/mongod --config /opt/mongodb/conf/mongo.conf 
 	
 自定义路径启动										 
-  /opt/sudytech/mongodb/bin/mongod --dbpath=/opt/sudytech/mongodb/data --logpath=/opt/sudytech/mongodb/logs --logappend  --port=27017 --fork
+  /opt/saiwen/mongodb/bin/mongod --dbpath=/opt/saiwen/mongodb/data --logpath=/opt/saiwen/mongodb/logs --logappend  --port=27017 --fork
   
 登陆mongo
-cd /opt/sudytech/mongodb/bin
+cd /opt/saiwen/mongodb/bin
 mongo
 ```
 ********************************************************************
@@ -428,7 +428,7 @@ http://www.runoob.com/redis/redis-install.html
 启动  redis-server.exe redis.windows.conf
 
 登录  redis-cli.exe -h 127.0.0.1 -p 6379
-	  redis-cli -a sudy12344
+	  redis-cli -a saiwen12344
 
 
 Redis 设置密码登录 
@@ -462,7 +462,7 @@ password值在/redis/redis.conf文件中搜索requirepass
 
 
 
-[root@localhost src]# cd /opt/sudytech/custom/redis-2.8.17/
+[root@localhost src]# cd /opt/saiwen/custom/redis-2.8.17/
 [root@localhost redis-2.8.17]# redis-server redis.conf              //启动redis                 
 [root@localhost ~]# redis-cli       //进入redis客户端
 127.0.0.1:6379> keys *              //取出所有的key 
@@ -532,8 +532,8 @@ Linux下Tomcat的启动、关闭、杀死进程   （进入tomcat的bin目录 �
 	./jdk-6u45-linux-x64.bin
 
 二、配置tomcat的 ../bin/setclasspath.sh	在文件的开头添加以下
-export JAVA_HOME=/opt/sudytech/jdk1.6.0_45  
-export JRE_HOME=/opt/sudytech/jdk1.6.0_45/jre
+export JAVA_HOME=/opt/saiwen/jdk1.6.0_45  
+export JRE_HOME=/opt/saiwen/jdk1.6.0_45/jre
 
 三、重启tomcat
 
@@ -765,10 +765,10 @@ echo "===============begin========================="
 echo "定时查询脚本启动了。。。" 
 date "+%Y-%m-%d %H:%M:%S" 
 
-docker_name=mobile_ucp_db_1
-sql="use UCPPLUS;select id,loginName,name,password,idcard,field29 from T_USER where loginName='admin'\G;"
-#docker exec -it ${docker_name} mysql -uroot -pSudy.web123 -e $sql  >> $file
-docker exec -i mobile_ucp_db_1 mysql -uroot -pSudy.web123 -e "select now();use UCPPLUS;select id,loginName,name,password,idcard,field29 from T_USER where loginName='admin'\G;"  >> /home/share/timerSearch/recordDB.txt
+docker_name=mobile_uccp_db_1
+sql="use YCKPLUS;select id,loginName,name,password,idcard,field29 from T_USER where loginName='admin'\G;"
+#docker exec -it ${docker_name} mysql -uroot -psaiwen.web123 -e $sql  >> $file
+docker exec -i mobile_uccp_db_1 mysql -uroot -psaiwen.web123 -e "select now();use YCKPLUS;select id,loginName,name,password,idcard,field29 from T_USER where loginName='admin'\G;"  >> /home/share/timerSearch/recordDB.txt
 
 echo "" 
 echo "" 
@@ -777,7 +777,7 @@ echo ""
 
 
 #crontab -uroot -e
-0 3 * * 5 /data/sudytech/shell/copyCasSecret.sh
+0 3 * * 5 /data/saiwen/shell/copyCasSecret.sh
 
 说明：
 分钟   小时   日   月   星期   命令

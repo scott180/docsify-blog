@@ -26,7 +26,7 @@ Ctrl+X  剪切
 Ctrl+F  查找与替换
         
 Ctrl+W  关闭程序
-Ctrl+Z  撤消刚才进行的操作
+Ctrl+Z  撤销刚才进行的操作
 Ctrl+Y  恢复刚才进行的操作
 Ctrl+N  新建一个空白文档
 Ctrl+P  打开"打印"对话框
@@ -145,7 +145,10 @@ https://gitlab.com/xuyq123/mynotes/-/blob/master/gitlab%E3%80%81github%E3%80%81g
 
 gitlab mkdocs主题仓库   
 	https://gitlab.com/xuyq123/plain-mkdocs   
-	https://xuyq123.gitlab.io/plain-mkdocs  
+	https://xuyq123.gitlab.io/plain-mkdocs 
+
+	https://gitlab.com/xuyq123/myblog-mkdocs   
+	https://xuyq123.gitlab.io/myblog-mkdocs	
 	
 ---	
 	
@@ -155,6 +158,9 @@ https://gitlab.com/xuyq123/mynotes/-/blob/master/git%E5%B9%B3%E5%8F%B0docsify%E5
 gitlab docsify主题仓库 	
 	https://gitlab.com/xuyq123/plain-docsify 
 	https://xuyq123.gitlab.io/plain-docsify/
+	
+	https://gitlab.com/xuyq123/myblog-mkdocs
+	https://xuyq123.gitlab.io/myblog-docsify/	
 	
 ```
 
@@ -955,10 +961,13 @@ git平台：gitlab、github、gitee、csdn_code、coding、bitbucket
 | mkdocs   | gitlab [note-mkdocs]( https://gitlab.com/xuyq123/note-mkdocs )&ensp; [**网页**](  https://xuyq123.gitlab.io/note-mkdocs/ ) &ensp;&ensp; [myblog-mkdocs]( https://gitlab.com/xuyq123/myblog-mkdocs )&ensp; [网页](  https://xuyq123.gitlab.io/myblog-mkdocs/ ) <br/>github [note-mkdocs]( https://github.com/scott180/note-mkdocs )&ensp; [网页](  https://scott180.github.io/note-mkdocs/ ) &ensp;&ensp;[myblog-mkdocs]( https://github.com/scott180/myblog-mkdocs )&ensp; [网页](  https://scott180.github.io/myblog-mkdocs/ )<br/>gitee [plain-mkdocs]( https://gitee.com/xy180/plain-mkdocs/tree/master/note ) [网页](  http://xy180.gitee.io/plain-mkdocs/note/site/ ) &ensp;&ensp;[myblog-mkdocs]( https://gitee.com/xy180/myblog-mkdocs )      |  我的笔记与博客                        |
 | docsify   | gitlab [plain-docsify]( https://gitlab.com/xuyq123/plain-docsify )&ensp; [**网页**](  https://xuyq123.gitlab.io/plain-docsify/ ) &ensp;&ensp; [myblog-docsify]( https://gitlab.com/xuyq123/myblog-docsify )&ensp; [网页](  https://xuyq123.gitlab.io/myblog-docsify/ ) <br/>github [plain-docsify]( https://github.com/scott180/plain-docsify )&ensp; [网页](  https://scott180.github.io/plain-docsify/ ) &ensp;&ensp;[myblog-docsify]( https://github.com/scott180/myblog-docsify )&ensp; [网页](  https://scott180.github.io/myblog-docsify/ )      |  笔记与博客docsify                        |
 
-
-
+---
 
 ---
+
+> 注册了微信公众号：**无为徐生**，以后会将书法练习轨迹、程序员笔记及一些随笔感想更新在此处。若有兴趣，可扫码关注。
+
+![wuweixusheng]( https://codechina.csdn.net/xu180/document/-/raw/master/imgs/weixin/wuweixusheng.png )
 
 
 

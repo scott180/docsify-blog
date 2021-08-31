@@ -40,13 +40,26 @@
 		  var footer = [
 			'<hr/>',
 			'<footer>',
-			'<span><a href="./" target="_blank">博客docsify</a>  myblog and calligraphy.</span>',
-			'<span> My git warehouse is <a href="https://gitlab.com/xuyq123/mynotes" target="_blank">MyNotes</a>.</span>',
-			'</footer>'
+			'<span><a href="./" target="_blank">博客docsify</a> 。</span>',
+			'<span>仓库地址： <a href="https://gitlab.com/xuyq123/mynotes" target="_blank">MyNotes</a>。</span>',
+			'天行健，君子以自强不息。地势坤，君子以厚德载物。</footer>'
 		  ].join('');
 
 		  hook.afterEach(function(html) {
-			return html + footer;
+		              const subscription = `
+<table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/scott180/mynotes">
+          <img src="./资料/wuweixusheng.png" style="width: 580px;height：1400px"><br>
+          <sub>微信公众号</sub>
+        </a><br>
+      </td>
+    </tr>
+</table>
+            `;
+			
+			return html + footer+subscription;
 		  });
 		}
 	  ]
