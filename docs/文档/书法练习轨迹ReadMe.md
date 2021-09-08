@@ -65,15 +65,6 @@
 | 22   | [github_pages]( https://scott180.github.io/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 ) &ensp; [ReadMe]( https://scott180.github.io/calligraphy ) | github静态网页，有时打不开。[主题1]( https://scott180.github.io/calligraphy1/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 ) &ensp; [主题2]( https://scott180.github.io/calligraphy2/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 )  |
 | 23   | [**gitlab_pages**]( https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html )  &ensp; [ReadMe]( https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe.html )     | gitlab静态网页，markdown转html。       |
 
----
-
-> 书法练习轨迹--明月几时有-简洁版 <br/>
-
-| 序号 | 1    | 2    | 3    | 4    | 5    | 6    |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|  **链接**   | [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) |  [知乎]( https://zhuanlan.zhihu.com/p/403400860 )  | [语雀]( https://www.yuque.com/longguang123/ccgbto/dm3duy ) | [豆瓣]( https://www.douban.com/note/811096721/ )   | [博客园]( https://www.cnblogs.com/scott123/p/15184752.html )   | [csdn]( https://blog.csdn.net/xu180/article/details/119910067 )   |
-
----
 
 ```
 
@@ -129,7 +120,11 @@ bitbucket--20210726
 
 ```
 
----
+***
+
+***
+
+***
 
 > git平台mkdocs主题仓库
 
@@ -158,7 +153,18 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 | 名称       | 仓库                                                			        |  备注            |
 | ---------  | -------------------------------------------------------------        |  ----------      |
-| docsify   | gitlab [plain-docsify]( https://gitlab.com/xuyq123/plain-docsify )&ensp; [**网页**](  https://xuyq123.gitlab.io/plain-docsify/ ) <br/>github [plain-docsify]( https://github.com/scott180/plain-docsify )&ensp; [网页](  https://scott180.github.io/plain-docsify/ ) |  笔记docsify                        |
+| plain-docsify    | gitlab [plain-docsify]( https://gitlab.com/xuyq123/plain-docsify )&ensp; [**网页**](  https://xuyq123.gitlab.io/plain-docsify/ ) <br/>github [plain-docsify]( https://github.com/scott180/plain-docsify )&ensp; [网页](  https://scott180.github.io/plain-docsify/ ) |  笔记docsify                        |
+| myblog-docsify   | gitlab [myblog-docsify]( https://gitlab.com/xuyq123/myblog-docsify )&ensp; [**网页**](  https://xuyq123.gitlab.io/myblog-docsify/ ) <br/>github [myblog-docsify]( https://github.com/scott180/myblog-docsify )&ensp; [网页](  https://scott180.github.io/myblog-docsify/ ) |  笔记与博客docsify                  |
+
+
+---
+
+> 书法练习轨迹--明月几时有-简洁版 <br/>
+> 专门发布在今日头条及微信公众号上的版本。去掉所有练习图片及链接，适当删减内容。删繁就简，制作此版。
+
+| 序号 | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|  **链接**   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ ) | [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) |  [知乎]( https://zhuanlan.zhihu.com/p/403400860 )  | [语雀]( https://www.yuque.com/longguang123/ccgbto/dm3duy ) | [豆瓣]( https://www.douban.com/note/811096721/ )   | [博客园]( https://www.cnblogs.com/scott123/p/15184752.html )   | [csdn]( https://blog.csdn.net/xu180/article/details/119910067 ) | [百度百家号]( https://mbd.baidu.com/newspage/data/landingshare?context=%7B%22nid%22%3A%22news_8658967678359931515%22%2C%22sourceFrom%22%3A%22bjh%22%7D ) | [360doc个人图书馆]( http://www.360doc.com/content/21/0908/14/37424511_994645014.shtml) |
 
 ---
 
@@ -169,6 +175,14 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |  **链接**   | [gitlab_pages]( https://xuyq123.gitlab.io/plain/%E7%AC%94%E5%90%8D%E6%B1%89%E5%AD%97%E9%A2%91%E7%8E%87%E5%88%86%E6%9E%90 )  |  [语雀]( https://www.yuque.com/longguang123/ccgbto/flt0hf )    | [作业部落]( https://www.zybuluo.com/scott180/note/1809817 ) | [csdn]( https://blog.csdn.net/xu180/article/details/118940065 )   | [github_pages]( https://scott180.github.io/calligraphy/%E7%AC%94%E5%90%8D%E6%B1%89%E5%AD%97%E9%A2%91%E7%8E%87%E5%88%86%E6%9E%90 )   |
 
+---
+
+> 无为徐生 <br/>
+> 我的头条号、公众号、百家号等等。书法练习轨迹、程序员笔记以及一些随笔感想。
+
+| 序号 | 1    | 2    | 3    | 4    | 5    |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|  **链接**   | [gitlab_docsify]( https://xuyq123.gitlab.io/myblog-docsify/#/%E6%96%87%E6%A1%A3/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )  |  [美篇]( https://www.meipian.cn/3rzt1rtc )    | [作业部落]( https://www.zybuluo.com/scott180/note/1686777 ) | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247484710&idx=1&sn=3e74cc71e835e6cbc019f1edee8a24d6&chksm=cfb5ebd7f8c262c1edf31245b3e14ded8b8675f22fe432399a307a83e602bae15a021600b949&token=1687261351&lang=zh_CN#rd )   | [github_pages]( https://scott180.github.io/calligraphy/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )   |
 
 ---
 
@@ -501,12 +515,13 @@ pages:
 
 ---
 
----
-
-> 注册了微信公众号：**无为徐生**，以后会将书法练习轨迹、程序员笔记及一些随笔感想更新在此处。若有兴趣，可扫码关注。
-
-![wuweixusheng]( https://codechina.csdn.net/xu180/document/-/raw/master/imgs/weixin/wuweixusheng.png )
-
 ***
 
+> 注册了微信公众号及今日头条号：**无为徐生**，以后会将书法练习轨迹、程序员笔记以及一些随笔感想更新在此。若有兴趣，可扫码关注。
+
+| 无为徐生   | 今日头条号                                                	 |  &ensp; |  微信公众号        |
+| ---------  | ------------------------------------------------------------- |  -      |  ----------        |
+|  二维码    | ![t]( https://codechina.csdn.net/xu180/document/-/raw/master/imgs/toutiao/无为徐生.png ) | <br/> | ![w]( https://codechina.csdn.net/xu180/document/-/raw/master/imgs/weixin/无为徐生.png )  |
+
+***
 
