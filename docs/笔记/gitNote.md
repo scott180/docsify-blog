@@ -1,7 +1,7 @@
 ## git笔记
 
 
-> [gitee]( https://gitee.com/xy180/MyNotes )   [github]( https://github.com/scott180 )   
+> [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 )   
 
 
 ------------------------
@@ -324,6 +324,50 @@ https://xiewenbo.iteye.com/blog/1285693
 https://blog.csdn.net/changerzhuo_319/article/details/81133533    
 git reflog --date=iso
 git checkout -b reback_remove_branch ddd94a4
+
+```
+
+#### 2.4、撤销
+
+> git commit之后如何撤销
+
+```
+
+git log  查询提交记录
+
+如果在git commit之后，需要撤回commit一般有以下三种方式
+
+1.git reset --soft 版本号 
+git reset --soft HEAD^  //回到上一个版本
+git reset --soft 9478618f5b73885e3b5dd0ff946ae557b86c7560
+不删除工作区改动的代码，撤销commit，不撤销git add .
+
+
+2.git reset --mixed 版本号 
+git reset --mixed HEAD^  //回到上一个版本
+git reset --mixed 9478618f5b73885e3b5dd0ff946ae557b86c7560
+不删除工作区改动的代码，撤销commit，撤销git add .
+
+
+3.git reset --hard 版本号 
+git reset --hard HEAD^  //回到上一个版本
+git reset --hard 9478618f5b73885e3b5dd0ff946ae557b86c7560
+删除工作区的代码，撤销commit，撤销git add . 回到上一次commit的状态
+
+
+参考 https://blog.csdn.net/weixin_44843859/article/details/111385032
+
+```
+
+---
+
+> git revert 撤销版本
+```
+
+git revert -n 9478618f5b73885e3b5dd0ff946ae557b86c7560
+
+https://blog.csdn.net/yxlshk/article/details/79944535
+https://segmentfault.com/a/1190000012897697
 
 ```
 
