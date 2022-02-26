@@ -42,26 +42,28 @@
 ```
 以下网址包含三类文件：《书法练习轨迹--明月几时有》、《书法练习轨迹ReadMe》、书法练习轨迹图片。
 《书法练习轨迹--明月几时有》记录本人每周练习书法情况：包含练习图片及一些感悟。
-《书法练习轨迹ReadMe》即当前文档，是git平台的README文件：作自我介绍之意。
+《书法练习轨迹ReadMe》即当前文档，自述文件，是git平台的README，作自我介绍之意。
 书法练习轨迹图片是《书法练习轨迹--明月几时有》文档中图片实际保存地，markdown文件中看到的图片是图片链接。
 注：书法练习轨迹--明月几时有.md  README.md 都是markdown格式的文件。
 ```
 
 | 序号 | 仓库                                                			      |  备注             			                 |
 | ---  | -------------------------------------------------------------        |  -----------------------------------         |
-| 1    | [**gitlab**]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [imgs]( https://gitlab.com/xuyq123/imgs )                 		|  国外网站，网速较慢。每周一在此记录。            |
-| 2    | [sourceforge]( https://sourceforge.net/p/calligraphy/code ) &ensp; [imgs]( https://sourceforge.net/p/calligraphy/imgs )  		|  备份，网速较快，可保存公开资料。        	       |
-| 3    | [github]( https://github.com/scott180/calligraphy ) &ensp; [imgs]( https://github.com/scott180/imgs ) 			  			    |  备份，最流行git仓库。国外网站，但有时打不开。   |
-| 4    | [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [imgs]( https://xyqin.coding.net/public/my/imgs/git ) &ensp; [document]( https://xyqin.coding.net/public/my/document/git )	|  备份，速度快。但仓库markdown文件不渲染。		   |
-| 5    | [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [imgs]( https://gitee.com/xy180/imgs )                        			|  备份，国内网站，速度快。但可能会被[屏蔽]。      |
-| 6    | [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [imgs]( https://bitbucket.org/xu12345/imgs )                   |  备份，国外网站。markdown渲染不太完善。          |
-| 7    | [gitcode]( https://gitcode.net/xu180/calligraphy ) &ensp; [imgs]( https://gitcode.net/xu180/imgs ) &ensp; [document]( https://gitcode.net/xu180/document )                        |  备份，csdn仓库。网速快，但偶尔会被封禁。        |
-| 8    | [codeberg]( https://codeberg.org/xuyq/calligraphy ) &ensp; [imgs]( https://codeberg.org/xuyq/imgs )                            |  备份，国外网站，速度还不错。                    |
+| 1    | [**gitlab**]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [imgs]( https://gitlab.com/xuyq123/imgs )                 		|  全球第二大开源平台GitLab。                       |
+| 2    | [sourceforge]( https://sourceforge.net/p/calligraphy/code ) &ensp; [imgs]( https://sourceforge.net/p/calligraphy/imgs )  		|  开源软件管理的集中式场所，可保存公开资料。       |
+| 3    | [github]( https://github.com/scott180/calligraphy ) &ensp; [imgs]( https://github.com/scott180/imgs ) 			  			    |  世界第一git平台。但有时有防火墙打不开。          |
+| 4    | [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [imgs]( https://xyqin.coding.net/public/my/imgs/git ) &ensp; [document]( https://xyqin.coding.net/public/my/document/git )	|  腾讯产品，代码托管、项目协同。仓库markdown文件不渲染。		   |
+| 5    | [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [imgs]( https://gitee.com/xy180/imgs )                        			|  国产网站，速度快。但可能会被[屏蔽]。               |
+| 6    | [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [imgs]( https://bitbucket.org/xu12345/imgs )                   |  比特桶，代码托管，项目协作。markdown渲染不太完善。 |
+| 7    | [gitcode]( https://gitcode.net/xu180/calligraphy ) &ensp; [imgs]( https://gitcode.net/xu180/imgs ) &ensp; [document]( https://gitcode.net/xu180/document )                        |  csdn托管平台。网速快，但偶尔会被封禁。        |
+| 8    | [codeberg]( https://codeberg.org/xuyq/calligraphy ) &ensp; [imgs]( https://codeberg.org/xuyq/imgs )                            |  科德伯格，德国产品，口号是“立足欧盟，服务世界”。|
+| 9    | [gitea]( https://gitea.com/xuyq/calligraphy ) &ensp; [document]( https://gitea.com/xuyq/document )                             |  盖特一杯茶。缘分一道桥。                        |
+| 10   | [agit]( https://agit.ai/xuyq/calligraphy ) &ensp; [document]( https://agit.ai/xuyq/document )                                  |  一个git，阿吉特ai。                             |
 | -    | **内容**                        |                                    |
-| 9    | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247487244&idx=1&sn=fa21068e783c6b31a62abf71186c1b20 )     |  自媒体，每周一在此发布书法练习轨迹。            |
-| 10   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ )          |  通用信息平台，看见更大的世界。              |
-| 11   | [知乎]( https://zhuanlan.zhihu.com/p/403400860 )                     |  问答社区和创作者聚集的原创内容平台。        |
-| 12   | [豆瓣]( https://www.douban.com/note/811096721/ )                     |  发现优质书影音，记录生活表达自我。          |
+| 11   | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247487244&idx=1&sn=fa21068e783c6b31a62abf71186c1b20 )     |  自媒体，每周一在此发布书法练习轨迹。            |
+| 12   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ )          |  通用信息平台，看见更大的世界。              |
+| 13   | [知乎]( https://zhuanlan.zhihu.com/p/403400860 )                     |  问答社区和创作者聚集的原创内容平台。        |
+| 14   | [豆瓣]( https://www.douban.com/note/811096721/ )                     |  发现优质书影音，记录生活表达自我。          |
 
 ---
 
@@ -157,6 +159,11 @@ GitCode--20220104
 发现sourgeforge不错，虽然是国外的，但是网速还行，操作不算复杂。可以建立Git仓库，保存资料。
 sourgeforge--20220124
 
+
+找到两个新的git仓库：gitea（盖特一杯茶）、agit（一个git）。新势力git平台。
+网站比较简约干净，于是将书法练习轨迹内容推送于此。
+--20220225
+
 ```
 
 ---
@@ -242,6 +249,8 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 | 6    | [gitee]( https://gitee.com/xy180 ) | [calligraphy]( https://gitee.com/xy180/calligraphy ) | [书法练习轨迹]( http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) |  - | [plain-mkdocs]( http://xy180.gitee.io/plain-mkdocs/1/site ) | `https://gitee.com/xy180/calligraphy.git` | `git@gitee.com:xy180/calligraphy.git` | [2021040202.jpg]( https://gitee.com/xy180/imgs/raw/master/mingyue/2021/202104/2021040202.jpg ) |
 | 7    | [sourceforge]( https://sourceforge.net/ ) | [calligraphy]( https://sourceforge.net/p/calligraphy/code ) | - | - | - |  `https://scott123@git.code.sf.net/p/calligraphy/code calligraphy-code` | `ssh://scott123@git.code.sf.net/p/calligraphy/code calligraphy-code` | [2022012001.jpg]( https://sourceforge.net/p/calligraphy/imgs/ci/master/tree/mingyue/2022/202201/2022012001.jpg?format=raw ) |
 | 8    | [codeberg]( https://codeberg.org ) | [calligraphy]( https://codeberg.org/xuyq/calligraphy ) | - | - | - |  `https://codeberg.org/xuyq/calligraphy.git` | `git@codeberg.org:xuyq/calligraphy.git` | [2022012101.jpg]( https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.jpg ) |
+| 9    | [gitea]( https://gitea.com ) | [calligraphy]( https://gitea.com/xuyq/calligraphy ) | - | - | - |  `https://gitea.com/xuyq/calligraphy.git` | `git@gitea.com:xuyq/calligraphy.git` | [caotangshizhi1.jpg]( https://gitea.com/xuyq/document/raw/branch/master/imgs/shufa/caotangshizhi/1.jpg ) |
+| 10   | [agit]( https://agit.ai ) | [calligraphy]( https://agit.ai/xuyq/calligraphy ) | - | - | - |  `https://agit.ai/xuyq/calligraphy.git` | `git@agit.ai:xuyq/calligraphy.git` | [xinjing.jpg]( https://agit.ai/xuyq/document/raw/branch/master/imgs/shufa/xinjing/cheng.jpg ) |
 
 
 ```
@@ -550,13 +559,13 @@ pages:
 
 ```
 > 王羲之-兰亭集序 <br/>
-![王羲之-兰亭集序]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/%E4%B9%A6%E6%B3%95%E5%AD%97%E5%B8%96/王羲之-兰亭集序.jpg )
+![王羲之-兰亭集序]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/王羲之-兰亭集序.jpg )
 
 > 颜真卿-多宝塔碑 <br/>
-![颜真卿-多宝塔碑]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/%E4%B9%A6%E6%B3%95%E5%AD%97%E5%B8%96/颜真卿-多宝塔碑.jpg )
+![颜真卿-多宝塔碑]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/颜真卿-多宝塔碑.jpg )
 
 > 文徵明-小楷赤壁赋 <br/>
-![文徵明-小楷赤壁赋]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/%E4%B9%A6%E6%B3%95%E5%AD%97%E5%B8%96/文徵明-小楷赤壁赋.jpg )
+![文徵明-小楷赤壁赋]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/文徵明-小楷赤壁赋.jpg )
 
 
 ---
