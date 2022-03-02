@@ -39,32 +39,11 @@
 		function(hook) {
 		  var footer = [
 			'<hr/>',
-			'<footer>',
-			'<span><a href="./" target="_blank">博客docsify</a> 。</span>',
-			'<span>仓库地址： <a href="https://gitlab.com/xuyq123/mynotes" target="_blank">MyNotes</a>。</span>',
-			'天行健，君子以自强不息。地势坤，君子以厚德载物。</footer>'
+			'<footer><b>Copyright (c) 2021 无为徐生  书法练习轨迹</b></footer>'
 		  ].join('');
 
 		  hook.afterEach(function(html) {
-		              const subscription = `
-<table>
-    <tr>
-      <td align="center">
-        <a href="https://gitlab.com/xuyq123/mynotes">
-          <img src="./资料/wuweixusheng1.png" style="width: 290px;height：290px"><br>
-          <sub>今日头条号</sub>
-        </a><br>
-      </td>
-		<td align="center"> </td>
-      <td align="center">
-        <a href="https://github.com/scott180/mynotes">
-          <img src="./资料/wuweixusheng2.png" style="width: 290px;height：290px"><br>
-          <sub>微信公众号</sub>
-        </a><br>
-      </td>
-    </tr>
-</table>
-            `;
+		              const subscription = ``;
 			
 			return html + footer+subscription;
 		  });

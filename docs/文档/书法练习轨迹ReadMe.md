@@ -195,8 +195,9 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 | 名称       | 仓库                                                			        |  备注            |
 | ---------  | -------------------------------------------------------------        |  ----------      |
-| plain-docsify    | gitlab [plain-docsify]( https://gitlab.com/xuyq123/plain-docsify ) &ensp; [**网页**](  https://xuyq123.gitlab.io/plain-docsify/ ) <br/>github [plain-docsify]( https://github.com/scott180/plain-docsify ) &ensp; [网页](  https://scott180.github.io/plain-docsify/ ) |  笔记docsify                        |
-| myblog-docsify   | gitlab [myblog-docsify]( https://gitlab.com/xuyq123/myblog-docsify ) &ensp; [**网页**](  https://xuyq123.gitlab.io/myblog-docsify/ ) <br/>github [myblog-docsify]( https://github.com/scott180/myblog-docsify ) &ensp; [网页](  https://scott180.github.io/myblog-docsify/ ) |  笔记与博客docsify                  |
+| plain-docsify    | gitlab [plain-docsify]( https://gitlab.com/xuyq123/plain-docsify ) &ensp; [网页](  https://xuyq123.gitlab.io/plain-docsify/ ) <br/>github [plain-docsify]( https://github.com/scott180/plain-docsify ) &ensp; [网页](  https://scott180.github.io/plain-docsify/ )       |  笔记docsify        |
+| myblog-docsify   | gitlab [myblog-docsify]( https://gitlab.com/xuyq123/myblog-docsify ) &ensp; [网页](  https://xuyq123.gitlab.io/myblog-docsify/ ) <br/>github [myblog-docsify]( https://github.com/scott180/myblog-docsify ) &ensp; [网页](  https://scott180.github.io/myblog-docsify/ ) |  笔记与博客docsify  |
+| shufaguiji       | gitlab [shufaguiji]( https://gitlab.com/xuyq123/shufaguiji ) &ensp; [**网页**](  https://xuyq123.gitlab.io/shufaguiji/ ) <br/>github [shufaguiji]( https://github.com/scott180/shufaguiji ) &ensp; [网页](  https://scott180.github.io/shufaguiji/ )                     |  书法轨迹           |
 
 ---
 
@@ -758,7 +759,7 @@ pages:
 
 ***
 
-> 注册了微信公众号及今日头条号：**无为徐生**，以后会将书法练习轨迹、程序员笔记以及一些随笔感想更新在此。<br/>
+> 注册了微信公众号及今日头条号：[**无为徐生**]( https://scott180.github.io/calligraphy/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )，以后会将书法练习轨迹、程序员笔记以及一些随笔感想更新在此。<br/>
 > 每周一会在无为徐生**微信公众号**同步《书法练习轨迹》，持续更新，敬请关注。
 
 | 无为徐生   | 微信公众号                                               	 |  &ensp; |  今日头条号        |

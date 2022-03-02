@@ -41,5 +41,5 @@
 ---
 	
 > `颜真卿-多宝塔碑` <br/>
-![颜真卿-多宝塔碑]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/%E4%B9%A6%E6%B3%95%E5%AD%97%E5%B8%96/颜真卿-多宝塔碑.jpg)
+![颜真卿-多宝塔碑]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/颜真卿-多宝塔碑.jpg )
 
