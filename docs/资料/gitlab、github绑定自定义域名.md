@@ -47,7 +47,7 @@ TTL: 600
 
 ### gitlab绑定自定义域名 
 
-gitlab绑定自定义域名，比github复杂一点。
+gitlab绑定自定义域名，比github复杂一点。需要申请SSL证书且修改域名记录。
 官方参考 [custom_domains]( https://docs.gitlab.com/ee/user/project/pages/custom_domains_ssl_tls_certification/index.html#4-verify-the-domains-ownership )
 
 ```
@@ -70,11 +70,11 @@ gitlab项目 https://gitlab.com/xuyq123/mkdocs-blog
 - 3、在gitlab pages  -- New Pages Domain  <br/>
 输入域名 mkdocs-blog.xushufa.cn <br/>
 
-- 4、在域名管理中心，添加记录
+- 4、在域名管理中心--添加记录
 
 ```
 主机记录：mkdocs-blog
-记录类型：CNAME
+记录类型：TXT
 线路类型：默认
 记录值：gitlab-pages-verification-code=ba841cb.....
 TTL: 600
@@ -89,7 +89,7 @@ TTL: 600
 但此时还是不能访问。 <br/>
 
 
-- 6、在域名管理中心，添加记录，修改数据
+- 6、在域名管理中心--添加记录，修改数据
 
 ```
 主机记录：mkdocs-blog     // 不变
