@@ -30,7 +30,7 @@
   - [eclipse](资料/eclipse.md)
   - [docker](资料/docker.md)
   - [markdown常用语法](资料/markdown常用语法.md)
-  - [github绑定自定义域名](资料/github绑定自定义域名.md)
+  - [gitlab、github绑定自定义域名](资料/gitlab、github绑定自定义域名.md)
   - [git平台docsify布署markdown文件](资料/git平台docsify布署markdown文件.md)
   - [gitlab、github、gitee布署mkdocs主题仓库](资料/gitlab、github、gitee布署mkdocs主题仓库.md)
 	
