@@ -35,7 +35,7 @@
 
 ## 二、网址
 
-### 2.1、书法练习轨迹说明
+### 2.1、说明
 
 > 若无意外，一般每周一在gitlab《**书法练习轨迹--明月几时有**》记录上周练习情况。其他渠道，不定时同步。
 
@@ -50,7 +50,7 @@
 | 序号 | 仓库                                                			      |  备注             			                 |
 | ---  | -------------------------------------------------------------        |  -----------------------------------         |
 | 1    | [**gitlab**]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [imgs]( https://gitlab.com/xuyq123/imgs )                 		|  全球第二大开源平台GitLab。                       |
-| 2    | [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [imgs]( https://xyqin.coding.net/public/my/imgs/git ) &ensp; [document]( https://xyqin.coding.net/public/my/document/git )	|  腾讯产品，代码托管、项目协同。仓库markdown文件不渲染。		   |
+| 2    | [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [imgs]( https://xyqin.coding.net/public/my/imgs/git ) &ensp; [document]( https://xyqin.coding.net/public/my/document/git )	|  腾讯产品，代码托管、项目协同。                            		     |
 | 3    | [github]( https://github.com/scott180/calligraphy ) &ensp; [imgs]( https://github.com/scott180/imgs ) 			  			    |  世界第一git平台。但有时有防火墙打不开。          |
 | 4    | [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [imgs]( https://bitbucket.org/xu12345/imgs )                   |  比特桶，代码托管，项目协作。markdown渲染不太完善。 |
 | 5    | [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [imgs]( https://gitee.com/xy180/imgs )                        			|  国产网站，速度快。但可能会被[屏蔽]。               |
@@ -61,7 +61,7 @@
 | 10   | [agit]( https://agit.ai/xuyq/calligraphy ) &ensp; [document]( https://agit.ai/xuyq/document )                                  |  一个git，阿吉特ai。                             |
 | -    | **网页**                        |                                    |
 | 11   | [gitee_pages]( http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) &ensp; [ReadMe]( http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe.html ) | gitee静态网页，markdown转html。     |
-| 12   | [github_pages]( https://scott180.github.io/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 ) &ensp; [ReadMe]( https://scott180.github.io/calligraphy ) | github静态网页。[书法轨迹]( https://scott180.github.io/shufaguiji/ ) 。|
+| 12   | [github_pages]( https://scott180.github.io/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 ) &ensp; [ReadMe]( https://scott180.github.io/calligraphy ) | github静态网页。[vuepress]( https://scott180.github.io/vuepress-calligraphy/ ) 。|
 | 13   | [gitlab_pages]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 )  &ensp; [ReadMe]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe )     | gitlab静态网页。[docsify](  https://xuyq123.gitlab.io/myblog-docsify/#/%E6%96%87%E6%A1%A3/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe ) &ensp; [mkdocs]( https://xuyq123.gitlab.io/plain-mkdocs ) &ensp; [html]( https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) 。   |
 | 14   | [**docusaurus2**]( https://calligraphy-docusaurus2.vercel.app )  &ensp; [portfolio]( https://calligraphy-blog.vercel.app/ )     | [vercel]( https://vercel.com/xuyq ) 开发者服务网站，提供静态网站托管的云平台。  |
 | 15   | [nextjs]( https://netlify-calligraphy-nextjs.netlify.app ) &ensp; [artisan]( https://netlify-calligraphy-artisan.netlify.app )  | [netlify]( https://app.netlify.com ) 提供 JamStack(静态网站)托管的平台。        |
@@ -98,7 +98,6 @@
 | 23   | [知乎]( https://zhuanlan.zhihu.com/p/403400860 )                     |  问答社区和创作者聚集的原创内容平台。        |
 | 24   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ )          |  通用信息平台，看见更大的世界。              |
 | 25   | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247487244&idx=1&sn=fa21068e783c6b31a62abf71186c1b20 )     |  自媒体，每周一在【**无为徐生**】公众号发布`书法练习轨迹`一周练习图文记录。           |
-
 
 
 ---
@@ -182,6 +181,10 @@ sourgeforge--20220124
 
 ---
 
+<div STYLE="page-break-after: always;"></div>
+
+### 2.2、主题
+
 > git平台mkdocs主题仓库
 
 ```
@@ -196,6 +199,7 @@ sourgeforge--20220124
 | gitee  |  [plain-mkdocs]( https://gitee.com/xy180/plain-mkdocs ) &ensp; [网页1]( http://xy180.gitee.io/plain-mkdocs/1/site/ ) &ensp; [网页2]( http://xy180.gitee.io/plain-mkdocs/2/site/ ) &ensp; [网页3]( http://xy180.gitee.io/plain-mkdocs/3/site/ )                                  |  gitee布署mkdocs：mkdocs build 布署目录。    |
 | note-mkdocs   | gitlab [note-mkdocs]( https://gitlab.com/xuyq123/note-mkdocs )&ensp; [**网页1**](  https://xuyq123.gitlab.io/note-mkdocs/ ) &ensp; [网页2](  https://xuyq123.gitlab.io/note-pip-mkdocs/ ) <br/>github [note-mkdocs]( https://github.com/scott180/note-mkdocs )&ensp; [网页](  https://scott180.github.io/note-mkdocs/ )<br/>gitee [plain-mkdocs]( https://gitee.com/xy180/plain-mkdocs/tree/master/note )&ensp; [网页](  http://xy180.gitee.io/plain-mkdocs/note/site/ )       |  个人笔记，含书法练习及java笔记。                        |
 | myblog-mkdocs   | gitlab [myblog-mkdocs]( https://gitlab.com/xuyq123/myblog-mkdocs )&ensp; [网页](  https://xuyq123.gitlab.io/myblog-mkdocs/ ) <br/>github [myblog-mkdocs]( https://github.com/scott180/myblog-mkdocs )&ensp; [网页](  https://scott180.github.io/myblog-mkdocs/ )<br/>gitee [myblog-mkdocs]( https://gitee.com/xy180/myblog-mkdocs )      |  我的博客                        |
+| mkdocs-calligraphy   | gitlab [mkdocs-calligraphy]( https://gitlab.com/xuyq123/mkdocs-calligraphy )&ensp; [网页](  https://xuyq123.gitlab.io/mkdocs-calligraphy/ )    |  书法练习轨迹                        |
 
 ---
 
@@ -211,7 +215,9 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 | ---------  | -------------------------------------------------------------        |  ----------      |
 | plain-docsify    | gitlab [plain-docsify]( https://gitlab.com/xuyq123/plain-docsify ) &ensp; [网页](  https://xuyq123.gitlab.io/plain-docsify/ ) <br/>github [plain-docsify]( https://github.com/scott180/plain-docsify ) &ensp; [网页](  https://scott180.github.io/plain-docsify/ )        |  笔记docsify        |
 | myblog-docsify   | gitlab [myblog-docsify]( https://gitlab.com/xuyq123/myblog-docsify ) &ensp; [网页](  https://xuyq123.gitlab.io/myblog-docsify/ ) <br/>github [myblog-docsify]( https://github.com/scott180/myblog-docsify ) &ensp; [网页](  https://scott180.github.io/myblog-docsify/ ) |  笔记与博客docsify  |
-| shufaguiji       | gitlab [shufaguiji]( https://gitlab.com/xuyq123/shufaguiji ) &ensp; [**网页**](  https://xuyq123.gitlab.io/shufaguiji/ ) <br/>github [shufaguiji]( https://github.com/scott180/shufaguiji ) &ensp; [网页](  https://scott180.github.io/shufaguiji/ )                    |  书法轨迹           |
+| docsify-calligraphy       | github [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy ) &ensp; [网页](  https://scott180.github.io/docsify-calligraphy )                    |  书法练习轨迹           |
+
+---
 
 ---
 
@@ -250,7 +256,7 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 <div STYLE="page-break-after: always;"></div>
 
-### 2.2、书法练习轨迹链接
+### 2.3、链接
 
 > git平台 &ensp; 官网 &ensp; 项目地址 &ensp; 静态网页 &ensp; docsify网页 &ensp; mkdocs网页 &ensp; HTTPS &ensp; SSH &ensp; 图片地址  
 
@@ -382,12 +388,6 @@ myblog-docsify
 	https://xuyq123.gitlab.io/myblog-docsify/
 	https://github.com/scott180/myblog-docsify
 	https://scott180.github.io/myblog-docsify/ 
-
-shufaguiji	
-	https://gitlab.com/xuyq123/shufaguiji 
-	https://xuyq123.gitlab.io/shufaguiji/
-	https://github.com/scott180/shufaguiji
-	https://scott180.github.io/shufaguiji/ 
 	
 	
 古文诗词
@@ -410,8 +410,6 @@ https://blog.csdn.net/xu180/article/details/119910067
 ```
 
 ---
-
-### 2.3、书法练习轨迹图片链接
 
 ```
 书法练习轨迹各git仓库图片链接
@@ -802,7 +800,7 @@ pages:
 
 > 若有志同道合的小伙伴想联系本人，可通过以下方式发邮件或私信。路漫漫其修远兮，吾将上下而求索。共勉。--202107
 
-- **项目仓库** &ensp; [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [sourceforge]( https://sourceforge.net/p/calligraphy/code ) &ensp; [github]( https://github.com/scott180/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitlab_docsify]( https://xuyq123.gitlab.io/myblog-docsify/#/%E6%96%87%E6%A1%A3/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe )
+- **项目仓库** &ensp; [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [github]( https://github.com/scott180/calligraphy )  &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [sourceforge]( https://sourceforge.net/p/calligraphy/code )  &ensp; [github_docsify]( https://scott180.github.io/docsify-calligraphy )
 - **资讯账号** &ensp; [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) &ensp; [头条]( https://www.toutiao.com/c/user/token/MS4wLjABAAAA2_bWhiknCbcKNu4c6VTM2B7m2vr7zBrh0x6fSyOrtGU ) &ensp;  [豆瓣]( https://www.douban.com/people/80730595/photos ) &ensp;  [知乎]( https://www.zhihu.com/people/xu-xian-sheng-72-29/posts ) &ensp; 
 - **个人邮箱** &ensp; 1021151991@qq.com 
 

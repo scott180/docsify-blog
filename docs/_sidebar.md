@@ -1,4 +1,4 @@
-- 博客docsify
+- 笔记
   - [note](笔记/note.md)
   - [java](笔记/java.md)
   - [gitNote](笔记/gitNote.md)

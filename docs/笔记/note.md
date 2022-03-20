@@ -508,6 +508,38 @@ public static final int cpuNum = Runtime.getRuntime().availableProcessors();
 
 ```
 
+```java
+/*** list对象分组求和 */
+
+List<WarehouseLogisticsDAO> basketList = warehouseLogisticsDOMapper.queryWarehouselogisticsBasket(warehouselogisticsOrderGoodQuery);
+
+List<WarehouseLogisticsDAO> list = new ArrayList<>();
+
+//（同一商家的数量相加）
+
+// 分组求和1
+basketList.stream().collect(Collectors.groupingBy(item -> item.getAddrTele() + "_" + item.getAddrAddress())).forEach((key, groupList) -> {
+                WarehouseLogisticsDAO dao = new WarehouseLogisticsDAO();
+                dao.setAmount(groupList.stream().mapToInt(WarehouseLogisticsDAO::getAmount).sum());
+                dao.setAddrAddress(key);
+                list.add(dao);
+            });
+			
+// 分组求和2
+basketList.parallelStream().collect(Collectors.groupingBy(item -> item.getAddrTele() + "_" + item.getAddrAddress(), Collectors.toList()))
+		.forEach((key, groupList) -> {
+					groupList.stream().reduce((a, b) -> {
+						WarehouseLogisticsDAO dao = new WarehouseLogisticsDAO();
+						dao.setAddrAddress(key);
+						dao.setAmount(a.getAmount() + b.getAmount());
+						return dao;
+					}).ifPresent(list::add);
+				}
+		);
+		
+
+```
+
 #### 3.1.2、Map遍历
 
 ```java
@@ -515,7 +547,7 @@ public static final int cpuNum = Runtime.getRuntime().availableProcessors();
 java中Map遍历的四种方式
 https://www.cnblogs.com/damoblog/p/9124937.html
 
-Map <String,String>map = new HashMap<String,String>();
+Map<String,String> map = new HashMap<String,String>();
 map.put("熊大", "棕色");
 map.put("熊二", "黄色");
 
@@ -526,6 +558,10 @@ for(Map.Entry<String, String> entry : map.entrySet()){
     System.out.println(mapKey+":"+mapValue);
 }
 
+ map.entrySet().forEach(en->{
+                en.getKey();
+                en.getValue();
+            });
 
 //key
 for(String key : map.keySet()){

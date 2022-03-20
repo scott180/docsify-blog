@@ -25,9 +25,7 @@ mkdocs安装     pip install mkdocs
 ```
 gitlab mkdocs主题仓库 （推送文件自动布署）
 创建方法：
-   1、创建 mkdocs.yml、.gitlab-ci.yml文件。
-   2、创建docs目录，markdown文件放在此处。
-   3、推送到仓库。
+   创建 mkdocs.yml、.gitlab-ci.yml文件。创建docs目录，markdown文件放在此处。推送到仓库。
    
    可fork此仓库 https://gitlab.com/xuyq123/plain-mkdocs    https://xuyq123.gitlab.io/plain-mkdocs
    注意：若部署失败，可在 CI/CD --> Jobs查看原因，修改 .gitlab-ci.yml 文件。
@@ -47,9 +45,8 @@ gitlab mkdocs主题仓库 （推送文件自动布署）
 	https://blog.csdn.net/qq_32332433/article/details/106148965
 	
 	
-```
-
-``` 
+------	
+	 
 		 
 主题安装
 	pip install -i https://pypi.tuna.tsinghua.edu.cn/simple mkdocs-Bootswatch      安装多个主题
@@ -132,16 +129,3 @@ gitee mkdocs主题仓库 （GiteePages服务布署目录）
 ```
 
 ---
-
-### 示例
-
-| 仓库   | 地址                                               			      |  备注             			                 |
-| -----  | -------------------------------------------------------------      |  -----------------------------------         |
-| gitlab | [plain-mkdocs]( https://gitlab.com/xuyq123/plain-mkdocs ) &ensp; [**网页**]( https://xuyq123.gitlab.io/plain-mkdocs ) <br/>[plain-pip-mkdocs]( https://gitlab.com/xuyq123/plain-pip-mkdocs ) &ensp; [网页]( https://xuyq123.gitlab.io/plain-pip-mkdocs )  <br/>[plain-mkdocs-gitbook]( https://gitlab.com/xuyq123/plain-mkdocs-gitbook ) &ensp; [网页]( https://xuyq123.gitlab.io/plain-mkdocs-gitbook )            |  gitlab布署mkdocs：配置文件.gitlab-ci.yml。    |
-| github | [plain-mkdocs]( https://github.com/scott180/plain-mkdocs ) &ensp; [网页](  https://scott180.github.io/plain-mkdocs/ ) <br/>[plain-pip-mkdocs]( https://github.com/scott180/plain-pip-mkdocs ) &ensp; [网页]( https://scott180.github.io/plain-pip-mkdocs )  <br/>[plain-mkdocs-serve]( https://github.com/scott180/plain-mkdocs-serve )  &ensp; [网页]( https://scott180.github.io/plain-mkdocs-serve )              |  github布署mkdocs：命令mkdocs gh-deploy 。           |
-| gitee  |  [plain-mkdocs]( https://gitee.com/xy180/plain-mkdocs ) &ensp; [网页1]( http://xy180.gitee.io/plain-mkdocs/1/site/ ) &ensp; [网页2]( http://xy180.gitee.io/plain-mkdocs/2/site/ ) &ensp; [网页3]( http://xy180.gitee.io/plain-mkdocs/3/site/ )                                  |  gitee布署mkdocs：mkdocs build 布署目录。    |
-| note-mkdocs   | gitlab [note-mkdocs]( https://gitlab.com/xuyq123/note-mkdocs )&ensp; [**网页1**](  https://xuyq123.gitlab.io/note-mkdocs/ ) &ensp; [网页2](  https://xuyq123.gitlab.io/note-pip-mkdocs/ ) <br/>github [note-mkdocs]( https://github.com/scott180/note-mkdocs )&ensp; [网页](  https://scott180.github.io/note-mkdocs/ )<br/>gitee [plain-mkdocs]( https://gitee.com/xy180/plain-mkdocs/tree/master/note )&ensp; [网页](  http://xy180.gitee.io/plain-mkdocs/note/site/ )       |  个人笔记，含书法练习及java笔记。                        |
-| myblog-mkdocs   | gitlab [myblog-mkdocs]( https://gitlab.com/xuyq123/myblog-mkdocs )&ensp; [网页](  https://xuyq123.gitlab.io/myblog-mkdocs/ ) <br/>github [myblog-mkdocs]( https://github.com/scott180/myblog-mkdocs )&ensp; [网页](  https://scott180.github.io/myblog-mkdocs/ )<br/>gitee [myblog-mkdocs]( https://gitee.com/xy180/myblog-mkdocs )      |  我的博客                        |
-
----
-

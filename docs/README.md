@@ -1,14 +1,19 @@
 
 ## 博客docsify
 
-### 仓库
+### 地址
 
-[gitlab]( https://gitlab.com/xuyq123/myblog-docsify ) &ensp; [gitee]( https://gitee.com/xy180/myblog-docsify ) &ensp; [github]( https://github.com/scott180/myblog-docsify ) &ensp; [gitlab_myblog-docsify]( https://xuyq123.gitlab.io/myblog-docsify/ )  &ensp; [github_myblog-docsify]( https://scott180.github.io/myblog-docsify/ ) 
-	
+
+| **徐书法** | 链接    |  我自己的网站  |
+| ---  | ------------- |  ------------- |
+| 1    | [xushufa]( http://xushufa.cn ) &ensp; [blog]( http://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。     |
+| 2    | [docsify-calligraphy]( http://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( http://docsify-blog.xushufa.cn ) | docsify构建的网站。 |
+| 3    | [mkdocs-calligraphy]( http://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( http://mkdocs-blog.xushufa.cn )     | mkdocs构建的网站。  |
+
+
 ### 文档
 
-```
-- 博客docsify
+- 笔记
   - [note](笔记/note.md)
   - [java](笔记/java.md)
   - [gitNote](笔记/gitNote.md)
@@ -36,10 +41,9 @@
   - [无为徐生](文档/无为徐生.md)
 
 
-```
 
 ---
 	
-> `颜真卿-多宝塔碑` <br/>
-![颜真卿-多宝塔碑]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/颜真卿-多宝塔碑.jpg )
+> 文徵明-小楷赤壁赋 <br/>
+![文徵明-小楷赤壁赋]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/文徵明-小楷赤壁赋.jpg )
 

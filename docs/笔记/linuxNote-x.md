@@ -94,6 +94,22 @@
 关机重启        	| shutdown -r
 关机不重启        	| shutdown -h
 立刻关机        	| shutdown now
+
+
+```
+[root]# vi /etc/profile
+[root]# source /etc/profile
+[root]# echo $LANG
+
+# export LC_ALL="zh_CN.GBK"
+# export LANG="zh_CN.GBK"
+
+LANG=zh_CN.UTF-8
+LC_ALL=en_US.UTF-8
+
+
+```
+
 ********************************************************
 
 
@@ -604,6 +620,87 @@ make uninstall
 ```
 ********************************************************************
 
+
+#### 1.3.8 nginx命令
+```
+
+启动
+sudo /usr/local/lighthouse/softwares/nginx/sbin/nginx
+或
+$ sudo systemctl start nginx #systemd
+OR
+$ sudo service nginx start   #sysvinit
+
+
+重载 Nginx 服务
+sudo /usr/local/lighthouse/softwares/nginx/sbin/nginx -s reload
+$ sudo systemctl reload nginx #systemd
+或
+$ sudo service nginx reload   #sysvinit
+
+
+停止
+sudo /usr/local/lighthouse/softwares/nginx/sbin/nginx -s stop
+$ sudo systemctl stop nginx #systemd
+OR
+$ sudo service nginx stop   #sysvinit
+
+
+开机自启动
+$ sudo systemctl enable nginx #systemd
+或
+$ sudo service nginx enable   #sysv init
+
+
+
+
+查询状态
+sudo /usr/local/lighthouse/softwares/nginx/sbin/nginx -t
+ps -ef | grep nginx
+
+$ sudo systemctl status nginx #systemd
+或
+$ sudo service nginx status   #sysvinit
+
+
+
+
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+killall -9 nginx
+
+```
+
+```
+docsify 使用nginx布署在私有服务器
+// 安装docsify
+npm i docsify-cli -g  
+ 
+docsify --version
+docsify serve
+
+注意问题：
+
+将第一行的user www-data;,不管你那里是什么，统一改为user root，否则后面会出现403 forbidden.
+
+
+server {
+	listen 8080;
+	server_name localhost;
+
+	location / {
+			root /home/lighthouse/shufaguiji/;
+			index index.html;
+	}
+
+	error_page   500 502 503 504  /50x.html;
+	location = /50x.html {
+		root   html;
+	}
+}
+
+```
+
+---
 
  <h3 id="IP"></h3>
 
