@@ -61,8 +61,8 @@
 | 10   | [agit]( https://agit.ai/xuyq/calligraphy ) &ensp; [document]( https://agit.ai/xuyq/document )                                  |  一个git，阿吉特ai。                             |
 | -    | **网页**                        |                                    |
 | 11   | [gitee_pages]( http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) &ensp; [ReadMe]( http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe.html ) | gitee静态网页，markdown转html。     |
-| 12   | [github_pages]( https://scott180.github.io/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 ) &ensp; [ReadMe]( https://scott180.github.io/calligraphy ) | github静态网页。[vuepress]( https://scott180.github.io/vuepress-calligraphy/ ) 。|
-| 13   | [gitlab_pages]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 )  &ensp; [ReadMe]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe )     | gitlab静态网页。[docsify](  https://xuyq123.gitlab.io/myblog-docsify/#/%E6%96%87%E6%A1%A3/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe ) &ensp; [mkdocs]( https://xuyq123.gitlab.io/plain-mkdocs ) &ensp; [html]( https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) 。   |
+| 12   | [github_pages]( https://scott180.github.io/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 ) &ensp; [ReadMe]( https://scott180.github.io/calligraphy ) | github静态网页。[vuepress]( https://scott180.github.io/vuepress-calligraphy/ ) &ensp; [docsify](  https://scott180.github.io/docsify-blog )。|
+| 13   | [gitlab_pages]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 )  &ensp; [ReadMe]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe )     | gitlab静态网页。 [mkdocs]( https://xuyq123.gitlab.io/plain-mkdocs ) &ensp; [html]( https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) 。   |
 | 14   | [**docusaurus2**]( https://calligraphy-docusaurus2.vercel.app )  &ensp; [portfolio]( https://calligraphy-blog.vercel.app/ )     | [vercel]( https://vercel.com/xuyq ) 开发者服务网站，提供静态网站托管的云平台。  |
 | 15   | [nextjs]( https://netlify-calligraphy-nextjs.netlify.app ) &ensp; [artisan]( https://netlify-calligraphy-artisan.netlify.app )  | [netlify]( https://app.netlify.com ) 提供 JamStack(静态网站)托管的平台。        |
 
@@ -198,7 +198,7 @@ sourgeforge--20220124
 | github | [plain-mkdocs]( https://github.com/scott180/plain-mkdocs ) &ensp; [网页](  https://scott180.github.io/plain-mkdocs/ ) <br/>[plain-pip-mkdocs]( https://github.com/scott180/plain-pip-mkdocs ) &ensp; [网页]( https://scott180.github.io/plain-pip-mkdocs )  <br/>[plain-mkdocs-serve]( https://github.com/scott180/plain-mkdocs-serve )  &ensp; [网页]( https://scott180.github.io/plain-mkdocs-serve )              |  github布署mkdocs：命令mkdocs gh-deploy 。           |
 | gitee  |  [plain-mkdocs]( https://gitee.com/xy180/plain-mkdocs ) &ensp; [网页1]( http://xy180.gitee.io/plain-mkdocs/1/site/ ) &ensp; [网页2]( http://xy180.gitee.io/plain-mkdocs/2/site/ ) &ensp; [网页3]( http://xy180.gitee.io/plain-mkdocs/3/site/ )                                  |  gitee布署mkdocs：mkdocs build 布署目录。    |
 | note-mkdocs   | gitlab [note-mkdocs]( https://gitlab.com/xuyq123/note-mkdocs )&ensp; [**网页1**](  https://xuyq123.gitlab.io/note-mkdocs/ ) &ensp; [网页2](  https://xuyq123.gitlab.io/note-pip-mkdocs/ ) <br/>github [note-mkdocs]( https://github.com/scott180/note-mkdocs )&ensp; [网页](  https://scott180.github.io/note-mkdocs/ )<br/>gitee [plain-mkdocs]( https://gitee.com/xy180/plain-mkdocs/tree/master/note )&ensp; [网页](  http://xy180.gitee.io/plain-mkdocs/note/site/ )       |  个人笔记，含书法练习及java笔记。                        |
-| myblog-mkdocs   | gitlab [myblog-mkdocs]( https://gitlab.com/xuyq123/myblog-mkdocs )&ensp; [网页](  https://xuyq123.gitlab.io/myblog-mkdocs/ ) <br/>github [myblog-mkdocs]( https://github.com/scott180/myblog-mkdocs )&ensp; [网页](  https://scott180.github.io/myblog-mkdocs/ )<br/>gitee [myblog-mkdocs]( https://gitee.com/xy180/myblog-mkdocs )      |  我的博客                        |
+| mkdocs-blog   | gitlab [mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog )&ensp; [网页](  https://xuyq123.gitlab.io/mkdocs-blog ) <br/>gitee [myblog-mkdocs]( https://gitee.com/xy180/myblog-mkdocs )    |  博客mkdocs                        |
 | mkdocs-calligraphy   | gitlab [mkdocs-calligraphy]( https://gitlab.com/xuyq123/mkdocs-calligraphy )&ensp; [网页](  https://xuyq123.gitlab.io/mkdocs-calligraphy/ )    |  书法练习轨迹                        |
 
 ---
@@ -213,8 +213,8 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 | 名称       | 仓库                                                			        |  备注            |
 | ---------  | -------------------------------------------------------------        |  ----------      |
-| plain-docsify    | gitlab [plain-docsify]( https://gitlab.com/xuyq123/plain-docsify ) &ensp; [网页](  https://xuyq123.gitlab.io/plain-docsify/ ) <br/>github [plain-docsify]( https://github.com/scott180/plain-docsify ) &ensp; [网页](  https://scott180.github.io/plain-docsify/ )        |  笔记docsify        |
-| myblog-docsify   | gitlab [myblog-docsify]( https://gitlab.com/xuyq123/myblog-docsify ) &ensp; [网页](  https://xuyq123.gitlab.io/myblog-docsify/ ) <br/>github [myblog-docsify]( https://github.com/scott180/myblog-docsify ) &ensp; [网页](  https://scott180.github.io/myblog-docsify/ ) |  笔记与博客docsify  |
+| plain-docsify    | gitlab [plain-docsify]( https://gitlab.com/xuyq123/plain-docsify ) &ensp; [网页](  https://xuyq123.gitlab.io/plain-docsify/ ) <br/>github [plain-docsify]( https://github.com/scott180/plain-docsify ) &ensp; [网页](  https://scott180.github.io/plain-docsify/ )        |  笔记        |
+| docsify-blog     | github [docsify-blog]( https://github.com/scott180/docsify-blog ) &ensp; [网页](  https://scott180.github.io/docsify-blog ) |  博客docsify  |
 | docsify-calligraphy       | github [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy ) &ensp; [网页](  https://scott180.github.io/docsify-calligraphy )                    |  书法练习轨迹           |
 
 ---
@@ -266,7 +266,7 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 | 2    | [csdn_code]( https://codechina.csdn.net/xu180 ) | [calligraphy]( https://codechina.csdn.net/xu180/calligraphy ) | - | - |  - | `https://codechina.csdn.net/xu180/calligraphy.git` | `git@codechina.csdn.net:xu180/calligraphy.git` | [2021042504.jpg]( https://codechina.csdn.net/xu180/imgs/-/raw/master/mingyue/2021/202104/2021042504.jpg ) |
 | 3    | [coding]( https://e.coding.net/login ) | [calligraphy]( https://xyqin.coding.net/p/my/d/calligraphy/git ) | [public]( https://xyqin.coding.net/public/my/calligraphy/git/files ) | - | - |  `https://e.coding.net/xyqin/my/calligraphy.git` | `git@e.coding.net:xyqin/my/calligraphy.git` | [2021042601.jpg]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/mingyue/2021/202105/2021042601.jpg ) |
 | 4    | [bitbucket]( https://bitbucket.org/product/ ) | [calligraphy]( https://bitbucket.org/xu12345/calligraphy ) | - | - | - |  `https://bitbucket.org/xu12345/calligraphy.git` | `git@bitbucket.org:xu12345/calligraphy.git` | [2021072402.jpg]( https://bitbucket.org/xu12345/imgs/raw/fac05f5cff30d534a7cf92a9b304b4d7f2df083b/mingyue/2021/202107/2021072402.jpg ) |
-| 5    | [github]( https://github.com/scott180 ) | [calligraphy]( https://github.com/scott180/calligraphy ) | [书法练习轨迹]( https://scott180.github.io/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 ) | [plain-docsify]( https://scott180.github.io/plain-docsify/ ) &ensp; [myblog-docsify]( https://scott180.github.io/myblog-docsify/ ) | [plain-mkdocs]( https://scott180.github.io/plain-mkdocs/ ) | `https://github.com/scott180/calligraphy.git` | `git@github.com:scott180/calligraphy.git` | [2021042501.jpg]( https://raw.githubusercontent.com/scott180/imgs/master/mingyue/2021/202104/2021042501.jpg ) |
+| 5    | [github]( https://github.com/scott180 ) | [calligraphy]( https://github.com/scott180/calligraphy ) | [书法练习轨迹]( https://scott180.github.io/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 ) | [plain-docsify]( https://scott180.github.io/plain-docsify/ ) &ensp; [docsify-blog]( https://scott180.github.io/docsify-blog/ ) | [plain-mkdocs]( https://scott180.github.io/plain-mkdocs/ ) | `https://github.com/scott180/calligraphy.git` | `git@github.com:scott180/calligraphy.git` | [2021042501.jpg]( https://raw.githubusercontent.com/scott180/imgs/master/mingyue/2021/202104/2021042501.jpg ) |
 | 6    | [gitee]( https://gitee.com/xy180 ) | [calligraphy]( https://gitee.com/xy180/calligraphy ) | [书法练习轨迹]( http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) |  - | [plain-mkdocs]( http://xy180.gitee.io/plain-mkdocs/1/site ) | `https://gitee.com/xy180/calligraphy.git` | `git@gitee.com:xy180/calligraphy.git` | [2021040202.jpg]( https://gitee.com/xy180/imgs/raw/master/mingyue/2021/202104/2021040202.jpg ) |
 | 7    | [sourceforge]( https://sourceforge.net/ ) | [calligraphy]( https://sourceforge.net/p/calligraphy/code ) | - | - | - |  `https://scott123@git.code.sf.net/p/calligraphy/code calligraphy-code` | `ssh://scott123@git.code.sf.net/p/calligraphy/code calligraphy-code` | [2022012001.jpg]( https://sourceforge.net/p/calligraphy/imgs/ci/master/tree/mingyue/2022/202201/2022012001.jpg?format=raw ) |
 | 8    | [codeberg]( https://codeberg.org ) | [calligraphy]( https://codeberg.org/xuyq/calligraphy ) | - | - | - |  `https://codeberg.org/xuyq/calligraphy.git` | `git@codeberg.org:xuyq/calligraphy.git` | [2022012101.jpg]( https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.jpg ) |
@@ -386,8 +386,8 @@ plain-docsify
 myblog-docsify	
 	https://gitlab.com/xuyq123/myblog-docsify 
 	https://xuyq123.gitlab.io/myblog-docsify/
-	https://github.com/scott180/myblog-docsify
-	https://scott180.github.io/myblog-docsify/ 
+	https://github.com/scott180/docsify-blog
+	https://scott180.github.io/docsify-blog
 	
 	
 古文诗词
@@ -514,11 +514,13 @@ github、gitee 仓库小问题
 
 ---
 
-### 3.3、git静态网页发布 
+### 3.3、git静态网页与自定义域名
 
 > [gitlab、github、gitee布署mkdocs主题仓库]( 
 https://gitlab.com/xuyq123/mynotes/-/blob/master/gitlab%E3%80%81github%E3%80%81gitee%E5%B8%83%E7%BD%B2mkdocs%E4%B8%BB%E9%A2%98%E4%BB%93%E5%BA%93.md ) &ensp; &ensp; [git平台docsify布署markdown文件]( https://gitlab.com/xuyq123/mynotes/-/blob/master/git%E5%B9%B3%E5%8F%B0docsify%E5%B8%83%E7%BD%B2markdown%E6%96%87%E4%BB%B6.md )
 
+> [gitlab、github绑定自定义域名]( https://gitlab.com/xuyq123/mynotes/-/blob/master/gitlab%E3%80%81github%E7%BB%91%E5%AE%9A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D.md )
+ 
 ```
 github、gitee、gitlab静态网页发布 
 
