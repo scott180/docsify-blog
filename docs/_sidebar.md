@@ -8,6 +8,7 @@
   - [mysqlNote](数据库/mysqlNote.md)
   - [oracleNote](数据库/oracleNote.md)
   - [mongo](数据库/mongo.md)
+  - [redis](数据库/redis.md)
   - [数据库隔离级别](数据库/数据库隔离级别.md)
   - [mysql开启log-bin日志](数据库/mysql开启log-bin日志.md)
 
