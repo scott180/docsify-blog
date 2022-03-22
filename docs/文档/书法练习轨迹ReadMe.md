@@ -37,13 +37,16 @@
 
 ### 2.1、说明
 
+##### Ⅰ、我的网站 
+
 > 徐书法 `xushufa.cn` 个人书法练习网站
 
 | 徐书法 | 我的网站 |  备注  |
 | ---  | ------------- |  ------------- |
 | 1    | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。     |
-| 2    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn ) | docsify构建的网站。 |
-| 3    | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )     | mkdocs构建的网站。  |
+| 2    | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) &ensp; [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | vuepress构建的网站。|
+| 3    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn )     | docsify构建的网站。 |
+| 4    | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )         | mkdocs构建的网站。  |
 
 ---
 
@@ -51,13 +54,14 @@
 
 | 序号 | 类型       | 我的网站 | git静态网页 | git仓库 | 布署方法 | 
 | ---  | ---------- | -------- | ----------- | ------- | -------- |
-| 1    | vuepress   | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )   | [scott180.github.io/vuepress-calligraphy]( https://scott180.github.io/vuepress-calligraphy )    | [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy.git )    | nginx代理与缓存 |  
-| 2    | docsify    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn ) | [scott180.github.io/docsify-calligraphy]( https://scott180.github.io/docsify-calligraphy )     | [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy.git )    | github绑定自定义域名    |
-| 3    | mkdocs     | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )     | [xuyq123.gitlab.io/mkdocs-calligraphy]( https://xuyq123.gitlab.io/mkdocs-calligraphy )    | [mkdocs-calligraphy]( https://gitlab.com/xuyq123/mkdocs-calligraphy )    | gitlab绑定自定义域名   |  
+| 1    | -          | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )   | [scott180.github.io/calligraphy]( https://scott180.github.io/calligraphy )    | [gitlab.com/xuyq123/calligraphy]( https://gitlab.com/xuyq123/calligraphy )    | nginx代理与缓存 |  
+| 2    | vuepress   | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) <br/> [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | [scott180.github.io/vuepress-calligraphy]( https://scott180.github.io/vuepress-calligraphy ) <br/> [scott180.github.io/vuepress-blog]( https://scott180.github.io/vuepress-blog )    | [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy.git ) <br/> [vuepress-blog]( https://github.com/scott180/vuepress-blog.git )    | github绑定域名 `vuepress-blog.xushufa.cn`    |
+| 3    | docsify   | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) <br/> [docsify-blog]( https://docsify-blog.xushufa.cn ) | [scott180.github.io/docsify-calligraphy]( https://scott180.github.io/docsify-calligraphy ) <br/> [scott180.github.io/docsify-blog]( https://scott180.github.io/docsify-blog )    | [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy.git ) <br/> [docsify-blog]( https://github.com/scott180/docsify-blog.git )    | github绑定域名 `docsify-calligraphy.xushufa.cn`     |
+| 4    | mkdocs   | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) <br/> [mkdocs-blog]( https://mkdocs-blog.xushufa.cn ) | [xuyq123.gitlab.io/mkdocs-calligraphy]( https://xuyq123.gitlab.io/mkdocs-calligraphy ) <br/> [xuyq123.gitlab.io/mkdocs-blog]( https://xuyq123.gitlab.io/mkdocs-blog )    | [mkdocs-calligraphy]( https://gitlab.com/xuyq123/mkdocs-calligraphy.git ) <br/> [mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog.git )    | gitlab绑定域名 `mkdocs-calligraphy.xushufa.cn`     |
 
 ---
 
----
+##### Ⅱ、各大平台 
 
 > 若无意外，一般每周一在gitlab《**书法练习轨迹--明月几时有**》记录上周练习情况。其他渠道，不定时同步。
 
@@ -121,8 +125,9 @@
 | 24   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ )          |  通用信息平台，看见更大的世界。              |
 | 25   | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247487244&idx=1&sn=fa21068e783c6b31a62abf71186c1b20 )     |  自媒体，每周一在【**无为徐生**】公众号发布`书法练习轨迹`一周练习图文记录。           |
 
-
 ---
+
+##### Ⅲ、建站历程
 
 ```
 
@@ -198,6 +203,13 @@ sourgeforge--20220124
 2022年3月发现 vercel 及 netlify。静态网站托管的云平台，可导入或生成git项目，布署不同模板的静态网站。域名为自定义名+平台。
 --20220314
 
+
+```
+
+```
+创建《徐书法》同时购买服务器且注册域名：[xushufa.cn]( https://xushufa.cn ) 
+以后这就是我的书法记录平台
+--202203 
 
 ```
 
@@ -542,7 +554,7 @@ github、gitee 仓库小问题
 https://gitlab.com/xuyq123/mynotes/-/blob/master/gitlab%E3%80%81github%E3%80%81gitee%E5%B8%83%E7%BD%B2mkdocs%E4%B8%BB%E9%A2%98%E4%BB%93%E5%BA%93.md ) &ensp; &ensp; [git平台docsify布署markdown文件]( https://gitlab.com/xuyq123/mynotes/-/blob/master/git%E5%B9%B3%E5%8F%B0docsify%E5%B8%83%E7%BD%B2markdown%E6%96%87%E4%BB%B6.md )
 
 > [gitlab、github绑定自定义域名]( https://gitlab.com/xuyq123/mynotes/-/blob/master/gitlab%E3%80%81github%E7%BB%91%E5%AE%9A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D.md )
- 
+
 ```
 github、gitee、gitlab静态网页发布 
 
@@ -826,8 +838,8 @@ pages:
 
 - 若有志同道合的小伙伴想联系本人，可通过以下方式发邮件或私信。路漫漫其修远兮，吾将上下而求索。共勉。
 
-| 平台           | 链接           | 
-| -------------- | -------------- | 
+| 平台           | 链接           |
+| -------------- | -------------- |
 |  **项目仓库**  | [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [github]( https://github.com/scott180/calligraphy )  &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [sourceforge]( https://sourceforge.net/p/calligraphy/code )  &ensp; [github_docsify]( https://scott180.github.io/docsify-calligraphy )    |
 |  **资讯账号**  | [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) &ensp; [头条]( https://www.toutiao.com/c/user/token/MS4wLjABAAAA2_bWhiknCbcKNu4c6VTM2B7m2vr7zBrh0x6fSyOrtGU ) &ensp;  [豆瓣]( https://www.douban.com/people/80730595/photos ) &ensp;  [知乎]( https://www.zhihu.com/people/xu-xian-sheng-72-29/posts )     |
 |  **个人邮箱**  | 1021151991@qq.com   |

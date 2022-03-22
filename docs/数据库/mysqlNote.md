@@ -1,7 +1,7 @@
 
-## mysql
+# mysql
 
-### 1.安装mysql
+## 1.安装mysql
 
 ```
 安装mysql 5.7
@@ -160,7 +160,7 @@ https://www.cnblogs.com/jyjia/archive/2019/03/07/10490013.html
 
 ```
 
-### 2.基本sql
+## 2.基本sql
 
 ```
 
@@ -395,7 +395,7 @@ mysqldump -uroot -p –default-character-set=latin1 –set-charset=gbk –skip-o
 
 ```
 
-### 3.linux操作mysql
+## 3.linux操作mysql
 
 ```
 
@@ -494,7 +494,7 @@ lower_case_table_names = 2
   
 ```
 
-### 4.其他
+## 4.其他
 
 ```
 
@@ -504,7 +504,7 @@ SELECT FROM_UNIXTIME(operation_time/1000,"%Y-%m-%d %H:%i:%s") operationDate FROM
 
 ```
 
-#### 4.1.group_concat函数
+### 4.1.group_concat函数
 
 ```
 MySQL中group_concat函数
@@ -597,7 +597,7 @@ select id,group_concat(name order by name desc) from aa group by id;
 
 ```
 
-#### 4.2.left join、right join、inner join的区别
+### 4.2.left join、right join、inner join的区别
 
 ```
 
@@ -694,7 +694,7 @@ compopr参数指定关系比较运算符："="， "<"， ">"， "<="， ">=" 或
 ```
 
 
-#### 4.3.Case when 的使用方法
+### 4.3.Case when 的使用方法
 
 ```
 
@@ -829,4 +829,66 @@ CONSTRAINT check_salary CHECK
 
 ```
 
+### 4.4、Mysql复制表结构、表数据的方法
+
+```
+
+1、复制表结构及数据到新表（不包含主键、索引、分区等）
+
+CREATE TABLE 新表 SELECT * FROM 旧表
+
+或 CREATE TABLE 新表 AS SELECT * FROM 旧表
+
+这种方法将旧表基本结构和数据复制到新表。
+
+不过这种方法的一个最不好的地方就是新表中没有了旧表的主键、索引、Extra（auto_increment，字符集编码及排序）、注释、分区等属性 以及触发器、外键等。
+
+2、只复制表结构到新表
+
+CREATE TABLE 新表 SELECT * FROM 旧表 WHERE 1=2 （只是第一种方式去除掉数据）
+
+CREATE TABLE 新表 LIKE 旧表
+
+这种方式的复制可以复制旧表的主键、索引、Extra（auto_increment，字符集编码及排序）、注释、分区等属性。但是不包含触发器、外键等
+
+3、复制旧表的数据到新表
+
+INSERT INTO 新表 SELECT * FROM 旧表
+
+INSERT INTO 新表(字段1,字段2,.......) SELECT 字段1,字段2,...... FROM 旧表
+
+上面两条语句的前提是新表已经存在
+
+4、复制表结构及数据到新表（包含主键、索引、分区等）
+
+结合上述第2、3点，即：
+
+先 CREATE TABLE 新表 LIKE 旧表
+
+然后 INSERT INTO 新表 SELECT * FROM 旧表
+
+5、可以将表1结构复制到表2（mysql不支持）
+
+SELECT * INTO 表2 FROM 表1 WHERE 1=2
+
+6、可以将表1内容全部复制到表2（mysql不支持）
+
+SELECT * INTO 表2 FROM 表1
+
+7、 show create table 旧表;
+
+这样会将旧表的创建命令列出。我们只需要将该命令拷贝出来，更改table的名字，就可以建立一个完全一样的表
+
+```
+
+
+
+## 5、文档
+
+| 徐书法 | 我的网站 |  备注  |
+| ---  | ------------- |  ------------- |
+| 1    | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 笔记及博客网站。     |
+| 2    | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) &ensp; [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | vuepress构建的网站。|
+| 3    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn )     | docsify构建的网站。 |
+| 4    | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )         | mkdocs构建的网站。  |
 

@@ -1,7 +1,9 @@
 
-## git平台docsify布署markdown文件
+# git平台docsify布署markdown文件
 
-### 本地安装
+`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://vuepress-blog.xushufa.cn )
+
+## 本地安装
 
 ```
 docsify 可以快速帮你生成文档网站。不同于GitBook、Hexo的地方是它不会生成静态的 .html 文件，所有转换工作都是在运行时。
@@ -65,7 +67,7 @@ window.$docsify = {
 
 ---
 
-### gitlab布署docsify
+## gitlab布署docsify
 
 ```
 1、创建 .gitlab-ci.yml
@@ -108,7 +110,7 @@ pages:
 
 ---
 
-### github布署docsify
+## github布署docsify
 
 ```
 1、本地生成 docsify项目
@@ -135,7 +137,7 @@ https://scott180.github.io/myblog-docsify/
 
 ---
 
-### gitee布署docsify
+## gitee布署docsify
 ```
 在对应的 Gitee 仓库服务中选择 Gitee Pages，选择您要部署的分支，填写您要部署的分支上的目录，
 例如docs，填写完成之后点击启动即可。
@@ -143,7 +145,7 @@ https://scott180.github.io/myblog-docsify/
 
 ---
 
-### 示例
+## 示例
 
 | 名称       | 仓库                                                			        |  备注            |
 | ---------  | -------------------------------------------------------------        |  ----------      |

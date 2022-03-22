@@ -1,4 +1,4 @@
-## git笔记
+# git笔记
 
 
 > [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 )   
@@ -6,9 +6,9 @@
 
 ------------------------
 
-### 1、基础操作
+## 1、基础操作
 
-#### 1.1、常用命令
+### 1.1、常用命令
 
 
 [git知识大全]( https://gitee.com/help/articles/4122 )
@@ -119,7 +119,7 @@ git push origin HEAD --force   强制提交
 ```
 
 
-#### 1.2、配置
+### 1.2、配置
 
 ```vb
 vi /etc/ssh/sshd_config
@@ -143,7 +143,7 @@ vi /etc/ssh/sshd_config
 ```
 
 
-#### 1.3、分支
+### 1.3、分支
 
 ```sql
 https://edu.aliyun.com/jiaocheng/1834?spm=5176.11182473.menu.7.k6ksTN
@@ -218,9 +218,9 @@ git branch --set-upstream-to origin/newName
 
 ------------------------
 
-### 2、高级操作
+## 2、高级操作
 
-#### 2.1、查看文件状态及日志
+### 2.1、查看文件状态及日志
 
 ```vb
  
@@ -265,7 +265,7 @@ git diff 有两个主要的应用场景。
 ```
 
 
-#### 2.2、stash暂存
+### 2.2、stash暂存
 
 ```vb
 git stash:       备份当前的工作区的内容，从最近的一次提交中读取相关内容，让工作区保证和上次提交的内容一致。同时，将当前的工作区内容保存到Git栈中。
@@ -284,7 +284,7 @@ git stash drop   从Git栈删除最旧的一个暂存
 
 ```
 
-#### 2.3、修改注释信息
+### 2.3、修改注释信息
 
 ```
 git使用amend选项提供了最后一次commit的反悔。但是对于历史提交呢，就必须使用rebase了。 
@@ -327,7 +327,7 @@ git checkout -b reback_remove_branch ddd94a4
 
 ```
 
-#### 2.4、撤销
+### 2.4、撤销
 
 > git commit之后如何撤销
 
@@ -373,9 +373,9 @@ https://segmentfault.com/a/1190000012897697
 
 ------------------------
 
-### 3、问题
+## 3、问题
 
-#### 3.1、github添加ssh公钥
+### 3.1、github添加ssh公钥
 
 ``` vb
  
@@ -397,7 +397,7 @@ git clone git@github.com:scott180/MyNotes.git
 ```
 
 
-#### 3.2、提交及更新失败
+### 3.2、提交及更新失败
 
 ``` java
 用git pull来更新代码的时候，遇到了下面的问题：

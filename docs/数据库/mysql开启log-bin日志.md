@@ -1,11 +1,13 @@
 
 # Mysql开启log-bin日志  
+
 > 一 、logbin日志 记录新增、更新、删除的sql [参考1]( https://www.cnblogs.com/kerrycode/p/6610874.html ) [参考2]( https://www.cnblogs.com/handle/p/9761702.html )
 
 > 二、general_log 记录增删改查所有日志 [general log]( http://www.zsythink.net/archives/1246 )
 
 
 ## 一 、logbin日志
+
 ```sql
 show binary logs;
 show master status;
@@ -31,7 +33,7 @@ show master status;
 - 2、开启log-bin日志记录
 ```
 找到my.cnf 中 [mysqld]  添加如下
-# binlog 配置
+-- # binlog 配置
 log-bin = D:\\ProgramFiles\\mysql-5.7.20-winx64\\logs\\mysql-bin.log
 expire-logs-days = 14
 max-binlog-size = 500M

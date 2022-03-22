@@ -1,4 +1,4 @@
-## mongo
+# mongo
   
 *   [1、说明](#introducer)
 *   [2、增删改查](#crud)
@@ -7,7 +7,7 @@
 
  <h2 id="introducer"></h2>
 
-### 1、说明
+## 1、说明
 ```
 SQL术语/概念 	MongoDB术语/概念 	解释/说明
 database 		database 			数据库
@@ -71,7 +71,7 @@ https://www.cnblogs.com/qingtianyu2015/p/5968400.html
 
 <h2 id="crud"></h2>
 
-### 2、增删改查 
+## 2、增删改查 
 ```
 1 列出并选用
 
@@ -351,19 +351,20 @@ http://lhkzyz.iteye.com/blog/1669796
 	db.getCollection('channelmessagestate').find({"recipientBy.address":{ "$regex" : ".*uc_u:\\(2\\).*" , "$options" : "i"} } )
 
 http://www.runoob.com/mongodb/mongodb-query.html
-```
-
 
 
 排序  sort()方法可以通过参数指定排序的字段，并使用 1 和 -1 来指定排序的方式，其中 1 为升序排列，而-1是用于降序排列。
 
 db.getCollection('mongomessage').find({}).sort({"createTime":-1})   
 
+```
+
 
  <h2 id="innerDocument"></h2>
 
-### 3、三种情况下mongo内嵌文档的查询与保存
+## 3、内嵌文档
 
+> 三种情况下mongo内嵌文档的查询与保存
 
 ```
 

@@ -1,5 +1,7 @@
 
-## redis
+# redis
+
+## 安装 
 
 ``` sql
 windows下redis安装 
@@ -8,7 +10,7 @@ http://www.runoob.com/redis/redis-install.html
 启动  redis-server.exe redis.windows.conf
 
 登录  redis-cli.exe -h 127.0.0.1 -p 6379
-	  redis-cli -a sudy12344
+	  redis-cli -a s12344
 
 
 Redis 设置密码登录 
@@ -27,6 +29,11 @@ redis 设置来密码，出现来这个错误，
 改成
 requirepass 123456
 
+```
+
+## 启动 
+
+```
 
 启动redis
 ./redis/src/redis-server ./redis/redis.conf &
@@ -42,7 +49,7 @@ password值在/redis/redis.conf文件中搜索requirepass
 
 
 
-[root@localhost src]# cd /opt/sudytech/custom/redis-2.8.17/
+[root@localhost src]# cd /opt/stech/custom/redis-2.8.17/
 [root@localhost redis-2.8.17]# redis-server redis.conf              //启动redis                 
 [root@localhost ~]# redis-cli       //进入redis客户端
 127.0.0.1:6379> keys *              //取出所有的key 

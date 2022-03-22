@@ -1,9 +1,9 @@
 
-## gitlab、github、gitee布署mkdocs主题仓库
+# gitlab、github、gitee布署mkdocs主题仓库
 
-`原址` &ensp; [布署mkdocs]( https://gitlab.com/xuyq123/mynotes/-/blob/master/gitlab%E3%80%81github%E3%80%81gitee%E5%B8%83%E7%BD%B2mkdocs%E4%B8%BB%E9%A2%98%E4%BB%93%E5%BA%93.md ) &ensp; [calligraphy]( https://gitlab.com/xuyq123/calligraphy )
+`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://vuepress-blog.xushufa.cn )
 
-### 1、概述
+## 1、概述
 ```
 mkdocs作用
 在git平台创建mkdocs主题仓库，自动将markdown文件生成静态网页。 
@@ -21,7 +21,7 @@ mkdocs安装     pip install mkdocs
 
 ```
 
-### 2、gitlab布署mkdocs
+## 2、gitlab布署mkdocs
 ```
 gitlab mkdocs主题仓库 （推送文件自动布署）
 创建方法：
@@ -87,7 +87,7 @@ gitbook, spacelab, cinder, pulse, mkdocs, cerulean, bootstrap, solar, journal, s
 	
 ```
 
-### 3、github布署mkdocs
+## 3、github布署mkdocs
 
 ```
 github mkdocs主题仓库 （mkdocs gh-deploy 一键布署）
@@ -110,7 +110,7 @@ github mkdocs主题仓库 （mkdocs gh-deploy 一键布署）
 	
 ```
 
-### 4、gitee布署mkdocs
+## 4、gitee布署mkdocs
 ```
 gitee mkdocs主题仓库 （GiteePages服务布署目录）
 创建方法：
@@ -135,7 +135,7 @@ gitee mkdocs主题仓库 （GiteePages服务布署目录）
 
 ---
 
-### 5、示例
+## 5、示例
 
 | 仓库   | 地址                                               			      |  备注             			                 |
 | -----  | -------------------------------------------------------------      |  -----------------------------------         |

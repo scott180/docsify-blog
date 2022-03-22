@@ -1,9 +1,9 @@
 
-## gitlab、github绑定自定义域名 
+# gitlab、github绑定自定义域名 
 
-`原址` [mynotes]( https://gitlab.com/xuyq123/mynotes )
+`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://vuepress-blog.xushufa.cn )
 
-### github绑定自定义域名 
+## github绑定自定义域名 
 
 ```
 示例：
@@ -45,7 +45,7 @@ TTL: 600
 
 
 
-### gitlab绑定自定义域名 
+## gitlab绑定自定义域名 
 
 gitlab绑定自定义域名，比github复杂一点。需要申请SSL证书且修改域名记录。
 官方参考 [custom_domains]( https://docs.gitlab.com/ee/user/project/pages/custom_domains_ssl_tls_certification/index.html#4-verify-the-domains-ownership )
