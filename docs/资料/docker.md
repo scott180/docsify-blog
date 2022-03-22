@@ -302,7 +302,7 @@ You need to upgrade to a more recent version to use the version 2 format configu
 ```
 
  
-### 2.4、push镜像阿里云
+### 2.4、阿里云镜像push
 
 ```
 
