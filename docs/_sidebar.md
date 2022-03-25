@@ -20,11 +20,11 @@
   - [git平台docsify布署markdown文件](资料/git平台docsify布署markdown文件.md)
   - [gitlab、github、gitee布署mkdocs主题仓库](资料/gitlab、github、gitee布署mkdocs主题仓库.md)
 	
-- 文档
-  - [古文诗词](文档/古文诗词.md)
-  - [多宝塔碑](文档/多宝塔碑.md)
-  - [《心经》书法](文档/《心经》书法.md)
-  - [书法练习轨迹ReadMe](文档/书法练习轨迹ReadMe.md)
-  - [无为徐生](文档/无为徐生.md)
-  - [徐书法](文档/徐书法.md)
+- 书法
+  - [古文诗词](书法/古文诗词.md)
+  - [多宝塔碑](书法/多宝塔碑.md)
+  - [《心经》书法](书法/《心经》书法.md)
+  - [书法练习轨迹ReadMe](书法/书法练习轨迹ReadMe.md)
+  - [无为徐生](书法/无为徐生.md)
+  - [徐书法](书法/徐书法.md)
 
