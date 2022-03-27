@@ -15,7 +15,7 @@
 
 ### 1.2、自勉
 
-此为本人书法练习历程： [书法练习轨迹--明月几时有]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 )。记录每周练字情况，拍照留存及一些感想。之所以记录下来，主要是以下几点原因：  <br/>
+此为本人书法练习历程： [书法练习轨迹--明月几时有]( https://xushufa.cn )。记录每周练字情况，拍照留存及一些感想。之所以记录下来，主要是以下几点原因：  <br/>
 一、是要把所写的字，由丑到美，由差到好的过程保存下来，方便对照。不想练的时候，觉得没有进步的时候，看看以前的丑字又会给自己无穷的动力：原来自己进步蛮大，天天练习还是有意义的。 <br/>
 二、是寻找志同道合者，对书法有兴趣的可以联系本人，相互交流，共同进步，所谓他山之石，可以攻玉。同时也希望书法大师不吝赐教，光临指导。 <br/>
 三、炫耀+装逼，引流+宣传。毕竟人生在世，名利二字。当然肯定是一年半载甚至三年五载，小有所成之后才能晒图，发朋友圈，示字与人。 <br/>
@@ -39,25 +39,26 @@
 
 ##### Ⅰ、我的网站 
 
-> 徐书法 `xushufa.cn` 个人书法练习网站
-
-| 徐书法 | 我的网站 |  备注  |
+| 徐书法 | 我的网站    |  备注          |
 | ---  | ------------- |  ------------- |
 | 1    | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。     |
-| 2    | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) &ensp; [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | vuepress构建的网站。|
-| 3    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn )     | docsify构建的网站。 |
-| 4    | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )         | mkdocs构建的网站。  |
+| 2    | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) &ensp; [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | `vuepress`构建的网站。|
+| 3    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn )     | `docsify`构建的网站。 |
+| 4    | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )         | `mkdocs`构建的网站。  |
+| 5    | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) &ensp; [reco-blog]( https://reco-blog.xushufa.cn ) | `vuepress-theme-reco`构建的网站。|
 
 ---
 
 > 《书法练习轨迹》及博客网站
 
-| 序号 | 类型       | 我的网站 | git静态网页 | git仓库 | 布署方法 | 
-| ---  | ---------- | -------- | ----------- | ------- | -------- |
-| 1    | -          | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )   | [scott180.github.io/calligraphy]( https://scott180.github.io/calligraphy )    | [gitlab.com/xuyq123/calligraphy]( https://gitlab.com/xuyq123/calligraphy )    | nginx代理与缓存 |  
-| 2    | vuepress   | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) <br/> [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | [scott180.github.io/vuepress-calligraphy]( https://scott180.github.io/vuepress-calligraphy ) <br/> [scott180.github.io/vuepress-blog]( https://scott180.github.io/vuepress-blog )    | [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy.git ) <br/> [vuepress-blog]( https://github.com/scott180/vuepress-blog.git )    | github绑定域名 `vuepress-blog.xushufa.cn`    |
-| 3    | docsify   | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) <br/> [docsify-blog]( https://docsify-blog.xushufa.cn ) | [scott180.github.io/docsify-calligraphy]( https://scott180.github.io/docsify-calligraphy ) <br/> [scott180.github.io/docsify-blog]( https://scott180.github.io/docsify-blog )    | [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy.git ) <br/> [docsify-blog]( https://github.com/scott180/docsify-blog.git )    | github绑定域名 `docsify-calligraphy.xushufa.cn`     |
-| 4    | mkdocs   | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) <br/> [mkdocs-blog]( https://mkdocs-blog.xushufa.cn ) | [xuyq123.gitlab.io/mkdocs-calligraphy]( https://xuyq123.gitlab.io/mkdocs-calligraphy ) <br/> [xuyq123.gitlab.io/mkdocs-blog]( https://xuyq123.gitlab.io/mkdocs-blog )    | [mkdocs-calligraphy]( https://gitlab.com/xuyq123/mkdocs-calligraphy.git ) <br/> [mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog.git )    | gitlab绑定域名 `mkdocs-calligraphy.xushufa.cn`     |
+| 序号 | 类型       | 我的网站 | git静态网页 | git仓库 | 布署方法 | <div style="width: 170pt">备注</div>                    |
+| ---  | ---------- | -------- | ----------- | ------- | -------- | ----------------------  |
+| 1    | -          | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )   | [scott180.github.io/calligraphy]( https://scott180.github.io/calligraphy )    | [gitlab.com/xuyq123/calligraphy]( https://gitlab.com/xuyq123/calligraphy )    | nginx代理与缓存 |  部署在服务器，有SSL证书，访问安全快速。 | 
+| 2    | vuepress   | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) <br/> [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | [scott180.github.io/vuepress-calligraphy]( https://scott180.github.io/vuepress-calligraphy ) <br/> [scott180.github.io/vuepress-blog]( https://scott180.github.io/vuepress-blog )    | [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy.git ) <br/> [vuepress-blog]( https://github.com/scott180/vuepress-blog.git )    | github绑定域名 `vuepress-blog.xushufa.cn`    | 输入xushufa域名会解析到github静态页面。提交代码即部署。 |
+| 3    | docsify   | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) <br/> [docsify-blog]( https://docsify-blog.xushufa.cn ) | [scott180.github.io/docsify-calligraphy]( https://scott180.github.io/docsify-calligraphy ) <br/> [scott180.github.io/docsify-blog]( https://scott180.github.io/docsify-blog )    | [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy.git ) <br/> [docsify-blog]( https://github.com/scott180/docsify-blog.git )    | github绑定域名 `docsify-calligraphy.xushufa.cn`     | 同上，偶尔服务连不上。 |
+| 4    | mkdocs   | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) <br/> [mkdocs-blog]( https://mkdocs-blog.xushufa.cn ) | [xuyq123.gitlab.io/mkdocs-calligraphy]( https://xuyq123.gitlab.io/mkdocs-calligraphy ) <br/> [xuyq123.gitlab.io/mkdocs-blog]( https://xuyq123.gitlab.io/mkdocs-blog )    | [mkdocs-calligraphy]( https://gitlab.com/xuyq123/mkdocs-calligraphy.git ) <br/> [mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog.git )    | gitlab绑定域名 `mkdocs-calligraphy.xushufa.cn`     | 输入xushufa域名会解析到gitlab静态页面。网速较慢。 |
+| 5    | vuepress-theme-reco   | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) <br/> [reco-blog]( https://reco-blog.xushufa.cn )   | [scott180.github.io/reco-calligraphy]( https://scott180.github.io/reco-calligraphy ) <br/> [scott180.github.io/reco-blog]( https://scott180.github.io/reco-blog )    | [reco-calligraphy]( https://github.com/scott180/reco-calligraphy.git ) <br/> [reco-blog]( https://github.com/scott180/reco-blog.git )    | github绑定域名 `reco-calligraphy.xushufa.cn`    | 每个markdown文件都需要在文件头加上`Front Matter`格式，注明标题、时间、类别、标签等等。 |
+ 
 
 ---
 
