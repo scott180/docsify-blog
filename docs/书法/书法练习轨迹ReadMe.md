@@ -39,13 +39,15 @@
 
 ##### Ⅰ、我的网站 
 
+> 徐书法 `xushufa.cn`
+
 | 徐书法 | 我的网站    |  备注          |
-| ---  | ------------- |  ------------- |
-| 1    | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。     |
-| 2    | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) &ensp; [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | `vuepress`构建的网站。|
-| 3    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn )     | `docsify`构建的网站。 |
-| 4    | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )         | `mkdocs`构建的网站。  |
-| 5    | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) &ensp; [reco-blog]( https://reco-blog.xushufa.cn ) | `vuepress-theme-reco`构建的网站。|
+| -----  | ----------- |  ------------- |
+| 1      | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。      |
+| 2      | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) &ensp; [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | `vuepress`构建的网站。|
+| 3      | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn )     | `docsify`构建的网站。 |
+| 4      | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )         | `mkdocs`构建的网站。  |
+| 5      | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) &ensp; [reco-blog]( https://reco-blog.xushufa.cn ) | `vuepress-theme-reco`构建的网站。     |
 
 ---
 
@@ -76,16 +78,16 @@
 
 | 序号 | 仓库                                                			      |  备注             			                 |
 | ---  | -------------------------------------------------------------        |  -----------------------------------         |
-| 1    | [**gitlab**]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [imgs]( https://gitlab.com/xuyq123/imgs )                 		|  全球第二大开源平台GitLab。                       |
+| 1    | [**gitlab**]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [imgs]( https://gitlab.com/xuyq123/imgs )                 		|  全球第二大开源平台GitLab。                         |
 | 2    | [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [imgs]( https://xyqin.coding.net/public/my/imgs/git ) &ensp; [document]( https://xyqin.coding.net/public/my/document/git )	|  腾讯产品，代码托管、项目协同。                            		     |
-| 3    | [github]( https://github.com/scott180/calligraphy ) &ensp; [imgs]( https://github.com/scott180/imgs ) 			  			    |  世界第一git平台。但有时有防火墙打不开。          |
+| 3    | [github]( https://github.com/scott180/calligraphy ) &ensp; [imgs]( https://github.com/scott180/imgs ) 			  			    |  世界第一git平台。但有时有防火墙打不开。            |
 | 4    | [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [imgs]( https://bitbucket.org/xu12345/imgs )                   |  比特桶，代码托管，项目协作。markdown渲染不太完善。 |
 | 5    | [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [imgs]( https://gitee.com/xy180/imgs )                        			|  国产网站，速度快。但可能会被[屏蔽]。               |
-| 6    | [sourceforge]( https://sourceforge.net/p/calligraphy/code ) &ensp; [imgs]( https://sourceforge.net/p/calligraphy/imgs )  		|  开源软件管理的集中式场所，可保存公开资料。       |
-| 7    | [gitcode]( https://gitcode.net/xu180/calligraphy ) &ensp; [imgs]( https://gitcode.net/xu180/imgs ) &ensp; [document]( https://gitcode.net/xu180/document )                        |  csdn托管平台。网速快，但偶尔会被封禁。        |
-| 8    | [codeberg]( https://codeberg.org/xuyq/calligraphy ) &ensp; [imgs]( https://codeberg.org/xuyq/imgs )                            |  科德伯格，德国产品，口号是“立足欧盟，服务世界”。|
-| 9    | [gitea]( https://gitea.com/xuyq/calligraphy ) &ensp; [document]( https://gitea.com/xuyq/document )                             |  盖特一杯茶。缘分一道桥。                        |
-| 10   | [agit]( https://agit.ai/xuyq/calligraphy ) &ensp; [document]( https://agit.ai/xuyq/document )                                  |  一个git，阿吉特ai。                             |
+| 6    | [sourceforge]( https://sourceforge.net/p/calligraphy/code ) &ensp; [imgs]( https://sourceforge.net/p/calligraphy/imgs )  		|  开源软件管理的集中式场所，可保存公开资料。         |
+| 7    | [gitcode]( https://gitcode.net/xu180/calligraphy ) &ensp; [imgs]( https://gitcode.net/xu180/imgs ) &ensp; [document]( https://gitcode.net/xu180/document )                           |  csdn托管平台。网速快，但偶尔会被封禁。        |
+| 8    | [codeberg]( https://codeberg.org/xuyq/calligraphy ) &ensp; [imgs]( https://codeberg.org/xuyq/imgs )                            |  科德伯格，德国产品，口号是“立足欧盟，服务世界”。   |
+| 9    | [gitea]( https://gitea.com/xuyq/calligraphy ) &ensp; [document]( https://gitea.com/xuyq/document )                             |  盖特一杯茶。缘分一道桥。                           |
+| 10   | [agit]( https://agit.ai/xuyq/calligraphy ) &ensp; [document]( https://agit.ai/xuyq/document )                                  |  一个git，阿吉特ai。                                |
 | -    | **网页**                        |                                    |
 | 11   | [gitee_pages]( http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) &ensp; [ReadMe]( http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe.html ) | gitee静态网页，markdown转html。     |
 | 12   | [github_pages]( https://scott180.github.io/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 ) &ensp; [ReadMe]( https://scott180.github.io/calligraphy ) | github静态网页。[vuepress]( https://scott180.github.io/vuepress-calligraphy/ ) &ensp; [docsify](  https://scott180.github.io/docsify-blog )。|
@@ -106,25 +108,25 @@
 | -    | **笔记**                        |                                    |
 | 7    | [有道云]( http://note.youdao.com/s/V7b1jHjB )                        | 笔记分享，无删减。               	         |
 | 8    | [金山文档]( https://www.kdocs.cn/l/cpUDGjX6765H )                    | pdf文件分享，需要登录。                      |
-| 9    | [作业部落]( https://www.zybuluo.com/scott180/note/1793757 ) &ensp; [ReadMe]( https://www.zybuluo.com/scott180/note/892814 )    | markdown编辑器，文件分享。        |
-| 10   | [飞书]( https://nal4j8dwi0.feishu.cn/docs/doccntwAAd1yjADzHGQT0ueBkN7 ) &ensp; [ReadMe]( https://nal4j8dwi0.feishu.cn/docs/doccnpf5pWihfu3aW4psk5vO7ue )           | 办公平台。字节跳动产品。|
-| 11   | [我来]( https://www.wolai.com/rDqeCwfv87RLPPmuu2fvyi ) &ensp; [ReadMe]( https://www.wolai.com/npaRuQ7wj44TYHqup5xg2w )                        | 不仅仅是未来的云端协作平台与个人笔记。       |
-| 12   | [notion]( https://brick-windshield-519.notion.site/4c6820d4272a4b91ba50b15077869b7e ) &ensp; [ReadMe]( https://brick-windshield-519.notion.site/ReadMe-5c35fb0d0da644bb98e673cc98409ad5 )    | 笔记个人空间。       |
-| 13   | [boostnote]( https://boostnote.io/shared/c45f0095-bffc-40e9-93da-bb3927e60294 ) &ensp; [ReadMe]( https://boostnote.io/shared/1ae6faaa-ee9e-4659-8721-650d1b272f7f ) | 专为程序员提供的markdown笔记本软件。          |
+| 9    | [作业部落]( https://www.zybuluo.com/scott180/note/1793757 ) &ensp; [ReadMe]( https://www.zybuluo.com/scott180/note/892814 )    | markdown编辑器，文件分享。         |
+| 10   | [飞书]( https://nal4j8dwi0.feishu.cn/docs/doccntwAAd1yjADzHGQT0ueBkN7 ) &ensp; [ReadMe]( https://nal4j8dwi0.feishu.cn/docs/doccnpf5pWihfu3aW4psk5vO7ue )            | 办公平台。字节跳动产品。|
+| 11   | [我来]( https://www.wolai.com/rDqeCwfv87RLPPmuu2fvyi ) &ensp; [ReadMe]( https://www.wolai.com/npaRuQ7wj44TYHqup5xg2w )         | 不仅仅是未来的云端协作平台与个人笔记。         |
+| 12   | [notion]( https://brick-windshield-519.notion.site/4c6820d4272a4b91ba50b15077869b7e ) &ensp; [ReadMe]( https://brick-windshield-519.notion.site/ReadMe-5c35fb0d0da644bb98e673cc98409ad5 )     | 笔记个人空间。       |
+| 13   | [boostnote]( https://boostnote.io/shared/c45f0095-bffc-40e9-93da-bb3927e60294 ) &ensp; [ReadMe]( https://boostnote.io/shared/1ae6faaa-ee9e-4659-8721-650d1b272f7f ) | 专为程序员提供的markdown笔记本软件。           |
 | 14   | [pdfdrive]( https://www.pdfdrive.com/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9readme-e201239704.html ) | PDF Drive is Digital Library of Free PDF eBooks.           |
 | -    | **云盘**                        |                                    |
-| 15   | [坚果云]( https://www.jianguoyun.com/p/Df38XDMQxP-NBhi3vKwE ) &ensp; [markdown]( https://www.jianguoyun.com/p/DfYHsfUQxP-NBhjOrfED )          |  文件分享。        |
+| 15   | [坚果云]( https://www.jianguoyun.com/p/Df38XDMQxP-NBhi3vKwE ) &ensp; [markdown]( https://www.jianguoyun.com/p/DfYHsfUQxP-NBhjOrfED )          |  文件分享。         |
 | 16   | [百度网盘]( https://pan.baidu.com/s/1dOJMgeZAyCYolEflsKIOPQ )        | 提取码: zpxu 。pdf文件分享，需要登录。       |
 | 17   | [阿里云盘]( https://www.aliyundrive.com/s/A6HYqyw15Zr )              | pdf文件分享，需要登录。                      |
 | 18   | [天翼云]( https://cloud.189.cn/t/RRBbumb2MB7b )                      | pdf文件分享，需要登录。中国电信网盘。        |
 | 19   | [和彩云]( https://caiyun.139.com/m/i?125CmrCy7hU1y )                 | 提取码:WAmq 。pdf文件分享，需要登录。中国移动网盘。     |
-| 20   | [微云]( https://share.weiyun.com/JKZ4ANJ5 )  &ensp; [腾讯文档]( https://docs.qq.com/pdf/DVmxKTG5YZHZBUGlx )         | pdf文件分享。                                |
-| 21   | [google云盘]( https://drive.google.com/file/d/1Ubx-Rz3Xwhn48PEXMx-BmWrJGyIAzNfn/view?usp=sharing )                  | 文件分享，无删减。                           |
+| 20   | [微云]( https://share.weiyun.com/JKZ4ANJ5 )  &ensp; [腾讯文档]( https://docs.qq.com/pdf/DVmxKTG5YZHZBUGlx )         | pdf文件分享。                                 |
+| 21   | [google云盘]( https://drive.google.com/file/d/1Ubx-Rz3Xwhn48PEXMx-BmWrJGyIAzNfn/view?usp=sharing )                  | 文件分享，无删减。                            |
 | -    | **内容**                        |                                                                                   |
 | 22   | [豆瓣]( https://www.douban.com/photos/album/1881601083/ )            |  发现优质书影音，记录生活表达自我。          |
 | 23   | [知乎]( https://zhuanlan.zhihu.com/p/403400860 )                     |  问答社区和创作者聚集的原创内容平台。        |
 | 24   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ )          |  通用信息平台，看见更大的世界。              |
-| 25   | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247487244&idx=1&sn=fa21068e783c6b31a62abf71186c1b20 )     |  自媒体，每周一在【**无为徐生**】公众号发布`书法练习轨迹`一周练习图文记录。           |
+| 25   | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247487244&idx=1&sn=fa21068e783c6b31a62abf71186c1b20 )     |  自媒体，每周一在【**无为徐生**】公众号发布`书法练习轨迹`一周练习图文记录。        |
 
 ---
 
@@ -230,7 +232,7 @@ sourgeforge--20220124
 | 仓库   | 地址                                               			      |  备注             			                 |
 | -----  | -------------------------------------------------------------      |  -----------------------------------         |
 | gitlab | [plain-mkdocs]( https://gitlab.com/xuyq123/plain-mkdocs ) &ensp; [**网页**]( https://xuyq123.gitlab.io/plain-mkdocs ) <br/>[plain-pip-mkdocs]( https://gitlab.com/xuyq123/plain-pip-mkdocs ) &ensp; [网页]( https://xuyq123.gitlab.io/plain-pip-mkdocs )  <br/>[plain-mkdocs-gitbook]( https://gitlab.com/xuyq123/plain-mkdocs-gitbook ) &ensp; [网页]( https://xuyq123.gitlab.io/plain-mkdocs-gitbook )            |  gitlab布署mkdocs：配置文件.gitlab-ci.yml。    |
-| github | [plain-mkdocs]( https://github.com/scott180/plain-mkdocs ) &ensp; [网页](  https://scott180.github.io/plain-mkdocs/ ) <br/>[plain-pip-mkdocs]( https://github.com/scott180/plain-pip-mkdocs ) &ensp; [网页]( https://scott180.github.io/plain-pip-mkdocs )  <br/>[plain-mkdocs-serve]( https://github.com/scott180/plain-mkdocs-serve )  &ensp; [网页]( https://scott180.github.io/plain-mkdocs-serve )              |  github布署mkdocs：命令mkdocs gh-deploy 。           |
+| github | [plain-mkdocs]( https://github.com/scott180/plain-mkdocs ) &ensp; [网页](  https://scott180.github.io/plain-mkdocs/ ) <br/>[plain-pip-mkdocs]( https://github.com/scott180/plain-pip-mkdocs ) &ensp; [网页]( https://scott180.github.io/plain-pip-mkdocs )  <br/>[plain-mkdocs-serve]( https://github.com/scott180/plain-mkdocs-serve )  &ensp; [网页]( https://scott180.github.io/plain-mkdocs-serve )              |  github布署mkdocs：命令mkdocs gh-deploy 。    |
 | gitee  |  [plain-mkdocs]( https://gitee.com/xy180/plain-mkdocs ) &ensp; [网页1]( http://xy180.gitee.io/plain-mkdocs/1/site/ ) &ensp; [网页2]( http://xy180.gitee.io/plain-mkdocs/2/site/ ) &ensp; [网页3]( http://xy180.gitee.io/plain-mkdocs/3/site/ )                                  |  gitee布署mkdocs：mkdocs build 布署目录。    |
 | note-mkdocs   | gitlab [note-mkdocs]( https://gitlab.com/xuyq123/note-mkdocs )&ensp; [**网页1**](  https://xuyq123.gitlab.io/note-mkdocs/ ) &ensp; [网页2](  https://xuyq123.gitlab.io/note-pip-mkdocs/ ) <br/>github [note-mkdocs]( https://github.com/scott180/note-mkdocs )&ensp; [网页](  https://scott180.github.io/note-mkdocs/ )<br/>gitee [plain-mkdocs]( https://gitee.com/xy180/plain-mkdocs/tree/master/note )&ensp; [网页](  http://xy180.gitee.io/plain-mkdocs/note/site/ )       |  个人笔记，含书法练习及java笔记。                        |
 | mkdocs-blog   | gitlab [mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog )&ensp; [网页](  https://xuyq123.gitlab.io/mkdocs-blog ) <br/>gitee [myblog-mkdocs]( https://gitee.com/xy180/myblog-mkdocs )    |  博客mkdocs                        |
@@ -552,9 +554,9 @@ github、gitee 仓库小问题
 ### 3.3、git静态网页与自定义域名
 
 > [gitlab、github、gitee布署mkdocs主题仓库]( 
-https://gitlab.com/xuyq123/mynotes/-/blob/master/gitlab%E3%80%81github%E3%80%81gitee%E5%B8%83%E7%BD%B2mkdocs%E4%B8%BB%E9%A2%98%E4%BB%93%E5%BA%93.md ) &ensp; &ensp; [git平台docsify布署markdown文件]( https://gitlab.com/xuyq123/mynotes/-/blob/master/git%E5%B9%B3%E5%8F%B0docsify%E5%B8%83%E7%BD%B2markdown%E6%96%87%E4%BB%B6.md )
+https://gitlab.com/xuyq123/mynotes ) &ensp;  [git平台docsify布署markdown文件]( https://blog.xushufa.cn )
 
-> [gitlab、github绑定自定义域名]( https://gitlab.com/xuyq123/mynotes/-/blob/master/gitlab%E3%80%81github%E7%BB%91%E5%AE%9A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D.md )
+> [gitlab、github绑定自定义域名]( https://vuepress-blog.xushufa.cn/%E8%B5%84%E6%96%99/gitlab%E3%80%81github%E7%BB%91%E5%AE%9A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D.html ) &ensp; [vuepress构建项目]( https://reco-blog.xushufa.cn/docs/zi-liao/vuepressgou-jian-xiang-mu.html )
 
 ```
 github、gitee、gitlab静态网页发布 
