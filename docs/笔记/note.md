@@ -331,11 +331,19 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinHttpAutoProxySv
 *************************
 
 
-###  2.1、高德天气api
+###  2.1、善事利器
 
-- 高德天气 &ensp; [api]( https://lbs.amap.com/api/webservice/guide/api/weatherinfo ) &ensp;  
-- 杭州天气 &ensp; [实时]( https://restapi.amap.com/v3/weather/weatherInfo?key=0481b33d14e9830d8903940cdab327e5&city=330100 ) &ensp; [预报]( https://restapi.amap.com/v3/weather/weatherInfo?key=0481b33d14e9830d8903940cdab327e5&city=330100&extensions=all ) &ensp;  
-- 安徽无为天气 &ensp; [实时](https://restapi.amap.com/v3/weather/weatherInfo?key=0481b33d14e9830d8903940cdab327e5&city=340281) &ensp; [预报](https://restapi.amap.com/v3/weather/weatherInfo?key=0481b33d14e9830d8903940cdab327e5&city=340281&extensions=all ) &ensp;  
+```
+工欲善其事必先利其器
+
+git ：gitlab、github、gitee、gitcode、coding、bitbucket
+网盘：阿里云网盘、百度网盘、阿里云个人邮箱网盘、坚果云、天翼云、微云、wps云盘
+社区：SegmentFault 思否、csdn、stackoverflow、博客园、稀土掘金、知乎、豆瓣、简书 
+笔记：有道云笔记、作业部落、金山文档、语雀、腾讯文档、飞书、qq邮箱记事本、notion、flomo
+搜索：谷歌、百度、头条、必应
+工具：idea、notepadd++、navicat、postman、fiddler、typora、eclipse、vscode
+
+``` 
 
 *************************
 
@@ -1050,11 +1058,11 @@ maven常用打包命令
 
 - 徐书法 `xushufa.cn` 个人书法练习网站
 
-| 徐书法 | 我的网站 |  备注  |
-| ---  | ------------- |  ------------- |
-| 1    | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。     |
-| 2    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn ) | docsify构建的网站。 |
-| 3    | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )     | mkdocs构建的网站。  |
+| 徐书法 | 我的网站    |  备注          |
+| -----  | ----------- |  ------------- |
+| 1      | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。      |
+| 2      | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )         | `mkdocs`构建的网站。  |
+| 3      | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) &ensp; [reco-blog]( https://reco-blog.xushufa.cn ) | `vuepress-theme-reco`构建的网站。     |
 
 ***
 

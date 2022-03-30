@@ -91,8 +91,8 @@
 | -    | **网页**                        |                                    |
 | 11   | [gitee_pages]( http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) &ensp; [ReadMe]( http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe.html ) | gitee静态网页，markdown转html。     |
 | 12   | [github_pages]( https://scott180.github.io/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 ) &ensp; [ReadMe]( https://scott180.github.io/calligraphy ) | github静态网页。[vuepress]( https://scott180.github.io/vuepress-calligraphy/ ) &ensp; [docsify](  https://scott180.github.io/docsify-blog )。|
-| 13   | [gitlab_pages]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 )  &ensp; [ReadMe]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe )     | gitlab静态网页。 [mkdocs]( https://xuyq123.gitlab.io/plain-mkdocs ) &ensp; [html]( https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) 。   |
-| 14   | [**docusaurus2**]( https://calligraphy-docusaurus2.vercel.app )  &ensp; [portfolio]( https://calligraphy-blog.vercel.app/ )     | [vercel]( https://vercel.com/xuyq ) 开发者服务网站，提供静态网站托管的云平台。  |
+| 13   | [gitlab_pages]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89 )  &ensp; [ReadMe]( https://xuyq123.gitlab.io/plain-docsify/#/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe )     | gitlab静态网页。 [mkdocs]( https://xuyq123.gitlab.io/mkdocs-calligraphy ) &ensp; [html]( https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html ) 。   |
+| 14   | [**docusaurus2**]( https://calligraphy-docusaurus2.vercel.app )  &ensp; [portfolio]( https://calligraphy-portfolio.vercel.app ) | [vercel]( https://vercel.com/xuyq ) 开发者服务网站，提供静态网站托管的云平台。  |
 | 15   | [nextjs]( https://netlify-calligraphy-nextjs.netlify.app ) &ensp; [artisan]( https://netlify-calligraphy-artisan.netlify.app )  | [netlify]( https://app.netlify.com ) 提供 JamStack(静态网站)托管的平台。        |
 
 ---
@@ -211,6 +211,7 @@ sourgeforge--20220124
 
 ```
 创建《徐书法》同时购买服务器且注册域名：[xushufa.cn]( https://xushufa.cn ) 
+使用mkdocs、docsify、vuepress、vuepress-theme-reco等四种工具建立了四个书法练习网站及四个博客网站
 以后这就是我的书法记录平台
 --202203 
 
@@ -864,11 +865,11 @@ pages:
 
 - 徐书法 `xushufa.cn` 个人书法练习网站
 
-| 徐书法 | 我的网站 |  备注  |
-| ---  | ------------- |  ------------- |
-| 1    | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。     |
-| 2    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn ) | docsify构建的网站。 |
-| 3    | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )     | mkdocs构建的网站。  |
+| 徐书法 | 我的网站    |  备注          |
+| -----  | ----------- |  ------------- |
+| 1      | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。      |
+| 2      | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )         | `mkdocs`构建的网站。  |
+| 3      | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) &ensp; [reco-blog]( https://reco-blog.xushufa.cn ) | `vuepress-theme-reco`构建的网站。     |
 
 ***
 

@@ -30,6 +30,7 @@
 - 资料
   - [eclipse](资料/eclipse.md)
   - [docker](资料/docker.md)
+  - [nginx笔记](资料/nginx笔记.md)
   - [markdown常用语法](资料/markdown常用语法.md)
   - [vuepress构建项目](资料/vuepress构建项目.md)
   - [gitlab、github绑定自定义域名](资料/gitlab、github绑定自定义域名.md)

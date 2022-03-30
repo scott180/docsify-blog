@@ -14,7 +14,6 @@
 [git知识大全]( https://gitee.com/help/articles/4122 )
 ```vb
 提交代码
- git status -sb
  git add .
  git commit -m "fix"
  git push origin dev_20190510001
@@ -27,7 +26,6 @@ git status
  git reflog --date=iso
 
 建立分支
- git status -sb
  git checkout -B dev_20190510001
  git push
  git push --set-upstream origin dev_20190510001
@@ -212,6 +210,27 @@ git push origin newName
 
 d.把修改后的本地分支与远程分支关联
 git branch --set-upstream-to origin/newName
+
+
+```
+
+```sh
+// 查看所有标签
+git tag
+
+// 新建标签
+git tag t20220330
+
+// 推送标签
+git push origin t20220330
+
+// 删除远程标签
+git push origin :refs/tags/t20220330
+
+// 删除本地标签
+git tag -d t20220330
+
+
 
 
 ```

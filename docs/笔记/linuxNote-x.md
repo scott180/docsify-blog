@@ -1,21 +1,14 @@
 # linux笔记-xyq
 
-*   [1、命令](#command)
-
-*   [2、其他](#endOther)
-
 
 - [x]  2017.08.22--now
 `xyq` `linux` `note`
 
->  [blog]( https://blog.xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes/blob/master/linuxNote-x.md ) &ensp; [作业部落]( https://www.zybuluo.com/mdeditor ) &ensp; [CSDN]( https://me.csdn.net/xu180 ) &ensp; [马克飞象]( https://maxiang.io ) &ensp; [typora]( https://typora.io/#windows ) 
+>  [blog]( https://blog.xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes/blob/master/linuxNote-x.md ) 
 
 
-<h2 id="command"></h2>
 
 ## 1、命令说明 
-
- <h3 id="commonCommand"></h3>
 
 ### 1.1 常用命令
 
@@ -46,7 +39,7 @@
 压缩zip   | zip  test.zip  test
 解压zip   | unzip test.zip
 压缩gz    | gzip -c test.log > /root/test.gz
-解压gz    |  gunzip -c debug.2020-07-02.log.gz > ./0702.log
+解压gz    | gunzip -c debug.2020-07-02.log.gz > ./0702.log
 `-----------------` | `--------------------------------------------------------------`  
 模糊查找当前目录文件   	 | find *txt
 从根目录查找文件         | find / -name test 
@@ -95,20 +88,6 @@
 关机不重启        	| shutdown -h
 立刻关机        	| shutdown now
 
-
-```
-[root]# vi /etc/profile
-[root]# source /etc/profile
-[root]# echo $LANG
-
-# export LC_ALL="zh_CN.GBK"
-# export LANG="zh_CN.GBK"
-
-LANG=zh_CN.UTF-8
-LC_ALL=en_US.UTF-8
-
-
-```
 
 ********************************************************
 
@@ -992,8 +971,6 @@ usermod -a -G groupA user
 ********************************************************************
 
 
-<h2 id="endOther"></h2>
-
 ## 2、其他
 
 ####  2.1 java进程高CPU占用故障排查
@@ -1101,9 +1078,9 @@ source /etc/profile
 #### 2.4 问题
 
 ```basic
-	history 历史记录显示时间        
-	在/etc/profile 中增加  export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "
-	写入环境变量		   source /etc/profile
+history 历史记录显示时间        
+在/etc/profile 中增加  export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "
+写入环境变量		   source /etc/profile
 ```
 
 ```c
@@ -1121,6 +1098,21 @@ linux虚拟机上传下载文件
   
   1、可能是防火墙打开了
   2、/etc/hosts  策略配置错了
+```
+
+```
+中文乱码问题
+[root]# vi /etc/profile
+[root]# source /etc/profile
+[root]# echo $LANG
+
+# export LC_ALL="zh_CN.GBK"
+# export LANG="zh_CN.GBK"
+
+LANG=zh_CN.UTF-8
+LC_ALL=en_US.UTF-8
+
+
 ```
 
 #### 2.5 星期月份英语 

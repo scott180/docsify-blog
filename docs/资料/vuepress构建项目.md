@@ -106,7 +106,9 @@ cd -
 
 ---
 
-注意路径配置问题：
+
+
+> 注意路径配置问题：
 
 - 1、如果要发布路径为用户名+项目名
 
@@ -133,9 +135,43 @@ echo 'reco-blog.xushufa.cn' > CNAME
 
 ```
 
+---
 
 
-### 1.3 问题
+
+> github Actions pages build and deployment 报错
+
+```
+本地执行deploy正常，但是github的Actions报错了。
+
+错误内容如下：
+Deployment request failed for 5a3201f6016e6e078f0f3c46eb4132a3d9014bdd due to in progress deployment. Please cancel 7e10a83b419c464b908a13787a0b0bfe39cc1ca7 first or wait for it to
+
+{
+    "$id": "1",
+    "innerException": null,
+    "message": "The user 'System:PublicAccess;aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa' is not authorized to access this resource.",
+    "typeName": "Microsoft.TeamFoundation.Framework.Server.UnauthorizedRequestException, Microsoft.TeamFoundation.Framework.Server",
+    "typeKey": "UnauthorizedRequestException",
+    "errorCode": 0,
+    "eventId": 3000
+}
+
+```
+
+
+```
+
+解决方法：
+1、点击 Re-run all jobs 再试一次。
+2、本地vuepress缓存影响，将dist目录删除，重新deploy。
+3、可能是SSH key有问题，换一下，重新deploy。
+
+```
+
+
+
+### 1.3 备案号
 
 > vuepress 底部添加网站备案号：ICP备案号与公安备案号  [富文本 footer]( https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E5%AF%8C%E6%96%87%E6%9C%AC-footer )
 
@@ -293,6 +329,96 @@ module.exports = {
     cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002016354',
   }
 }
+
+```
+
+
+---
+
+
+### 2.3 插件 
+
+参考 [插件广场]( https://vuepress-theme-reco.recoluan.com/views/other/recommend.html ) &ensp; [plugin-medium-zoom]( https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html#%E5%AE%89%E8%A3%85 )  &ensp; [medium-zoom]( https://vuepress-community.netlify.app/zh/plugins/medium-zoom/#%E5%AE%89%E8%A3%85 )
+
+> 图片放大
+
+```
+yarn add -D @vuepress/plugin-medium-zoom
+# OR npm install -D @vuepress/plugin-medium-zoom
+
+
+module.exports = {
+  plugins: {
+    '@vuepress/medium-zoom': {
+      selector: 'img.zoom-custom-imgs',
+      // medium-zoom options here
+      // See: https://github.com/francoischalifour/medium-zoom#options
+      options: {
+        margin: 16
+      }
+    }
+  }
+}
+```
+
+
+---
+
+
+```
+npm install -D vuepress-plugin-medium-zoom
+
+
+// .vuepress/config.js
+module.exports = {
+  plugins: [
+    [
+      'vuepress-plugin-medium-zoom',
+      {
+        selector: '.my-wrapper .my-img',
+        delay: 1000,
+        options: {
+          margin: 24,
+          background: '#BADA55',
+          scrollOffset: 0,
+        },
+      },
+    ],
+  ],
+}
+```
+
+---
+
+
+> 默认随机展示名人名句
+
+参考 [vuepress-plugin-boxx]( https://github.com/zpj80231/vuepress-plugin-boxx )
+
+```
+在文件package.json中的devDependencies下加入"vuepress-plugin-boxx": "0.0.7"：
+
+
+"devDependencies": {
+    "vuepress-plugin-boxx": "0.0.7"
+}
+
+```
+
+```
+在 vuepress 的config.js中配置plugins：
+
+"plugins": [
+    ["vuepress-plugin-boxx"]
+]
+
+```
+
+```
+npm install
+
+在文档标题前一行添加 <Boxx/>
+
 
 ```
 
