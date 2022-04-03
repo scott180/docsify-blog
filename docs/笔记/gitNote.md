@@ -196,6 +196,27 @@ git push --all --force
  
 ```
 
+
+```
+
+创建一个空白内容的分支json
+
+// 创建新分支
+git checkout --orphan json
+
+// 删除所有文件
+git rm -rf .
+
+// 创建新文件后，全部提交
+git add .
+git commit -m "json"
+
+// 推送
+git push
+git push --set-upstream origin json
+
+```
+
 ```vb
 修改分支名称 https://www.jianshu.com/p/cc740394faf5
 

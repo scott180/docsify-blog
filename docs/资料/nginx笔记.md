@@ -10,6 +10,7 @@
 https://nginx.org/en/download.html
 https://blog.csdn.net/mao0523/article/details/122448599
 
+
 C:\Users\Administrator>e:
 
 E:\>cd ProgramFiles\nginx-1.16.1
@@ -25,6 +26,16 @@ E:\ProgramFiles\nginx-1.16.1>nginx -s stop
 
 E:\ProgramFiles\nginx-1.16.1>
 
+
+```
+
+
+```
+报错 403 Forbidden
+https://www.toutiao.com/article/6613280321607565832/
+
+方法1、缺少index.html页面
+方法2、将第一行的user www-data改为user root
 
 ```
 

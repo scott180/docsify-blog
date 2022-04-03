@@ -508,6 +508,10 @@ Map<String, DeliveryDO> deliveryOrderMap = deliveryDOS.stream().collect(Collecto
                     collect(Collectors.toMap(LogisticsGoodsDAO::getGoodsId, LogisticsGoodsDAO::getProductId, (key1, key2) -> key2));
 
 
+// 取最大最小值
+Student ageMax = list.stream().max(Comparator.comparing(Student::getAge)).get();
+Student ageMin = list.stream().min(Comparator.comparing(Student::getAge)).get();
+
 
 Optional.ofNullable(type).orElse(0).intValue();
 
