@@ -35,9 +35,7 @@
 
 ## 二、网址
 
-### 2.1、说明
-
-##### Ⅰ、我的网站 
+### 2.1、我的网站
 
 > 徐书法 `xushufa.cn`
 
@@ -53,18 +51,18 @@
 
 > 《书法练习轨迹》及博客网站
 
-| 序号 | 类型       | 我的网站 | git静态网页 | git仓库 | 布署方法 | <div style="width: 170pt">备注</div>                    |
+| 序号 | 类型       | 我的网站 | git静态网页 | git仓库 | <div style="width: 170pt">布署方法</div>  | <div style="width: 170pt">备注</div>                    |
 | ---  | ---------- | -------- | ----------- | ------- | -------- | ----------------------  |
 | 1    | -          | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )   | [scott180.github.io/calligraphy]( https://scott180.github.io/calligraphy )    | [gitlab.com/xuyq123/calligraphy]( https://gitlab.com/xuyq123/calligraphy )    | nginx代理与缓存 |  部署在服务器，有SSL证书，访问安全快速。 | 
-| 2    | vuepress   | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) <br/> [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | [scott180.github.io/vuepress-calligraphy]( https://scott180.github.io/vuepress-calligraphy ) <br/> [scott180.github.io/vuepress-blog]( https://scott180.github.io/vuepress-blog )    | [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy.git ) <br/> [vuepress-blog]( https://github.com/scott180/vuepress-blog.git )    | github绑定域名 `vuepress-blog.xushufa.cn`    | 输入xushufa域名会解析到github静态页面。提交代码即部署。 |
-| 3    | docsify   | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) <br/> [docsify-blog]( https://docsify-blog.xushufa.cn ) | [scott180.github.io/docsify-calligraphy]( https://scott180.github.io/docsify-calligraphy ) <br/> [scott180.github.io/docsify-blog]( https://scott180.github.io/docsify-blog )    | [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy.git ) <br/> [docsify-blog]( https://github.com/scott180/docsify-blog.git )    | github绑定域名 `docsify-calligraphy.xushufa.cn`     | 同上，偶尔服务连不上。 |
-| 4    | mkdocs   | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) <br/> [mkdocs-blog]( https://mkdocs-blog.xushufa.cn ) | [xuyq123.gitlab.io/mkdocs-calligraphy]( https://xuyq123.gitlab.io/mkdocs-calligraphy ) <br/> [xuyq123.gitlab.io/mkdocs-blog]( https://xuyq123.gitlab.io/mkdocs-blog )    | [mkdocs-calligraphy]( https://gitlab.com/xuyq123/mkdocs-calligraphy.git ) <br/> [mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog.git )    | gitlab绑定域名 `mkdocs-calligraphy.xushufa.cn`     | 输入xushufa域名会解析到gitlab静态页面。网速较慢。 |
-| 5    | vuepress-theme-reco   | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) <br/> [reco-blog]( https://reco-blog.xushufa.cn )   | [scott180.github.io/reco-calligraphy]( https://scott180.github.io/reco-calligraphy ) <br/> [scott180.github.io/reco-blog]( https://scott180.github.io/reco-blog )    | [reco-calligraphy]( https://github.com/scott180/reco-calligraphy.git ) <br/> [reco-blog]( https://github.com/scott180/reco-blog.git )    | github绑定域名 `reco-calligraphy.xushufa.cn`    | 每个markdown文件都需要在文件头加上`Front Matter`格式，注明标题、时间、类别、标签等等。 |
+| 2    | **vuepress**   | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) <br/> [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | [scott180.github.io/vuepress-calligraphy]( https://scott180.github.io/vuepress-calligraphy ) <br/> [scott180.github.io/vuepress-blog]( https://scott180.github.io/vuepress-blog )    | [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy.git ) <br/> [vuepress-blog]( https://github.com/scott180/vuepress-blog.git )    | github绑定域名 `vuepress-blog.xushufa.cn`    | 输入xushufa域名会解析到github静态页面。提交代码即部署。 |
+| 3    | **docsify**   | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) <br/> [docsify-blog]( https://docsify-blog.xushufa.cn ) | [scott180.github.io/docsify-calligraphy]( https://scott180.github.io/docsify-calligraphy ) <br/> [scott180.github.io/docsify-blog]( https://scott180.github.io/docsify-blog )    | [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy.git ) <br/> [docsify-blog]( https://github.com/scott180/docsify-blog.git )    | github绑定域名 `docsify-calligraphy.xushufa.cn`     | 同上，偶尔服务连不上。 |
+| 4    | **mkdocs**   | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) <br/> [mkdocs-blog]( https://mkdocs-blog.xushufa.cn ) | [xuyq123.gitlab.io/mkdocs-calligraphy]( https://xuyq123.gitlab.io/mkdocs-calligraphy ) <br/> [xuyq123.gitlab.io/mkdocs-blog]( https://xuyq123.gitlab.io/mkdocs-blog )    | [mkdocs-calligraphy]( https://gitlab.com/xuyq123/mkdocs-calligraphy.git ) <br/> [mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog.git )    | gitlab绑定域名 `mkdocs-calligraphy.xushufa.cn`     | 输入xushufa域名会解析到gitlab静态页面。网速较慢。 |
+| 5    | **vuepress-theme-reco**   | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) <br/> [reco-blog]( https://reco-blog.xushufa.cn )   | [scott180.github.io/reco-calligraphy]( https://scott180.github.io/reco-calligraphy ) <br/> [scott180.github.io/reco-blog]( https://scott180.github.io/reco-blog )    | [reco-calligraphy]( https://github.com/scott180/reco-calligraphy.git ) <br/> [reco-blog]( https://github.com/scott180/reco-blog.git )    | github绑定域名 `reco-calligraphy.xushufa.cn`    | 每个markdown文件都需要在文件头加上`Front Matter`格式，注明标题、时间、类别、标签等等。 |
  
 
 ---
 
-##### Ⅱ、各大平台 
+### 2.2、各大平台 
 
 > 若无意外，一般每周一在gitlab《**书法练习轨迹--明月几时有**》记录上周练习情况。其他渠道，不定时同步。
 
@@ -130,7 +128,7 @@
 
 ---
 
-##### Ⅲ、建站历程
+### 2.3、建站历程
 
 ```
 
@@ -138,7 +136,7 @@
 后来有鉴于某云盘背信弃义停止服务，一个网站保存资料不保险，鸡蛋不能放到一个篮子里。
 而且全世界最流行的git平台是github，于是二零二零年十一月将文件备份到此处，gitee为主github为辅。
 
-但是github是境外网站，网速慢，经常打不开。于是又找了个国产git平台-csdn_code，将资料再备份一份到此处。
+但是github是境外网站，网速慢，经常打不开。于是又找了个国产git平台：csdn_code，将资料再备份一份到此处。
 这个git平台虽然建立时间短，知名度低，用户少，但是网速挺快，限制也少，不怎么屏蔽关键字。
 
 再后来觉得狡兔三窟，互联网这玩意不是特别靠谱，说不定哪天网站会被封或者停止服务，多找些地方备份总是没错的。
@@ -210,18 +208,16 @@ sourgeforge--20220124
 ```
 
 ```
-创建《徐书法》同时购买服务器且注册域名：[xushufa.cn]( https://xushufa.cn ) 
-使用mkdocs、docsify、vuepress、vuepress-theme-reco等四种工具建立了四个书法练习网站及四个博客网站
-以后这就是我的书法记录平台
+创建《徐书法》同时购买服务器且注册域名：[xushufa.cn]( https://xushufa.cn ) 。
+使用mkdocs、docsify、vuepress、vuepress-theme-reco等四种工具建立了四个书法练习网站及四个博客网站。
+以后这就是我的书法记录平台。
 --202203 
 
 ```
 
 ---
 
-<div STYLE="page-break-after: always;"></div>
-
-### 2.2、主题
+### 2.4、主题链接
 
 > git平台mkdocs主题仓库
 
@@ -246,7 +242,7 @@ sourgeforge--20220124
 ```
 docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页。
 但是docsify布署更简单一点。且布署的文件有多级目录，更易查看。
-两种布署方法参见下文：git静态网页发布 。
+两种布署方法参见博客网站的资料。 --20210813
 ```
 
 | 名称       | 仓库                                                			        |  备注            |
@@ -257,19 +253,12 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 ---
 
----
-
-> 书法练习轨迹--明月几时有-简洁版 <br/>
-> 专门发布在今日头条及微信公众号上的版本。去掉所有练习图片及链接，适当删减内容。删繁就简，制作此版。
-
-| 序号 | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|  **链接**   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ ) | [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) |  [知乎]( https://zhuanlan.zhihu.com/p/403400860 )  | [语雀]( https://www.yuque.com/longguang123/ccgbto/dm3duy ) | [豆瓣]( https://www.douban.com/note/811096721/ )   | [博客园]( https://www.cnblogs.com/scott123/p/15184752.html )   | [csdn]( https://blog.csdn.net/xu180/article/details/119910067 ) | [百度百家号]( https://mbd.baidu.com/newspage/data/landingshare?context=%7B%22nid%22%3A%22news_8658967678359931515%22%2C%22sourceFrom%22%3A%22bjh%22%7D ) | [360doc个人图书馆]( http://www.360doc.com/content/21/0908/14/37424511_994645014.shtml) |
+<br/>
 
 ---
 
 > 笔名汉字频率分析 <br/>
-> 数据来自《[书法练习轨迹--明月几时有]( https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html )》中关于本人笔名的记录。
+> 数据来自《[书法练习轨迹--明月几时有]( https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html )》中关于本人笔名的记录。 --20210718
 
 | 序号 | 1    | 2    | 3    | 4    | 5    | 6    |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -277,8 +266,17 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 ---
 
+> 书法练习轨迹--明月几时有-简洁版 <br/>
+> 专门发布在今日头条及微信公众号上的版本。去掉所有练习图片及链接，适当删减内容。删繁就简，制作此版。 --20210825
+
+| 序号 | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|  **链接**   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ ) | [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) |  [知乎]( https://zhuanlan.zhihu.com/p/403400860 )  | [语雀]( https://www.yuque.com/longguang123/ccgbto/dm3duy ) | [豆瓣]( https://www.douban.com/note/811096721/ )   | [博客园]( https://www.cnblogs.com/scott123/p/15184752.html )   | [csdn]( https://blog.csdn.net/xu180/article/details/119910067 ) | [百度百家号]( https://mbd.baidu.com/newspage/data/landingshare?context=%7B%22nid%22%3A%22news_8658967678359931515%22%2C%22sourceFrom%22%3A%22bjh%22%7D ) | [360doc个人图书馆]( http://www.360doc.com/content/21/0908/14/37424511_994645014.shtml) |
+
+---
+
 > 无为徐生 <br/>
-> 笔名说明，书法练习轨迹、程序员笔记以及一些随笔感想。
+> 笔名说明，书法练习轨迹、程序员笔记以及一些随笔感想。 --20210906
 
 | 序号 | 1    | 2    | 3    | 4    | 5    |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -292,9 +290,10 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 ---
 
-<div STYLE="page-break-after: always;"></div>
+<br/>
 
-### 2.3、链接
+---
+
 
 > git平台 &ensp; 官网 &ensp; 项目地址 &ensp; 静态网页 &ensp; docsify网页 &ensp; mkdocs网页 &ensp; HTTPS &ensp; SSH &ensp; 图片地址  
 
@@ -484,159 +483,13 @@ https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.
 
 <div STYLE="page-break-after: always;"></div>
 
-## 三、附录
-
-### 3.1、markdown转PDF 
-
-```
-如何将markdown文件导出为带图片的PDF （《书法练习轨迹--明月几时有》是markdown文件）
-
-① markdown转PDF
-Ⅰ.使用Typora 打开 markdown文件
-Ⅱ.点击 文件-导出-HTML
-Ⅲ.浏览器打开文件-打印-另存为PDF
-
-
-② markdown转PDF文件分页
-<div STYLE="page-break-after: always;"></div>
-
-```
-
----
-
-### 3.2、github、gitee 仓库小问题
-
-```
-github、gitee 仓库小问题
-
-Ⅰ.在gitee仓库于2021-01-12 、2021-01-26删除了一些大文件，但是这些文件还在提交记录中，仍然占空间，所以仓库显得比较大（290M）。
-
-
-Ⅱ.GitHub 图片加载不出来怎么办
-打开路径 C:\Windows\System32\drivers\etc 下的 hosts 文件,添加下面的语句
-
-# GitHub Start 
-192.30.253.112 Build software better, together 
-192.30.253.119 gist.github.com
-151.101.184.133 assets-cdn.github.com
-151.101.184.133 raw.githubusercontent.com
-151.101.184.133 gist.githubusercontent.com
-151.101.184.133 cloud.githubusercontent.com
-151.101.184.133 camo.githubusercontent.com
-151.101.184.133 avatars0.githubusercontent.com
-151.101.184.133 avatars1.githubusercontent.com
-151.101.184.133 avatars2.githubusercontent.com
-151.101.184.133 avatars3.githubusercontent.com
-151.101.184.133 Build software better, together
-151.101.184.133 avatars5.githubusercontent.com
-151.101.184.133 avatars6.githubusercontent.comⅢ
-151.101.184.133 avatars7.githubusercontent.com
-151.101.184.133 Build software better, together
-
-
-Ⅲ.github.io（github pages）访问不了
-参考 https://blog.csdn.net/nima1994/article/details/107985198
-
-1、修改系统的hosts （C:\Windows\System32\drivers\etc），添加
-
-# GitHub Start 
-185.199.110.153 catalyst-team.github.io
-185.199.111.153 raw.githubusercontent.com
-
-2、修改本地连接 IPv4属性
-控制面板--网络和 Internet--网络和共享中心--查看活动网络--本地连接--属性--Internet 协议版本4（TCP/IPv4）--属性--使用下面的DNS服务器地址
-首选DNS服务器设置为 223.5.5.5
-备用DNS服务器设置为 223.6.6.6
-
-```
-
----
-
-### 3.3、git静态网页与自定义域名
-
-> [gitlab、github、gitee布署mkdocs主题仓库]( 
-https://gitlab.com/xuyq123/mynotes ) &ensp;  [git平台docsify布署markdown文件]( https://blog.xushufa.cn )
-
-> [gitlab、github绑定自定义域名]( https://vuepress-blog.xushufa.cn/%E8%B5%84%E6%96%99/gitlab%E3%80%81github%E7%BB%91%E5%AE%9A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D.html ) &ensp; [vuepress构建项目]( https://reco-blog.xushufa.cn/docs/zi-liao/vuepressgou-jian-xiang-mu.html )
-
-```
-github、gitee、gitlab静态网页发布 
-
-github pages 
-位置：Setting - GitHub Pages - Save
-优点：有十种主题可以选择；提交代码自动发布最新文件。
-不足：主题偏少。外网，选择主题时速度慢，但是发布后的文件访问较快。
-备注：删除目录下_config.yml文件即选择默认的markdown主题。
-
-
-gitee pages   
-位置：服务 - Gitee Pages - 启动
-优点：速度快。
-不足：无主题可选；markdown会还原成纯文本，需要转成html文件；提交新代码后每次需手动更新才能发布新文件。
-备注：有时服务改造，无法启动。
-
-
------- 
-
-
-gitlab pages   
-gitlab布署网页与gitee、github不一样，无需启动。只要添加文件即可。
-1、添加  .gitlab-ci.yml 文件 。
-2、创建public文件夹，并将html文件上传到此处。
-3、推送文件。在gitlab项目 CI/CD --> Jobs 查看是否布署成功。
-4、访问页面。如 ：  https://xuyq123.gitlab.io/plain/index.html
-
-参考项目： https://gitlab.com/xuyq123/plain
-
---- 
-
-.gitlab-ci.yml 文件
-
-pages:
-  stage: deploy
-  script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-   
-   
-```
-
----
-
----
-
-### 3.4、名帖    
-
-```
-高山仰止，景行行止。虽不能至，心向往之。
-   
-王羲之-兰亭集序、颜真卿-多宝塔碑、文徵明-小楷赤壁赋。所谓王颜文是也。
-
-```
-> 王羲之-兰亭集序 <br/>
-![王羲之-兰亭集序]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/王羲之-兰亭集序.jpg )
-
-> 颜真卿-多宝塔碑 <br/>
-![颜真卿-多宝塔碑]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/颜真卿-多宝塔碑.jpg )
-
-> 文徵明-小楷赤壁赋 <br/>
-![文徵明-小楷赤壁赋]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/文徵明-小楷赤壁赋.jpg )
-
----
-
-<div STYLE="page-break-after: always;"></div>
-
-## 四、诗词杂句
+## 三、诗词杂句
 
 > 统计总合《书法练习轨迹》中本人所作的诗词杂句。
 
 ---
 
-### 4.1、诗词
+### 3.1、诗词
 
 ```
 半生有感 
@@ -728,7 +581,7 @@ pages:
 
 ```
 
-### 4.2、杂句
+### 3.2、杂句
 
 ```
 我的三观：人生观、世界观、价值观，亦即人生信条、五字真言：制 恒 强 变 真。
@@ -833,10 +686,18 @@ pages:
 
 ---
 
+```
+坚韧不拔：坚定 坚持 坚韧 坚毅 坚强。
+自强不息：自制 自立 自信 自强 自我。
+--20220406
+
+```
+
+---
+
 <div STYLE="page-break-after: always;"></div>
 
-
-## 五、个人账号
+## 四、个人账号
 
 > **平台**
 
