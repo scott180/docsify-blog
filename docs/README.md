@@ -1,17 +1,17 @@
 
 ## 博客docsify
 
-### 地址
+### 网站
 
 
-| **徐书法** | 链接    |  我自己的网站  |
+| 徐书法 | 我的网站 |  备注  |
 | ---  | ------------- |  ------------- |
-| 1    | [xushufa]( http://xushufa.cn ) &ensp; [blog]( http://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。     |
-| 2    | [docsify-calligraphy]( http://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( http://docsify-blog.xushufa.cn ) | docsify构建的网站。 |
-| 3    | [mkdocs-calligraphy]( http://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( http://mkdocs-blog.xushufa.cn )     | mkdocs构建的网站。  |
+| 1    | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。     |
+| 2    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn ) | docsify构建的网站。 |
+| 3    | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) &ensp; [reco-blog]( https://reco-blog.xushufa.cn ) | `vuepress-theme-reco`构建的网站。     |
 
 
-### 书法
+### 文档
 
 - 笔记
   - [note](笔记/note.md)
