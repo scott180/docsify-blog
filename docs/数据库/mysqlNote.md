@@ -1,7 +1,7 @@
 
 # mysql
 
-## 1.安装mysql
+## 1、安装mysql
 
 ```
 安装mysql 5.7
@@ -160,7 +160,7 @@ https://www.cnblogs.com/jyjia/archive/2019/03/07/10490013.html
 
 ```
 
-## 2.基本sql
+## 2、基础命令
 
 ```
 
@@ -395,7 +395,9 @@ mysqldump -uroot -p –default-character-set=latin1 –set-charset=gbk –skip-o
 
 ```
 
-## 3.linux操作mysql
+## 3、高级语法
+
+### 3.1、linux命令
 
 ```
 
@@ -494,7 +496,8 @@ lower_case_table_names = 2
   
 ```
 
-## 4.其他
+### 3.2、毫秒数字转换为日期
+
 
 ```
 
@@ -504,7 +507,7 @@ SELECT FROM_UNIXTIME(operation_time/1000,"%Y-%m-%d %H:%i:%s") operationDate FROM
 
 ```
 
-### 4.1.group_concat函数
+### 3.3、group_concat函数
 
 ```
 MySQL中group_concat函数
@@ -597,7 +600,7 @@ select id,group_concat(name order by name desc) from aa group by id;
 
 ```
 
-### 4.2.left join、right join、inner join的区别
+### 3.3、left join左右连接
 
 ```
 
@@ -694,7 +697,7 @@ compopr参数指定关系比较运算符："="， "<"， ">"， "<="， ">=" 或
 ```
 
 
-### 4.3.Case when 的使用方法
+### 3.4、Case when 的使用方法
 
 ```
 
@@ -829,9 +832,13 @@ CONSTRAINT check_salary CHECK
 
 ```
 
-### 4.4、Mysql复制表结构、表数据的方法
+## 4、其他
+
+### 4.1、复制表结构、表数据
 
 ```
+
+Mysql复制表结构、表数据的方法
 
 1、复制表结构及数据到新表（不包含主键、索引、分区等）
 
@@ -882,13 +889,10 @@ SELECT * INTO 表2 FROM 表1
 ```
 
 
+### 4.2、文档
 
-## 5. 文档
+- [数据库隔离级别]( https://blog.xushufa.cn )
 
-| 徐书法 | 我的网站 |  备注  |
-| ---  | ------------- |  ------------- |
-| 1    | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 笔记及博客网站。     |
-| 2    | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) &ensp; [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | vuepress构建的网站。|
-| 3    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn )     | docsify构建的网站。 |
-| 4    | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )         | mkdocs构建的网站。  |
+- [mysql开启log-bin日志]( https://reco-blog.xushufa.cn )
+
 

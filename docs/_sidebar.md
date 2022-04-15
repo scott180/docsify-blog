@@ -1,15 +1,17 @@
-- 笔记
-  - [note](笔记/note.md)
-  - [gitNote](笔记/gitNote.md)
-  - [linuxNote](笔记/linuxNote-x.md)
-  - [eclipse](笔记/资料/eclipse.md)
-  - [docker](笔记/资料/docker.md)
-  - [nginx笔记](笔记/资料/nginx笔记.md)
-  - [markdown常用语法](笔记/资料/markdown常用语法.md)
-  - [vuepress构建项目](笔记/资料/vuepress构建项目.md)
-  - [gitlab、github绑定自定义域名](笔记/资料/gitlab、github绑定自定义域名.md)
-  - [git平台docsify布署markdown文件](笔记/资料/git平台docsify布署markdown文件.md)
-  - [gitlab、github、gitee布署mkdocs主题仓库](笔记/资料/gitlab、github、gitee布署mkdocs主题仓库.md)
+- 资料
+  - [note](资料/笔记/note.md)
+  - [gitNote](资料/笔记/gitNote.md)
+  - [linuxNote](资料/笔记/linuxNote-x.md)
+  - [nginx笔记](资料/笔记/nginx笔记.md)
+  - [docker](资料/笔记/docker.md)
+  --
+  - [本地安装kafka](资料/文档/本地安装kafka.md)
+  - [本地安装zookeeper](资料/文档/本地安装zookeeper.md)
+  - [markdown常用语法](资料/文档/markdown常用语法.md)
+  - [vuepress构建项目](资料/文档/vuepress构建项目.md)
+  - [gitlab、github绑定自定义域名](资料/文档/gitlab、github绑定自定义域名.md)
+  - [git平台docsify布署markdown文件](资料/文档/git平台docsify布署markdown文件.md)
+  - [gitlab、github、gitee布署mkdocs主题仓库](资料/文档/gitlab、github、gitee布署mkdocs主题仓库.md)
   
 - 数据库  
   - [mysqlNote](数据库/mysqlNote.md)
@@ -22,10 +24,14 @@
 - java
   - [java介绍](java/教程/java介绍.md)
   - [jquery笔记](java/教程/jquery笔记.md)
+  - [eclipse笔记](java/教程/eclipse笔记.md)
   - [mybatis笔记](java/教程/mybatis笔记.md)
   - [springmvc笔记](java/教程/springmvc笔记.md)
-  - [servlet-jsp课程学习](java/教程/servlet-jsp课程学习.md)
+  - [servlet-jsp学习](java/教程/servlet-jsp学习.md)
+  - [Spring-Cloud入门](java/教程/Spring-Cloud入门.md)
+  --
   - [javaNote](java/资料/javaNote.md)
+  - [排序算法](java/资料/排序算法.md)
   - [java资料集](java/资料/java资料集.md)
   - [布隆过滤器](java/资料/布隆过滤器.md)
 
