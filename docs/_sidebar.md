@@ -28,7 +28,7 @@
   - [mybatis笔记](java/教程/mybatis笔记.md)
   - [springmvc笔记](java/教程/springmvc笔记.md)
   - [servlet-jsp学习](java/教程/servlet-jsp学习.md)
-  - [Spring-Cloud入门](java/教程/Spring-Cloud入门.md)
+  - [SpringCloud入门](java/教程/SpringCloud入门.md)
   --
   - [javaNote](java/资料/javaNote.md)
   - [排序算法](java/资料/排序算法.md)
