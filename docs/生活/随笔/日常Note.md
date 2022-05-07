@@ -135,6 +135,12 @@ markdown空格符号
 
 ```
 
+```
+markdown表格宽度设置
+
+| git仓库 | 布署方法 | <span style="white-space:nowrap;">备注&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span> |
+
+```
 
 ```
 gitlab、github、gitee布署mkdocs主题仓库

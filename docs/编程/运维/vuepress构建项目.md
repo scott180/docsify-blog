@@ -270,6 +270,35 @@ locales: {
 
 ```
 
+### 1.6 全局搜索
+
+
+```js
+themeConfig: {
+// algolia 全局搜索
+algolia: {
+  apiKey: '123',
+  indexName: 'xushufa',
+  appId: '456',
+},
+
+官网	
+https://crawler.algolia.com/admin/crawlers/9f0f4253-4d83-44d8-9f0a-472f436581fd/overview
+https://www.algolia.com/apps/ODP1ID8WCB/explorer/browse/xushufa?searchMode=search
+
+教程
+https://docsearch.algolia.com/docs/legacy/config-file/
+https://www.cnblogs.com/yayujs/p/15982507.html
+
+```
+
+```java
+搜索为空，一般是 pathsToMatch 没配置好
+crawler.algolia.com -- Editor -- new Crawle -- pathsToMatch
+
+pathsToMatch: ["https://blog.xushufa.cn/**"]
+
+```
 
 
 ## 二、vuepress-theme-reco主题

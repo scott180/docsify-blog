@@ -24,6 +24,13 @@
 
 ```
 
+```
+markdown表格宽度设置
+
+| git仓库 | 布署方法 | <span style="white-space:nowrap;">备注&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span> |
+
+```
+
 ---
 
 ## 2、github、gitee 仓库小问题

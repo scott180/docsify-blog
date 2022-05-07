@@ -62,6 +62,7 @@
   - [nginx笔记](编程/运维/nginx笔记.md)
   - [shell语法](编程/运维/shell语法.md)
   - [定时执行脚本](编程/运维/定时执行脚本.md)
+  - [gitbook部署博客](编程/运维/gitbook部署博客.md)
   - [vuepress构建项目](编程/运维/vuepress构建项目.md)
   - [gitlab、github绑定自定义域名](编程/运维/gitlab、github绑定自定义域名.md)
   - [git平台docsify布署markdown文件](编程/运维/git平台docsify布署markdown文件.md)

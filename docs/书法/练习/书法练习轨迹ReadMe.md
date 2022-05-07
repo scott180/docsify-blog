@@ -39,9 +39,11 @@
 
 > 博客网站
 
-**生活随笔-编程笔记-书法练习轨迹。**
+```
+生活随笔-编程笔记-书法练习轨迹
+```
 
-|        | 地址        |  备注          |
+| 徐书法 | 地址        |  备注          |
 | -----  | ----------- |  ------------- |
 | 1      | [xushufa.cn]( https://xushufa.cn )            | 书法练习网站。 |
 | 2      | [blog.xushufa.cn]( https://blog.xushufa.cn )  | `vuepress`构建的博客网站。 |
@@ -49,9 +51,13 @@
 
 ---
 
-> 徐书法 `xushufa.cn`
+> 主题网站
 
-| 徐书法 | 我的网站    |  备注          |
+```
+使用vuepress、docsify、mkdocs等工具构建的不同主题不同域名的个人网站
+```
+
+| 序号   | 我的网站    |  备注          |
 | -----  | ----------- |  ------------- |
 | 1      | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。      |
 | 2      | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) &ensp; [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | `vuepress`构建的网站。|
@@ -61,16 +67,20 @@
 
 ---
 
-> 《书法练习轨迹》及博客网站
+> 网站仓库
 
-| 序号 | 类型       | 我的网站 | git静态网页 | git仓库 | <div style="width: 170pt">布署方法</div>  | <div style="width: 170pt">备注</div>                    |
-| ---  | ---------- | -------- | ----------- | ------- | -------- | ----------------------  |
-| 1    | -          | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )   | [scott180.github.io/calligraphy]( https://scott180.github.io/calligraphy )    | [gitlab.com/xuyq123/calligraphy]( https://gitlab.com/xuyq123/calligraphy )    | nginx代理与缓存 |  部署在服务器，有SSL证书，访问安全快速。 | 
-| 2    | **vuepress**   | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) <br/> [vuepress-blog]( https://vuepress-blog.xushufa.cn ) | [scott180.github.io/vuepress-calligraphy]( https://scott180.github.io/vuepress-calligraphy ) <br/> [scott180.github.io/vuepress-blog]( https://scott180.github.io/vuepress-blog )    | [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy.git ) <br/> [vuepress-blog]( https://github.com/scott180/vuepress-blog.git )    | github绑定域名 `vuepress-blog.xushufa.cn`    | 输入xushufa域名会解析到github静态页面。提交代码即部署。 |
-| 3    | **docsify**   | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) <br/> [docsify-blog]( https://docsify-blog.xushufa.cn ) | [scott180.github.io/docsify-calligraphy]( https://scott180.github.io/docsify-calligraphy ) <br/> [scott180.github.io/docsify-blog]( https://scott180.github.io/docsify-blog )    | [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy.git ) <br/> [docsify-blog]( https://github.com/scott180/docsify-blog.git )    | github绑定域名 `docsify-calligraphy.xushufa.cn`     | 同上，偶尔服务连不上。 |
-| 4    | **mkdocs**   | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) <br/> [mkdocs-blog]( https://mkdocs-blog.xushufa.cn ) | [xuyq123.gitlab.io/mkdocs-calligraphy]( https://xuyq123.gitlab.io/mkdocs-calligraphy ) <br/> [xuyq123.gitlab.io/mkdocs-blog]( https://xuyq123.gitlab.io/mkdocs-blog )    | [mkdocs-calligraphy]( https://gitlab.com/xuyq123/mkdocs-calligraphy.git ) <br/> [mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog.git )    | gitlab绑定域名 `mkdocs-calligraphy.xushufa.cn`     | 输入xushufa域名会解析到gitlab静态页面。网速较慢。 |
-| 5    | **vuepress-theme-reco**   | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) <br/> [reco-blog]( https://reco-blog.xushufa.cn )   | [scott180.github.io/reco-calligraphy]( https://scott180.github.io/reco-calligraphy ) <br/> [scott180.github.io/reco-blog]( https://scott180.github.io/reco-blog )    | [reco-calligraphy]( https://github.com/scott180/reco-calligraphy.git ) <br/> [reco-blog]( https://github.com/scott180/reco-blog.git )    | github绑定域名 `reco-calligraphy.xushufa.cn`    | 每个markdown文件都需要在文件头加上`Front Matter`格式，注明标题、时间、类别、标签等等。 |
- 
+```
+《书法练习轨迹》博客网站及git仓库
+```
+
+| 序号 | 类型       | 我的网站 | git静态网页 | git仓库 | 布署方法 | <span style="white-space:nowrap;">备注&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span> |
+| ---  | ---------- | -------- | ----------- | ------- | -------- | ------------------------------------ |
+| 1    | -          | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )   | [scott180.github.io/calligraphy]( https://scott180.github.io/calligraphy )    | [calligraphy]( https://gitlab.com/xuyq123/calligraphy ) <br/>[MyNotes]( https://github.com/scott180/MyNotes.git )    | nginx代理与缓存 |  部署在服务器，有SSL证书，访问安全快速。 |
+| 2    | vuepress   | [vuepress-calligraphy]( https://vuepress-calligraphy.xushufa.cn ) <br/>[vuepress-blog]( https://vuepress-blog.xushufa.cn ) | [scott180.github.io/vuepress-calligraphy]( https://scott180.github.io/vuepress-calligraphy ) <br/>[scott180.github.io/vuepress-blog]( https://scott180.github.io/vuepress-blog )    | [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy.git ) <br/>[vuepress-blog]( https://github.com/scott180/vuepress-blog.git )   | github绑定域名 `vuepress-blog.xushufa.cn`    | 输入xushufa域名会解析到github静态页面。提交代码即部署。 |
+| 3    | docsify    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) <br/>[docsify-blog]( https://docsify-blog.xushufa.cn ) | [scott180.github.io/docsify-calligraphy]( https://scott180.github.io/docsify-calligraphy ) <br/>[scott180.github.io/docsify-blog]( https://scott180.github.io/docsify-blog )    | [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy.git ) <br/>[docsify-blog]( https://github.com/scott180/docsify-blog.git )     | github绑定域名 `docsify-calligraphy.xushufa.cn`    | 同上，偶尔服务连不上。 |
+| 4    | mkdocs     | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) <br/>[mkdocs-blog]( https://mkdocs-blog.xushufa.cn ) | [xuyq123.gitlab.io/mkdocs-calligraphy]( https://xuyq123.gitlab.io/mkdocs-calligraphy ) <br/>[xuyq123.gitlab.io/mkdocs-blog]( https://xuyq123.gitlab.io/mkdocs-blog )    | [mkdocs-calligraphy]( https://gitlab.com/xuyq123/mkdocs-calligraphy.git ) <br/>[mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog.git )    | gitlab绑定域名 `mkdocs-calligraphy.xushufa.cn`     | 输入xushufa域名会解析到gitlab静态页面。网速较慢。 |
+| 5    | vuepress-theme-reco   | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) <br/>[reco-blog]( https://reco-blog.xushufa.cn )   | [scott180.github.io/reco-calligraphy]( https://scott180.github.io/reco-calligraphy ) <br/>[scott180.github.io/reco-blog]( https://scott180.github.io/reco-blog )    | [reco-calligraphy]( https://github.com/scott180/reco-calligraphy.git ) <br/>[reco-blog]( https://github.com/scott180/reco-blog.git )    | github绑定域名 `reco-calligraphy.xushufa.cn`    | 每个markdown文件都需要在文件头加上`Front Matter`格式，注明标题、时间、类别、标签等等。 |
+| 6    | gitbook    | - | [scott180.github.io/gitbook-calligraphy]( https://scott180.github.io/gitbook-calligraphy ) <br/>[scott180.github.io/gitbook-blog]( https://scott180.github.io/gitbook-blog )    | [gitbook-calligraphy]( https://github.com/scott180/gitbook-calligraphy.git ) <br/>[gitbook-blog]( https://github.com/scott180/gitbook-blog.git )     | github pages   | - |
 
 ---
 
@@ -142,90 +152,94 @@
 
 ### 2.3、建站历程
 
-```
+> 前5G &ensp; `gitee、github、gitcode、gitlab、coding` &ensp; `5个git平台，简称5G`
 
-自二零二零年九月底练习书法以来，刚开始一直在gitee仓库记录更新每周练习情况，毕竟这是国产网站，还是要支持的。
-后来有鉴于某云盘背信弃义停止服务，一个网站保存资料不保险，鸡蛋不能放到一个篮子里。
-而且全世界最流行的git平台是github，于是二零二零年十一月将文件备份到此处，gitee为主github为辅。
+- 自二零二零年九月底练习书法以来，刚开始一直在`gitee`仓库记录更新每周练习情况，毕竟这是国产网站，还是要支持的。 <br/>
+后来有鉴于某云盘背信弃义停止服务，一个网站保存资料不保险，鸡蛋不能放到一个篮子里。 <br/>
+而且全世界最流行的git平台是`github`，于是二零二零年十一月将文件备份到此处，gitee为主github为辅。 <br/>
 
-但是github是境外网站，网速慢，经常打不开。于是又找了个国产git平台：csdn_code，将资料再备份一份到此处。
-这个git平台虽然建立时间短，知名度低，用户少，但是网速挺快，限制也少，不怎么屏蔽关键字。
+- 但是github是境外网站，网速慢，经常打不开。于是又找了个国产git平台：`csdn_code`，将资料再备份一份到此处。 <br/>
+这个git平台虽然建立时间短，知名度低，用户少，但是网速挺快，限制也少，不怎么屏蔽关键字。 <br/>
 
-再后来觉得狡兔三窟，互联网这玩意不是特别靠谱，说不定哪天网站会被封或者停止服务，多找些地方备份总是没错的。
-于是网上搜索常用git平台仓库，将书法练习资料又备份到gitlab和coding。这五个平台同时保存书法练习相关资料和图片。
+- 再后来觉得狡兔三窟，互联网这玩意不是特别靠谱，说不定哪天网站会被封或者停止服务，多找些地方备份总是没错的。 <br/>
+于是网上搜索常用git平台仓库，将书法练习资料又备份到`gitlab`和`coding`。这五个平台同时保存书法练习相关资料和图片。 <br/>
 
-然而随着每周更新，书法练习轨迹的内容越来越多，gitee所屏蔽的关键词也越来越多，还不提示哪个被禁了，应该怎么改。
-其他四个平台基本不屏蔽，就他一个屏蔽。总是“该文件疑似存在违规内容，无法显示: 。” 。此处不留人，自有留人处。
-因此虽然gitee是第一个记录书法练习资料，有很多历史记录，刚开始一直当做官网，有一种初恋情结。但是不给力不好用啊，只能当备份了。
+   <br/>
 
-综合比较这几个git仓库，gitee有关键词屏蔽，根本就看不见内容；github外网速度很慢，经常打不开；csdn_code成立时间短用户少不是很放心；
-coding是腾讯的有大厂背书，但是成也tx败也tx，有腾讯微云的前车之鉴，不敢信也不好说，关键是markdown文件不渲染；
-还是gitlab比较好用，github第一gitlab就是第二，虽然也是外网，但是网速还行，可以接受。
-因此决定将gitlab仓库作为书法练习的官网，每周更新资料，其他的作为备份，不定时同步。
+- 然而随着每周更新，书法练习轨迹的内容越来越多，gitee所屏蔽的关键词也越来越多，还不提示哪个被禁了，应该怎么改。 <br/>
+其他四个平台基本不屏蔽，就他一个屏蔽。总是“该文件疑似存在违规内容，无法显示: 。” 。此处不留人，自有留人处。 <br/>
+因此虽然gitee是第一个记录书法练习资料，有很多历史记录，刚开始一直当做官网，有一种初恋情结。但是不给力不好用啊，只能当备份了。 <br/>
 
-各Git平台书法练习仓库创建时间：
-gitee--20200930
-github--20201112
-csdn_code--20210202
-gitlab--20210504
-coding--20210524
+- 综合比较这几个git仓库，gitee有关键词屏蔽，根本就看不见内容；github外网速度很慢，经常打不开；csdn_code成立时间短用户少不是很放心。 <br/>
+coding是腾讯的有大厂背书，但是成也tx败也tx，有腾讯微云的前车之鉴，不敢信也不好说，关键是markdown文件不渲染。 <br/>
+还是gitlab比较好用，github第一gitlab就是第二，虽然也是外网，但是网速还行，可以接受。 <br/>
+因此决定将gitlab仓库作为书法练习的官网，每周更新资料，其他的作为备份，不定时同步。 <br/>
 
-同时使用阿里云盘、坚果云、百度云盘等等保存练习资料及图片。  
-不定时将书法练习轨迹更新到csdn博客、博客园、语雀等比较小众的程序员网站。
-以后字写好了能见人了再拿出来到头条、豆瓣、知乎等高流量渠道晒图、晒字。
+- 各Git平台书法练习仓库创建时间： <br/>
+gitee--20200930 <br/>
+github--20201112 <br/>
+csdn_code--20210202 <br/>
+gitlab--20210504 <br/>
+coding--20210524 <br/>
+
+   <br/>
+   
+- 同时使用阿里云盘、坚果云、百度云盘等等保存练习资料及图片。 <br/>
+不定时将书法练习轨迹更新到csdn博客、博客园、语雀等比较小众的程序员网站。 <br/>
+以后字写好了能见人了再拿出来到头条、豆瓣、知乎等高流量渠道晒图、晒字。 <br/>
 所谓十年磨一剑，砺得梅花香。
 
-如有游客想浏览本人的书法练习轨迹，可点击上面表格首尾行加粗部分gitlab、gitlab_pages，这两处前者内容最全面，后者格式最美观。
+- 如有游客想浏览本人的书法练习轨迹，可点击上面表格首尾行加粗部分gitlab、gitlab_pages，这两处前者内容最全面，后者格式最美观。 <br/>
 
-以上 --20210527
+- 以上 --20210527
 
-```
+---
 
-```
+> 后5G &ensp; `bitbucket、sourgeforge、codeberg、gitea、agit`
 
-这几天github相关网页都打不开。果然，鸡蛋不能放在一个篮子里。
-若要查看书法练习轨迹相关文档，可到上述表格第一号“gitlab”项目。目前这个平台还是稳定的，本人最新记录正在此处。
-如感觉网速较慢或者页面加载不出来，可到第二号“csdn_code”或第二十一号“作业部落”查看文档。此两处为国产软件，平台稳定，网速较快。
---20210721
-
-
-github网页还是看不了，csdn_code图片突然打不开，再看看还有啥git平台。
-发现bitbucket，在此再备份书法练习轨迹文档及图片。
-此平台网速还行，可建立私有仓库，但是对于markdown文件兼容的不理想，有些html标签不能识别，网页渲染不美观。
-bitbucket--20210726
+- 这几天github相关网页都打不开。果然，鸡蛋不能放在一个篮子里。 <br/>
+若要查看书法练习轨迹相关文档，可到上述表格第一号“gitlab”项目。目前这个平台还是稳定的，本人最新记录正在此处。 <br/>
+如感觉网速较慢或者页面加载不出来，可到第二号“csdn_code”或第二十一号“作业部落”查看文档。此两处为国产软件，平台稳定，网速较快。 --20210721 <br/>
 
 
-发现csdn的代码托管平台于2021年11月底更名，由CodeChina变为GitCode。
-旧地址  https://codechina.csdn.net/xu180/calligraphy  
-新地址  https://gitcode.net/xu180/calligraphy
-旧地址会自动跳转到新地址。
-GitCode--20220104
+- github网页还是看不了，csdn_code图片突然打不开，再看看还有啥git平台。 <br/>
+发现`bitbucket`，在此再备份书法练习轨迹文档及图片。 <br/>
+此平台网速还行，可建立私有仓库，但是对于markdown文件兼容的不理想，有些html标签不能识别，网页渲染不美观。 <br/>
+bitbucket--20210726 <br/>
 
 
-发现在csdn的calligraphy仓库被禁，显示“当前内容涉嫌违规，暂时无法访问”。继续寻找备份者，替代者。
-发现sourgeforge不错，虽然是国外的，但是网速还行，操作不算复杂。可以建立Git仓库，保存资料。
-sourgeforge--20220124
+- 发现csdn的代码托管平台于2021年11月底更名，由CodeChina变为`GitCode`。 <br/>
+旧地址  https://codechina.csdn.net/xu180/calligraphy   <br/>
+新地址  https://gitcode.net/xu180/calligraphy <br/>
+旧地址会自动跳转到新地址。 <br/>
+GitCode--20220104 <br/>
 
 
-找到两个新的git仓库：gitea（盖特一杯茶）、agit（一个git）。新势力git平台。
-网站比较简约干净，于是将书法练习轨迹内容推送于此。
---20220225
+- 发现在csdn的calligraphy仓库被禁，显示“当前内容涉嫌违规，暂时无法访问”。继续寻找备份者，替代者。 <br/>
+发现`sourgeforge`不错，虽然是国外的，但是网速还行，操作不算复杂。可以建立Git仓库，保存资料。 <br/>
+sourgeforge--20220124 <br/>
+发现`codeberg`还行，科德伯格，德国产品。 <br/>
+codeberg--20220125 <br/>
 
 
-2021年8月发现 mkdocs 及 docsify。文档生成工具，可在gitlab、github平台将markdown文件布署成静态网页。域名为账号+平台+仓库名称。
-2022年3月发现 vercel 及 netlify。静态网站托管的云平台，可导入或生成git项目，布署不同模板的静态网站。域名为自定义名+平台。
---20220314
+- 找到两个新的git仓库：`gitea`（盖特一杯茶）、`agit`（一个git）。新势力git平台。 <br/>
+网站比较简约干净，于是将书法练习轨迹内容推送于此。 <br/>
+gitea--20220225 <br/>
 
+---
 
-```
+> 建站 &ensp; `mkdocs、docsify、vuepress、gitbook`
 
-```
-创建《徐书法》同时购买服务器且注册域名：[xushufa.cn]( https://xushufa.cn ) 。
-使用mkdocs、docsify、vuepress、vuepress-theme-reco等四种工具建立了四个书法练习网站及四个博客网站。
-以后这就是我的书法记录平台。
---202203 
+- 2021年8月发现 `mkdocs` 及 `docsify` 。文档生成工具，可在gitlab、github平台将markdown文件布署成静态网页。域名为账号+平台+仓库名称。 <br/>
+2022年3月发现 `vercel` 及 `netlify`。静态网站托管的云平台，可导入或生成git项目，布署不同模板的静态网站。域名为自定义名+平台。 <br/>
+--20220314 <br/>
 
-```
+- 创建《徐书法》同时购买服务器且注册域名：[xushufa.cn]( https://xushufa.cn ) 。 <br/>
+使用mkdocs、docsify、`vuepress`、`vuepress-theme-reco`等四种工具建立了四个书法练习网站及四个博客网站。以后这就是我的书法记录平台。 <br/>
+vuepress--202203 
+
+- 发现`gitbook`，使用 Git 和 Markdown 来构建书籍的工具。 <br/>
+gitbook--20220429
 
 ---
 
@@ -497,221 +511,8 @@ https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.
 
 <div STYLE="page-break-after: always;"></div>
 
-## 三、诗词杂句
 
-> 统计总合《书法练习轨迹》中本人所作的诗词杂句。
-
----
-
-### 3.1、诗词
-
-```
-半生有感 
-龙骨山上风车横，转去庐州蜀山风。
-十年一觉世不同，西湖水清临安梦。
-
---202105
-
-```
-
----
-
-```
-无题
-苦思冥想诗一首，
-漫漫人生三十已。
-若论何事挂心头，
-书法练习轨迹有。
-
---20210712
-
-```
-
----
-
-```
-游青山湖
-青山湖道，郁郁葱葱。
-背山面水，景色宜人。
-古木参天，中有绿道。
-草原辽阔，水面清圆。
-免费景点，游人如织。
-交通拥堵，绿色出行。
-保护环境，人人有责。
-
---202111
-
-```
-
----
-
-```
-一时易，长久难。
-放弃易，努力难。
-玩乐易，学习难。
-躺平易，奋斗难。
-生存易，生活难。
-平凡易，伟大难。
-
---20211102
-
-```
-
----
-
-```
-元旦三天，内外兼修。
-其第一日，三五好友。
-拜上天竺，观法喜寺。
-游人如织，车水马龙。
-其第二日，九州街上。
-临安文体，锦南宝龙。
-繁华似锦，自然和谐。
-其第三日，修养身息。
-阳光正好，晒被刷鞋。
-听歌悦耳，练字修心。
-书法练习，轨迹在我。
-水滴石穿，铁磨针成。
-人生在世，有为无为。
-打油之诗，摸鱼之工。
-记我所记，感我所感。
-运到功成，顺其自然。
-自知者明，知足常乐。
---20220103
-
-```
-
----
-
-```
-徐书-藏头诗,庚子年腊月初十寒夜抒怀所作。
-
-徐徐微风拂山岗，
-永世难忘撞南墙。
-钦敬夸父逐日光，
-书就精卫填海浪。
-
---20220112
-
-```
-
-### 3.2、杂句
-
-```
-我的三观：人生观、世界观、价值观，亦即人生信条、五字真言：制 恒 强 变 真。
-制：制怒、自制、克制，不冲动、不贪婪，任何时候都要保持冷静，泰山崩于前而色不变。心平气和才能修身养性。
-恒：持之以恒，学习任何知识、技能都要长久的奋斗，坚持就是胜利。
-强：坚强、自强、自信、自立。
-变：变化，见机行事，随机应变。世上唯一的不变就是变化。
-真：真诚、真实。待人以诚、待己以真。认识自己，了解自己的优点缺点，知道自己要干什么。世上乱花迷人眼，需要仔细甄别，方能去伪存真。
-
-前三条（制、恒、强）是对内，对自己，后两条（变 真）是对外，对别人。只有内外兼修，审慎笃行，两手都要抓，两手都要硬，才能辨别真伪，提高自身。
-若感觉观点太多，信条很杂，只需要记住一个字：制。即可。
---202106
-
-```
-
----
-
-```
-人情必有所寄，然后能静，能定，能乐。
-寄于山水，得之旷达。
-寄于明月，得之幽深。
-寄于诗词文章，得之文华。
-寄于琴棋书画，得之才气。
---20210611
-
-```
-
----
-
-```
-一生只做一件事，一生做好一件事。 --20210801
-
-在我生前，流传的是别人的故事。
-在我生后，世界会流传我的故事。
-
-漫漫前路，来日方长。
-生亦何欢，死亦何惧。
-无愧于心，无惧于行。
-脚踏实地，持续向前。
-
-```
-
----
-
-```
-三不三观
-友谊观：不打扰
-恋爱观：不将就
-人生观：不作恶
---2021.10.19
-
-```
-
----
-
-```
-推己及人，有些个人的教训总结。
-1、按章交税，遵纪守法。不要贪婪，保持克制。
-2、金钱很重要，但是有许多东西更重要，如健康、信仰、自由、名誉、家人、朋友等等。
-3、社会很复杂，害人之心不可有，防人之心不可无。
-4、洁身自好，谨言慎行。不嫖不赌不狂不乱。保持谦逊，低调做人。
-5、不要过度压抑自己，找一个兴趣爱好，寄情于此，坚持练习。
-6、专业技能要深入，干一行，爱一行，专一行。
-7、人生是一场马拉松，是漫长的，不要在意一时一刻的得失。
-8、生命犹如白驹过隙，是短暂的，要珍惜，要做有意义的事。
-9、道理是空洞的，听的再多不如亲自体验一次。
-10、强迫症害死人，人生不会完美，要乐观豁达，坚持学习。
---20220116
-
-```
-
----
-
-```
-人要经常思考并且善于思考，要认清自我，清楚自己的缺点，优点，明白自己的机会，威胁与过失。人贵有自知之明，自制之力，自强之心，此之谓大丈夫。
- ——于车上
-2013年1月12日
-
-生活是一条大河
-2014年3月12日
-
-远处是山，近处是水，有山有水，山水相连。未来是画，现在是笔，画好画坏，全在笔端。
-2015年11月17日
-
-
-以上三句记于本人QQ空间日志，今录于此。温故知新，三思后行。
---20220215
-
-```
-
----
-
-```
-耽于名利者，必为名利所困。
-耽于声色犬马者，必为声色犬马所困。
-为人须纯粹，方能有所进。
-为人须专注，方能有所为。
-为人须用心，方能有所不为。
---20220307
-
-```
-
----
-
-```
-坚韧不拔：坚定 坚持 坚韧 坚毅 坚强。
-自强不息：自制 自立 自信 自强 自我。
---20220406
-
-```
-
----
-
-<div STYLE="page-break-after: always;"></div>
-
-## 四、个人账号
+## 三、账号
 
 > **平台**
 
@@ -719,7 +520,7 @@ https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.
 
 | 平台           | 链接           |
 | -------------- | -------------- |
-|  **项目仓库**  | [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [github]( https://github.com/scott180/calligraphy )  &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [sourceforge]( https://sourceforge.net/p/calligraphy/code )  &ensp; [github_docsify]( https://scott180.github.io/docsify-calligraphy )    |
+|  **项目仓库**  | [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [github]( https://github.com/scott180/calligraphy )  &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [sourceforge]( https://sourceforge.net/p/calligraphy/code )  &ensp; [vuepress]( https://scott180.github.io/vuepress-calligraphy )    |
 |  **资讯账号**  | [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) &ensp; [头条]( https://www.toutiao.com/c/user/token/MS4wLjABAAAA2_bWhiknCbcKNu4c6VTM2B7m2vr7zBrh0x6fSyOrtGU ) &ensp;  [豆瓣]( https://www.douban.com/people/80730595/photos ) &ensp;  [知乎]( https://www.zhihu.com/people/xu-xian-sheng-72-29/posts )     |
 |  **个人邮箱**  | 1021151991@qq.com   |
 
@@ -738,13 +539,13 @@ https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.
 
 > **我的网站**
 
-- 徐书法 `xushufa.cn` 个人书法练习网站
+- 生活随笔-编程笔记-书法练习轨迹
 
-| 徐书法 | 我的网站    |  备注          |
+| 徐书法 | 地址        |  备注          |
 | -----  | ----------- |  ------------- |
-| 1      | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。      |
-| 2      | [mkdocs-calligraphy]( https://mkdocs-calligraphy.xushufa.cn ) &ensp; [mkdocs-blog]( https://mkdocs-blog.xushufa.cn )         | `mkdocs`构建的网站。  |
-| 3      | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) &ensp; [reco-blog]( https://reco-blog.xushufa.cn ) | `vuepress-theme-reco`构建的网站。     |
+| 1      | [xushufa.cn]( https://xushufa.cn )            | 书法练习网站。 |
+| 2      | [blog.xushufa.cn]( https://blog.xushufa.cn )  | `vuepress`构建的博客网站。 |
+| 3      | [web.xushufa.cn]( https://web.xushufa.cn )    | `vuepress-theme-reco`构建的博客网站。|
 
 ***
 
