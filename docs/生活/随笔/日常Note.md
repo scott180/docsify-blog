@@ -327,6 +327,59 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinHttpAutoProxySv
 
 ```
 
+#### 1.3.4、shell批量推送git
+
+```sh
+#!/bin/bash
+#sh push-ca.sh
+copyPush(){
+	cp -r /e/Project/gitlab/calligraphy/*.md $data_dir
+	cp -r /e/Project/gitlab/calligraphy/书法字帖 $data_dir
+	cd $data_dir
+	echo $PWD 'begin...'
+	git add .
+	git commit -m "fix"
+	git push
+	echo '.........end.........'
+}
+
+#agit 1
+data_dir=/e/Project/gitlab/agit/calligraphy
+copyPush
+
+#bitbucket 2
+data_dir=/e/Project/gitlab/bitbucket/calligraphy
+copyPush
+
+#codeberg 3
+data_dir=/e/Project/gitlab/codeberg/calligraphy
+copyPush
+
+#coding 4
+data_dir=/e/Project/gitlab/coding/calligraphy
+copyPush
+
+#gitcode 5
+data_dir=/e/Project/gitlab/gitcode/calligraphy
+copyPush
+
+#gitea 6
+data_dir=/e/Project/gitlab/gitea/calligraphy
+copyPush
+
+#sourceforge 7  need password
+
+#gitee 8
+data_dir=/e/Project/gitee/calligraphy
+copyPush
+
+#github 9
+data_dir=/e/Project/github/calligraphy
+copyPush
+
+
+```
+
 <h2 id="work"></h2>
 
 ## 2、工作

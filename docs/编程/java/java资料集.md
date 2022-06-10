@@ -1,7 +1,7 @@
 # java资料集
 
 ## 序
-[gitlab]( https://gitlab.com/xuyq123/mynotes )  &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 ) &ensp; [csdn]( https://blog.csdn.net/xu180 ) &ensp;  [stackoverflow]( https://stackoverflow.com/questions/tagged/java ) &ensp; [segmentfault]( https://segmentfault.com/ )
+[blog]( https://blog.xushufa.cn )  &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes )  &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 ) &ensp; [csdn]( https://blog.csdn.net/xu180 ) &ensp;  [stackoverflow]( https://stackoverflow.com/questions/tagged/java ) &ensp; [segmentfault]( https://segmentfault.com/ )
 
 
 ## 1、java
@@ -37,7 +37,7 @@ Java注解之 @Target、@Retention、@Documented简介    	|	[链接]( https://b
 ### 1.2、java资料
 
 
-- [x] 1.[JavaGuide]( https://snailclimb.gitee.io/javaguide ) &ensp; [guide仓库]( https://gitee.com/SnailClimb/JavaGuide ) <br/>
+> 1.[JavaGuide]( https://snailclimb.gitee.io/javaguide ) &ensp; [guide仓库]( https://gitee.com/SnailClimb/JavaGuide ) <br/>
 
 
 - [Java hashCode() 和 equals()的若干问题解答]( https://www.cnblogs.com/skywang12345/p/3324958.html ) &ensp; [ArrayList源码+扩容机制分析]( https://snailclimb.gitee.io/javaguide/#/docs/java/collection/ArrayList%E6%BA%90%E7%A0%81+%E6%89%A9%E5%AE%B9%E6%9C%BA%E5%88%B6%E5%88%86%E6%9E%90 )
@@ -51,7 +51,7 @@ Java注解之 @Target、@Retention、@Documented简介    	|	[链接]( https://b
 - [Spring IoC有什么好处呢]( https://www.zhihu.com/question/23277575/answer/169698662 ) &ensp; [Spring IOC 容器源码分析]( https://javadoop.com/post/spring-ioc ) &ensp; [Spring Bean的生命周期 ]( https://www.cnblogs.com/zrtqsk/p/3735273.html )
 ---
 
-- [x] 2.[Java知识体系最强总结(2020版)]( https://blog.csdn.net/ThinkWon/article/details/103592572 ) <br/>
+> 2.[Java知识体系最强总结(2020版)]( https://blog.csdn.net/ThinkWon/article/details/103592572 ) <br/>
 
 序号	    | 内容	
 ----------- | --------- 
@@ -83,7 +83,23 @@ Java面试题大全（2020版）			  		      	|	[链接]( https://blog.csdn.net/
 整理了 20 道 Spring Boot 面试题		  		      	|	[链接]( https://blog.csdn.net/weixin_34367257/article/details/89618361 )	
 
 
-- [x] 3.[java资料汇总]( https://gitee.com/xy180/MyNotes/blob/master/java%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB.md ) <br/>
+> 3.[java资料汇总]( https://gitee.com/xy180/MyNotes/blob/master/java%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB.md ) <br/>
+
+- [x] 后端 
+
+- [springcloud-test]( https://github.com/scott180/springcloud-test ) &ensp; [springboot初始化]( https://start.spring.io/ ) &ensp; [2小时学会springboot]( https://blog.csdn.net/forezp/article/details/61472783 )  &ensp; [springCloud教程]( https://www.cnblogs.com/ityouknow/category/994104.html )
+
+- [dubbo]( https://github.com/scott180/dubbo-test ) &ensp; [RabbitMQ]( https://github.com/scott180/RabbitMQ-test )
+
+---
+
+- [x] 前端
+ 
+* [vue.md]( https://www.runoob.com/vue3/vue3-tutorial.html )
+
+* [layui官网]( https://www.layui.com/ )  &ensp;    [layuimini]( https://github.com/zhongshaofa/layuimini/tree/onepage )    &ensp;  [LayUI后台管理与综合示例]( https://www.cnblogs.com/best/p/9150271.html )
+
+* [react入门实例教程]( http://www.ruanyifeng.com/blog/2015/03/react.html )  &ensp;   [react官方文档]( https://reactjs.org/docs/forms.html )
 
 ---
 

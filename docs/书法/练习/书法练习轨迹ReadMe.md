@@ -134,19 +134,25 @@
 | 12   | [notion]( https://brick-windshield-519.notion.site/4c6820d4272a4b91ba50b15077869b7e ) &ensp; [ReadMe]( https://brick-windshield-519.notion.site/ReadMe-5c35fb0d0da644bb98e673cc98409ad5 )     | 笔记个人空间。       |
 | 13   | [boostnote]( https://boostnote.io/shared/c45f0095-bffc-40e9-93da-bb3927e60294 ) &ensp; [ReadMe]( https://boostnote.io/shared/1ae6faaa-ee9e-4659-8721-650d1b272f7f ) | 专为程序员提供的markdown笔记本软件。           |
 | 14   | [pdfdrive]( https://www.pdfdrive.com/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9readme-e201239704.html ) | PDF Drive is Digital Library of Free PDF eBooks.           |
-| -    | **云盘**                        |                                    |
-| 15   | [坚果云]( https://www.jianguoyun.com/p/Df38XDMQxP-NBhi3vKwE ) &ensp; [markdown]( https://www.jianguoyun.com/p/DfYHsfUQxP-NBhjOrfED )          |  文件分享。         |
-| 16   | [百度网盘]( https://pan.baidu.com/s/1dOJMgeZAyCYolEflsKIOPQ )        | 提取码: zpxu 。pdf文件分享，需要登录。       |
-| 17   | [阿里云盘]( https://www.aliyundrive.com/s/A6HYqyw15Zr )              | pdf文件分享，需要登录。                      |
-| 18   | [天翼云]( https://cloud.189.cn/t/RRBbumb2MB7b )                      | pdf文件分享，需要登录。中国电信网盘。        |
-| 19   | [和彩云]( https://caiyun.139.com/m/i?125CmrCy7hU1y )                 | 提取码:WAmq 。pdf文件分享，需要登录。中国移动网盘。     |
-| 20   | [微云]( https://share.weiyun.com/JKZ4ANJ5 )  &ensp; [腾讯文档]( https://docs.qq.com/pdf/DVmxKTG5YZHZBUGlx )         | pdf文件分享。                                 |
-| 21   | [google云盘]( https://drive.google.com/file/d/1Ubx-Rz3Xwhn48PEXMx-BmWrJGyIAzNfn/view?usp=sharing )                  | 文件分享，无删减。                            |
-| -    | **内容**                        |                                                                                   |
-| 22   | [豆瓣]( https://www.douban.com/photos/album/1881601083/ )            |  发现优质书影音，记录生活表达自我。          |
-| 23   | [知乎]( https://zhuanlan.zhihu.com/p/403400860 )                     |  问答社区和创作者聚集的原创内容平台。        |
-| 24   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ )          |  通用信息平台，看见更大的世界。              |
-| 25   | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247487244&idx=1&sn=fa21068e783c6b31a62abf71186c1b20 )     |  自媒体，每周一在【**无为徐生**】公众号发布`书法练习轨迹`一周练习图文记录。        |
+| 15   | [npm]( https://www.npmjs.com/~xushufa ) | node包管理器。             |
+
+---
+
+| 序号 | **云盘**                                              			      |  备注             			                 |
+| ---  | -------------------------------------------------------------        |  -----------------------------------         |
+| 1    | [坚果云]( https://www.jianguoyun.com/p/Df38XDMQxP-NBhi3vKwE ) &ensp; [markdown]( https://www.jianguoyun.com/p/DfYHsfUQxP-NBhjOrfED )          |  文件分享。         |
+| 2   | [百度网盘]( https://pan.baidu.com/s/1vE7fXHu1O1M6s8v5YCEFkw )        | 提取码: f9aq 。文件分享，需要登录。       |
+| 3   | [阿里云盘]( https://www.aliyundrive.com/s/z168Lhd36qe )              | 文件分享，需要登录。                      |
+| 4   | [天翼云]( https://cloud.189.cn/t/RRBbumb2MB7b )                      | pdf文件分享，需要登录。中国电信网盘。        |
+| 5   | [和彩云]( https://caiyun.139.com/m/i?125CmrCy7hU1y )                 | 提取码:WAmq 。pdf文件分享，需要登录。中国移动网盘。     |
+| 6   | [微云]( https://share.weiyun.com/JKZ4ANJ5 )  &ensp; [腾讯文档]( https://docs.qq.com/pdf/DVmxKTG5YZHZBUGlx )         | pdf文件分享。                                 |
+| 7   | [google云盘]( https://drive.google.com/file/d/1Ubx-Rz3Xwhn48PEXMx-BmWrJGyIAzNfn/view?usp=sharing )                  | 文件分享，无删减。                            |
+| 8   | [金山文档]( https://kdocs.cn/l/ctHflHcmGvtS )                        | 文件分享，无删减。                            |
+| -   | **内容**                        |                                                                                   |
+| 9   | [豆瓣]( https://www.douban.com/photos/album/1881601083/ )            |  发现优质书影音，记录生活表达自我。          |
+| 10   | [知乎]( https://zhuanlan.zhihu.com/p/403400860 )                     |  问答社区和创作者聚集的原创内容平台。        |
+| 11   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ )          |  通用信息平台，看见更大的世界。              |
+| 12   | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247487244&idx=1&sn=fa21068e783c6b31a62abf71186c1b20 )     |  自媒体，每周一在【**无为徐生**】公众号发布`书法练习轨迹`一周练习图文记录。        |
 
 ---
 
@@ -154,15 +160,15 @@
 
 > 前5G &ensp; `gitee、github、gitcode、gitlab、coding` &ensp; `5个git平台，简称5G`
 
-- 自二零二零年九月底练习书法以来，刚开始一直在`gitee`仓库记录更新每周练习情况，毕竟这是国产网站，还是要支持的。 <br/>
+- 自二零二零年九月底练习书法以来，刚开始一直在 [gitee]( https://gitee.com/xy180/calligraphy ) 仓库记录更新每周练习情况，毕竟这是国产网站，还是要支持的。 <br/>
 后来有鉴于某云盘背信弃义停止服务，一个网站保存资料不保险，鸡蛋不能放到一个篮子里。 <br/>
-而且全世界最流行的git平台是`github`，于是二零二零年十一月将文件备份到此处，gitee为主github为辅。 <br/>
+而且全世界最流行的git平台是 [github]( https://github.com/scott180/calligraphy ) ，于是二零二零年十一月将文件备份到此处，gitee为主github为辅。 <br/>
 
-- 但是github是境外网站，网速慢，经常打不开。于是又找了个国产git平台：`csdn_code`，将资料再备份一份到此处。 <br/>
-这个git平台虽然建立时间短，知名度低，用户少，但是网速挺快，限制也少，不怎么屏蔽关键字。 <br/>
+- 但是github是境外网站，网速慢，经常打不开。于是又找了个国产git平台：[gitcode]( https://gitcode.net/xu180/calligraphy ) ，将资料再备份一份到此处。 <br/>
+这个git平台属于csdn，虽然建立时间短，知名度低，用户少，但是网速挺快，限制也少，不怎么屏蔽关键字。 <br/>
 
 - 再后来觉得狡兔三窟，互联网这玩意不是特别靠谱，说不定哪天网站会被封或者停止服务，多找些地方备份总是没错的。 <br/>
-于是网上搜索常用git平台仓库，将书法练习资料又备份到`gitlab`和`coding`。这五个平台同时保存书法练习相关资料和图片。 <br/>
+于是网上搜索常用git平台仓库，将书法练习资料又备份到 [**gitlab**]( https://gitlab.com/xuyq123/calligraphy ) 和 [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) 。这五个平台同时保存书法练习相关资料和图片。 <br/>
 
    <br/>
 
@@ -198,12 +204,12 @@ coding--20210524 <br/>
 > 后5G &ensp; `bitbucket、sourgeforge、codeberg、gitea、agit`
 
 - 这几天github相关网页都打不开。果然，鸡蛋不能放在一个篮子里。 <br/>
-若要查看书法练习轨迹相关文档，可到上述表格第一号“gitlab”项目。目前这个平台还是稳定的，本人最新记录正在此处。 <br/>
-如感觉网速较慢或者页面加载不出来，可到第二号“csdn_code”或第二十一号“作业部落”查看文档。此两处为国产软件，平台稳定，网速较快。 --20210721 <br/>
+若要查看书法练习轨迹相关文档，可到上述表格第一行“gitlab”项目。目前这个平台还是稳定的，本人最新记录正在此处。 <br/>
+如感觉网速较慢或者页面加载不出来，可到“csdn_code”或“作业部落”查看文档。此两处为国产软件，平台稳定，网速较快。 --20210721 <br/>
 
 
 - github网页还是看不了，csdn_code图片突然打不开，再看看还有啥git平台。 <br/>
-发现`bitbucket`，在此再备份书法练习轨迹文档及图片。 <br/>
+发现 [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) ，在此再备份书法练习轨迹文档及图片。 <br/>
 此平台网速还行，可建立私有仓库，但是对于markdown文件兼容的不理想，有些html标签不能识别，网页渲染不美观。 <br/>
 bitbucket--20210726 <br/>
 
@@ -216,13 +222,13 @@ GitCode--20220104 <br/>
 
 
 - 发现在csdn的calligraphy仓库被禁，显示“当前内容涉嫌违规，暂时无法访问”。继续寻找备份者，替代者。 <br/>
-发现`sourgeforge`不错，虽然是国外的，但是网速还行，操作不算复杂。可以建立Git仓库，保存资料。 <br/>
+发现 [sourceforge]( https://sourceforge.net/p/calligraphy/code ) 不错，虽然是国外的，但是网速还行，操作不算复杂。可以建立Git仓库，保存资料。 <br/>
 sourgeforge--20220124 <br/>
-发现`codeberg`还行，科德伯格，德国产品。 <br/>
+发现 [codeberg]( https://codeberg.org/xuyq/calligraphy ) 还行，科德伯格，德国产品。 <br/>
 codeberg--20220125 <br/>
 
 
-- 找到两个新的git仓库：`gitea`（盖特一杯茶）、`agit`（一个git）。新势力git平台。 <br/>
+- 找到两个新的git仓库：[gitea]( https://gitea.com/xuyq/calligraphy )（盖特一杯茶）、[agit]( https://agit.ai/xuyq/calligraphy )（一个git）。新势力git平台。 <br/>
 网站比较简约干净，于是将书法练习轨迹内容推送于此。 <br/>
 gitea--20220225 <br/>
 
@@ -235,10 +241,10 @@ gitea--20220225 <br/>
 --20220314 <br/>
 
 - 创建《徐书法》同时购买服务器且注册域名：[xushufa.cn]( https://xushufa.cn ) 。 <br/>
-使用mkdocs、docsify、`vuepress`、`vuepress-theme-reco`等四种工具建立了四个书法练习网站及四个博客网站。以后这就是我的书法记录平台。 <br/>
+使用 [mkdocs]( https://xuyq123.gitlab.io/mkdocs-blog )、[docsify]( https://scott180.github.io/docsify-blog )、[vuepress]( https://scott180.github.io/vuepress-blog )、[vuepress-theme-reco]( https://scott180.github.io/reco-blog ) 等四种工具建立了四个书法练习网站及四个博客网站。以后这就是我的书法记录平台。 <br/>
 vuepress--202203 
 
-- 发现`gitbook`，使用 Git 和 Markdown 来构建书籍的工具。 <br/>
+- 发现 [gitbook]( https://scott180.github.io/gitbook-blog )，使用 Git 和 Markdown 来构建书籍的工具。 <br/>
 gitbook--20220429
 
 ---
@@ -284,7 +290,7 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 ---
 
 > 笔名汉字频率分析 <br/>
-> 数据来自《[书法练习轨迹--明月几时有]( https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html )》中关于本人笔名的记录。 --20210718
+> 数据来自《[书法练习轨迹--明月几时有]( https://xushufa.cn )》中关于本人笔名的记录。 --20210718
 
 | 序号 | 1    | 2    | 3    | 4    | 5    | 6    |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -505,6 +511,11 @@ https://sourceforge.net/p/calligraphy/imgs/ci/master/tree/mingyue/2022/202201/20
 codeberg 速度较快
 https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.jpg
 
+npm  cdn
+https://cdn.jsdelivr.net/npm/xushufa-imgs/imgs/mingyue/2021/202112/2021120801.jpg
+https://cdn.jsdelivr.net/npm/xushufa-imgs2/imgs/mingyue/2022/202205/2022050801.jpg
+
+
 ```
 
 ---
@@ -513,6 +524,17 @@ https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.
 
 
 ## 三、账号
+
+> **作者**
+
+徐永钦<br/>
+生于无为，学于合肥，居于杭州。<br/>
+君子固穷，记而不作，未来已来。<br/>
+
+以[无为徐生]( https://xushufa.cn/%E7%BB%83%E4%B9%A0/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F.html )之名作[书法练习轨迹]( https://xushufa.cn/%E8%BD%A8%E8%BF%B9/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89-%E6%97%A0%E5%9B%BE%E7%89%88.html )成[徐书法]( https://xushufa.cn/%E7%BB%83%E4%B9%A0/%E5%BE%90%E4%B9%A6%E6%B3%95.html )。 <br/>
+做人如果没有梦想，那跟咸鱼有什么区别。 <br/>
+
+---
 
 > **平台**
 

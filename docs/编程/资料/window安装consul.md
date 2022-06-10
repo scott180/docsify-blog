@@ -18,7 +18,7 @@
 
 cd 到对应的目录下，使用 `cmd` 启动 `Consul`
 
-```cmd
+```sh
 cd D:\ProgramFiles\consul_1.7.2_windows_amd64
 #cmd启动：
 consul agent -dev        # -dev表示开发模式运行，另外还有-server表示服务模式运行
@@ -26,7 +26,7 @@ consul agent -dev        # -dev表示开发模式运行，另外还有-server表
 
 为了方便期间，可以在同级目录下创建一个 run.bat 脚本来启动，脚本内容如下：
 
-```bat
+```sh
 consul agent -dev
 pause
 ```
