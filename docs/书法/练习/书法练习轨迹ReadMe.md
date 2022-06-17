@@ -122,9 +122,9 @@
 | 1    | [csdn博客]( https://blog.csdn.net/xu180/article/details/113602103 ) &ensp; [ReadMe]( https://blog.csdn.net/xu180/article/details/118492424 )  |  程序员技术交流平台，发布文章，有删减。      |
 | 2    | [博客园]( https://www.cnblogs.com/scott123/p/15184752.html ) &ensp; [ReadMe]( https://www.cnblogs.com/scott123/p/14972979.html )              |  开发者知识分享社区。                        |
 | 3    | [语雀]( https://www.yuque.com/longguang123/ccgbto/cbq9u0 ) &ensp; [ReadMe]( https://www.yuque.com/longguang123/ccgbto/oby4hq )                |  文档与知识管理工具，无删减。阿里巴巴产品。  |
-| 4    | [SegmentFault 思否]( https://segmentfault.com/a/1190000041513337 )                |  新一代开发者社区和专业的技术媒体。  |
-| 5    | [开源中国 OSCHINA]( https://my.oschina.net/xy180/blog/5482689 )                   |  领先的中文开源技术社区。            |
-| 6    | [稀土掘金 juejin]( https://juejin.cn/post/7073717463862476830 )                   |  技术分享社区。                      |
+| 4    | [SegmentFault 思否]( https://segmentfault.com/a/1190000041513337 )   |  新一代开发者社区和专业的技术媒体。         |
+| 5    | [开源中国 OSCHINA]( https://my.oschina.net/xy180/blog/5482689 )      |  领先的中文开源技术社区。                   |
+| 6    | [稀土掘金 juejin]( https://juejin.cn/post/7073717463862476830 )      |  技术分享社区。                             |
 | -    | **笔记**                        |                                    |
 | 7    | [有道云]( http://note.youdao.com/s/V7b1jHjB )                        | 笔记分享，无删减。               	         |
 | 8    | [金山文档]( https://www.kdocs.cn/l/cpUDGjX6765H )                    | pdf文件分享，需要登录。                      |
@@ -141,15 +141,15 @@
 | 序号 | **云盘**                                              			      |  备注             			                 |
 | ---  | -------------------------------------------------------------        |  -----------------------------------         |
 | 1    | [坚果云]( https://www.jianguoyun.com/p/Df38XDMQxP-NBhi3vKwE ) &ensp; [markdown]( https://www.jianguoyun.com/p/DfYHsfUQxP-NBhjOrfED )          |  文件分享。         |
-| 2   | [百度网盘]( https://pan.baidu.com/s/1vE7fXHu1O1M6s8v5YCEFkw )        | 提取码: f9aq 。文件分享，需要登录。       |
-| 3   | [阿里云盘]( https://www.aliyundrive.com/s/z168Lhd36qe )              | 文件分享，需要登录。                      |
-| 4   | [天翼云]( https://cloud.189.cn/t/RRBbumb2MB7b )                      | pdf文件分享，需要登录。中国电信网盘。        |
-| 5   | [和彩云]( https://caiyun.139.com/m/i?125CmrCy7hU1y )                 | 提取码:WAmq 。pdf文件分享，需要登录。中国移动网盘。     |
-| 6   | [微云]( https://share.weiyun.com/JKZ4ANJ5 )  &ensp; [腾讯文档]( https://docs.qq.com/pdf/DVmxKTG5YZHZBUGlx )         | pdf文件分享。                                 |
-| 7   | [google云盘]( https://drive.google.com/file/d/1Ubx-Rz3Xwhn48PEXMx-BmWrJGyIAzNfn/view?usp=sharing )                  | 文件分享，无删减。                            |
-| 8   | [金山文档]( https://kdocs.cn/l/ctHflHcmGvtS )                        | 文件分享，无删减。                            |
-| -   | **内容**                        |                                                                                   |
-| 9   | [豆瓣]( https://www.douban.com/photos/album/1881601083/ )            |  发现优质书影音，记录生活表达自我。          |
+| 2    | [百度网盘]( https://pan.baidu.com/s/1vE7fXHu1O1M6s8v5YCEFkw )        | 提取码: f9aq 。文件分享，需要登录。          |
+| 3    | [阿里云盘]( https://www.aliyundrive.com/s/z168Lhd36qe )              | 文件分享，需要登录。                         |
+| 4    | [天翼云]( https://cloud.189.cn/t/RRBbumb2MB7b )                      | pdf文件分享，需要登录。中国电信网盘。        |
+| 5    | [和彩云]( https://caiyun.139.com/m/i?125CmrCy7hU1y )                 | 提取码:WAmq 。pdf文件分享，需要登录。中国移动网盘。                    |
+| 6    | [微云]( https://share.weiyun.com/JKZ4ANJ5 )  &ensp; [腾讯文档]( https://docs.qq.com/pdf/DVmxKTG5YZHZBUGlx )         | pdf文件分享。           |
+| 7    | [google云盘]( https://drive.google.com/file/d/1Ubx-Rz3Xwhn48PEXMx-BmWrJGyIAzNfn/view?usp=sharing )                  | 文件分享，无删减。      |
+| 8    | [金山文档]( https://kdocs.cn/l/ctHflHcmGvtS )                        | 文件分享，无删减。                           |
+| -    | **内容**                        |                                                                                   |
+| 9    | [豆瓣]( https://www.douban.com/photos/album/1881601083/ )            |  发现优质书影音，记录生活表达自我。          |
 | 10   | [知乎]( https://zhuanlan.zhihu.com/p/403400860 )                     |  问答社区和创作者聚集的原创内容平台。        |
 | 11   | [今日头条]( https://www.toutiao.com/a7003584972175147528/ )          |  通用信息平台，看见更大的世界。              |
 | 12   | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247487244&idx=1&sn=fa21068e783c6b31a62abf71186c1b20 )     |  自媒体，每周一在【**无为徐生**】公众号发布`书法练习轨迹`一周练习图文记录。        |
@@ -277,11 +277,11 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 两种布署方法参见博客网站的资料。 --20210813
 ```
 
-| 名称       | 仓库                                                			        |  备注            |
-| ---------  | -------------------------------------------------------------        |  ----------      |
-| plain-docsify    | gitlab [plain-docsify]( https://gitlab.com/xuyq123/plain-docsify ) &ensp; [网页](  https://xuyq123.gitlab.io/plain-docsify/ ) <br/>github [plain-docsify]( https://github.com/scott180/plain-docsify ) &ensp; [网页](  https://scott180.github.io/plain-docsify/ )        |  笔记        |
-| docsify-blog     | github [docsify-blog]( https://github.com/scott180/docsify-blog ) &ensp; [网页](  https://scott180.github.io/docsify-blog ) |  博客docsify  |
-| docsify-calligraphy       | github [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy ) &ensp; [网页](  https://scott180.github.io/docsify-calligraphy )                    |  书法练习轨迹           |
+| 名称                 | 仓库                  |  备注        |
+| -------------------  | -------------------   |  ----------  |
+| plain-docsify        | gitlab [plain-docsify]( https://gitlab.com/xuyq123/plain-docsify ) &ensp; [网页](  https://xuyq123.gitlab.io/plain-docsify/ ) <br/>github [plain-docsify]( https://github.com/scott180/plain-docsify ) &ensp; [网页](  https://scott180.github.io/plain-docsify/ )    |  笔记        |
+| docsify-blog         | github [docsify-blog]( https://github.com/scott180/docsify-blog ) &ensp; [网页](  https://scott180.github.io/docsify-blog ) |  博客docsify         |
+| docsify-calligraphy  | github [docsify-calligraphy]( https://github.com/scott180/docsify-calligraphy ) &ensp; [网页](  https://scott180.github.io/docsify-calligraphy )   |  书法练习轨迹   |
 
 ---
 
@@ -521,7 +521,6 @@ https://cdn.jsdelivr.net/npm/xushufa-imgs2/imgs/mingyue/2022/202205/2022050801.j
 ---
 
 <div STYLE="page-break-after: always;"></div>
-
 
 ## 三、账号
 

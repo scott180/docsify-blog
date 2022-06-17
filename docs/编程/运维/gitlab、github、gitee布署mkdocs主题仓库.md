@@ -2,10 +2,11 @@
 
 <br />
 
-`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://vuepress-blog.xushufa.cn )
+`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )
 
 ## 1、概述
-```
+
+```java
 mkdocs作用
 在git平台创建mkdocs主题仓库，自动将markdown文件生成静态网页。 
 
@@ -23,7 +24,8 @@ mkdocs安装     pip install mkdocs
 ```
 
 ## 2、gitlab布署mkdocs
-```
+
+```c
 gitlab mkdocs主题仓库 （推送文件自动布署）
 创建方法：
    1、创建 mkdocs.yml、.gitlab-ci.yml文件。
@@ -50,8 +52,7 @@ gitlab mkdocs主题仓库 （推送文件自动布署）
 	
 ```
 
-``` 
-		 
+```sh
 主题安装
 	pip install -i https://pypi.tuna.tsinghua.edu.cn/simple mkdocs-Bootswatch      安装多个主题
 	pip install --trusted-host pypi.douban.com -i http://pypi.douban.com/simple/ mkdocs mkdocs-material   安装material主题
@@ -90,7 +91,7 @@ gitbook, spacelab, cinder, pulse, mkdocs, cerulean, bootstrap, solar, journal, s
 
 ## 3、github布署mkdocs
 
-```
+```c
 github mkdocs主题仓库 （mkdocs gh-deploy 一键布署）
 创建方法：
    1、创建 mkdocs.yml、README.md、.gitignore文件。创建docs目录，markdown文件放在此处。
@@ -112,7 +113,8 @@ github mkdocs主题仓库 （mkdocs gh-deploy 一键布署）
 ```
 
 ## 4、gitee布署mkdocs
-```
+
+```js
 gitee mkdocs主题仓库 （GiteePages服务布署目录）
 创建方法：
    1、创建 mkdocs.yml。创建docs目录，markdown文件放在此处。

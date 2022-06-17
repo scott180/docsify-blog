@@ -7,11 +7,11 @@
 
 ---
 
-| 徐书法 | 我的网站 |  备注  |
-| ---  | ------------- |  ------------- |
-| 1    | [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) | 《书法练习轨迹》及博客网站。     |
-| 2    | [docsify-calligraphy]( https://docsify-calligraphy.xushufa.cn ) &ensp; [docsify-blog]( https://docsify-blog.xushufa.cn ) | docsify搭建的网站。 |
-| 3    | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) &ensp; [reco-blog]( https://reco-blog.xushufa.cn ) | `vuepress-theme-reco`搭建的网站。     |
+|        | 地址        |  备注          |
+| -----  | ----------- |  ------------- |
+| 1      | [xushufa.cn]( https://xushufa.cn )            | 书法练习网站。 |
+| 2      | [blog.xushufa.cn]( https://blog.xushufa.cn )  | `vuepress`构建的博客网站。 |
+| 3      | [web.xushufa.cn]( https://web.xushufa.cn )    | `vuepress-theme-reco`构建的博客网站。|
 
 
 ### 2.文档
@@ -119,10 +119,6 @@
   - [有感之杂说](书法/轨迹/有感之杂说.md)
   - [书法练习轨迹remark](书法/轨迹/书法练习轨迹remark.md)
   - [书法练习轨迹--明月几时有-无图版](书法/轨迹/书法练习轨迹--明月几时有-无图版.md)
-
-
-
-
 
 
 

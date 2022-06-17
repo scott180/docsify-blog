@@ -2,11 +2,11 @@
 
 <br />
 
-`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://vuepress-blog.xushufa.cn )
+`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )
 
 ## 本地安装
 
-```
+```js
 docsify 可以快速帮你生成文档网站。不同于GitBook、Hexo的地方是它不会生成静态的 .html 文件，所有转换工作都是在运行时。
 
 // 首先安装node
@@ -43,8 +43,7 @@ index.html
 ```
 
 
-```
-
+```html
 给每个页面的末尾加上 footer
 window.$docsify = {
   plugins: [
@@ -66,11 +65,28 @@ window.$docsify = {
 
 ```
 
+```java
+cdn 连不上或者网速较慢
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  可换成本地加载文件
+  <link rel="stylesheet" href="docsify/vue.css">
+  <script src="docsify/docsify.js"></script>
+  <script src="docsify/search.min.js"></script>
+
+  或其他cdn
+  https://cdnjs.com/libraries/docsify    https://cdnjs.cloudflare.com/ajax/libs/docsify/4.12.2/docsify.min.js
+  https://www.bootcdn.cn                 https://cdn.bootcdn.net/ajax/libs/docsify/4.12.2/docsify.js
+  
+```
+
 ---
 
 ## gitlab布署docsify
 
-```
+```c
 1、创建 .gitlab-ci.yml
 2、创建docs目录，将markdown文件放在此处。推送文件。
 3、推送文件。
@@ -87,7 +103,8 @@ https://xuyq123.gitlab.io/myblog-docsify
 
 
 > .gitlab-ci.yml
-```
+
+```sh
 image: ruby:alpine
 
 stages:
@@ -113,7 +130,7 @@ pages:
 
 ## github布署docsify
 
-```
+```js
 1、本地生成 docsify项目
 
 // 初始化docsify项目
@@ -139,6 +156,7 @@ https://scott180.github.io/myblog-docsify/
 ---
 
 ## gitee布署docsify
+
 ```
 在对应的 Gitee 仓库服务中选择 Gitee Pages，选择您要部署的分支，填写您要部署的分支上的目录，
 例如docs，填写完成之后点击启动即可。
