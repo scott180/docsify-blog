@@ -511,7 +511,7 @@ https://sourceforge.net/p/calligraphy/imgs/ci/master/tree/mingyue/2022/202201/20
 codeberg 速度较快
 https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.jpg
 
-npm  cdn
+cdn npm node
 https://cdn.jsdelivr.net/npm/xushufa-imgs/imgs/mingyue/2021/202112/2021120801.jpg
 https://cdn.jsdelivr.net/npm/xushufa-imgs2/imgs/mingyue/2022/202205/2022050801.jpg
 

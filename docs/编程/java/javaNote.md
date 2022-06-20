@@ -625,3 +625,41 @@ maven常用打包命令
 ```
 
 ---
+
+
+## 5、我的网站
+
+> **平台**
+
+- 若有志同道合的小伙伴想联系本人，可通过以下方式发邮件或私信。路漫漫其修远兮，吾将上下而求索。共勉。
+
+| 平台           | 链接           |
+| -------------- | -------------- |
+|  **项目仓库**  | [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [github]( https://github.com/scott180/calligraphy )  &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [sourceforge]( https://sourceforge.net/p/calligraphy/code )  &ensp; [vuepress]( https://scott180.github.io/vuepress-calligraphy )    |
+|  **资讯账号**  | [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) &ensp; [头条]( https://www.toutiao.com/c/user/token/MS4wLjABAAAA2_bWhiknCbcKNu4c6VTM2B7m2vr7zBrh0x6fSyOrtGU ) &ensp;  [豆瓣]( https://www.douban.com/people/80730595/photos ) &ensp;  [知乎]( https://www.zhihu.com/people/xu-xian-sheng-72-29/posts )     |
+|  **个人邮箱**  | 1021151991@qq.com   |
+
+***
+
+> **公众号**
+
+- 注册了微信公众号及今日头条号：[**无为徐生**]( https://scott180.github.io/calligraphy/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )，以后会将书法练习轨迹、程序员笔记以及一些随笔感想更新在此。<br/>
+- 每周一会在无为徐生**微信公众号**同步《书法练习轨迹》，持续更新，敬请关注。
+
+| 无为徐生   | 微信公众号                                               	 |  &ensp; |  今日头条号        |
+| ---------  | ------------------------------------------------------------- |  -      |  ----------        |
+|  二维码    | ![w]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/wuweixusheng_weixin.png ) | <br/> | ![t]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/wuweixusheng_toutiao.png )     |
+
+***
+
+> **我的网站**
+
+- 生活随笔-编程笔记-书法练习轨迹
+
+| 徐书法 | 地址        |  备注          |
+| -----  | ----------- |  ------------- |
+| 1      | [xushufa.cn]( https://xushufa.cn )            | 书法练习网站。 |
+| 2      | [blog.xushufa.cn]( https://blog.xushufa.cn )  | `vuepress`构建的博客网站。 |
+| 3      | [web.xushufa.cn]( https://web.xushufa.cn )    | `vuepress-theme-reco`构建的博客网站。|
+
+***

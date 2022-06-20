@@ -4,8 +4,6 @@
 
 - [ ] `仓库` &ensp;  [blog]( https://blog.xushufa.cn ) &ensp;  [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180/MyNotes )
 
-<h2 id="note"></h2>
-
 ## 1、文件操作
 
 ### 1.1、windows常用快捷键
@@ -408,14 +406,10 @@ copyPush
 
 ```
 
-<h2 id="work"></h2>
-
-## 2、工作
-
-*************************
+## 4、工作
 
 
-###  2.1、善事利器
+### 4.1、善事利器
 
 ```js
 工欲善其事必先利其器
@@ -431,7 +425,7 @@ git ：gitlab、github、gitee、gitcode、coding、bitbucket
 
 *************************
 
-### 2.2、mysql logbin日志 
+### 4.2、mysql logbin日志 
 
 ```sql
 mysql开启log-bin日志.md  https://gitlab.com/xuyq123/mynotes/-/blob/master/mysql%E5%BC%80%E5%90%AFlog-bin%E6%97%A5%E5%BF%97.md
@@ -451,7 +445,7 @@ TRUNCATE table mysql.general_log
 
 --------------------
 
-### 2.3、端点已使用
+### 4.3、端点已使用
 
 ```sql
 C:\Users\Administrator>netstat -ano|findstr "8080"
@@ -468,7 +462,7 @@ C:\Users\Administrator>taskkill /f /t /im 11492
 
 *************************
 
-### 2.4、druid 安全配置
+### 4.4、druid 安全配置
 
 ```vb
 
@@ -502,7 +496,7 @@ http://localhost:8080/druid/sql.html
 
 *************************
 
-### 2.5、github登录不上解决办法
+### 4.5、github登录不上解决办法
 
 ```
 参考 https://blog.csdn.net/ych9527/article/details/114372201
@@ -517,44 +511,3 @@ http://localhost:8080/druid/sql.html
 ```
 
 *************************
-
----
-
-<h2 id="myShu"></h2>
-
-## 3、我的
-
-> **平台**
-
-- 若有志同道合的小伙伴想联系本人，可通过以下方式发邮件或私信。路漫漫其修远兮，吾将上下而求索。共勉。
-
-| 平台           | 链接           |
-| -------------- | -------------- |
-|  **项目仓库**  | [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [github]( https://github.com/scott180/calligraphy )  &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [sourceforge]( https://sourceforge.net/p/calligraphy/code )  &ensp; [vuepress]( https://scott180.github.io/vuepress-calligraphy )    |
-|  **资讯账号**  | [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) &ensp; [头条]( https://www.toutiao.com/c/user/token/MS4wLjABAAAA2_bWhiknCbcKNu4c6VTM2B7m2vr7zBrh0x6fSyOrtGU ) &ensp;  [豆瓣]( https://www.douban.com/people/80730595/photos ) &ensp;  [知乎]( https://www.zhihu.com/people/xu-xian-sheng-72-29/posts )     |
-|  **个人邮箱**  | 1021151991@qq.com   |
-
-***
-
-> **公众号**
-
-- 注册了微信公众号及今日头条号：[**无为徐生**]( https://scott180.github.io/calligraphy/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )，以后会将书法练习轨迹、程序员笔记以及一些随笔感想更新在此。<br/>
-- 每周一会在无为徐生**微信公众号**同步《书法练习轨迹》，持续更新，敬请关注。
-
-| 无为徐生   | 微信公众号                                               	 |  &ensp; |  今日头条号        |
-| ---------  | ------------------------------------------------------------- |  -      |  ----------        |
-|  二维码    | ![w]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/wuweixusheng_weixin.png ) | <br/> | ![t]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/wuweixusheng_toutiao.png )     |
-
-***
-
-> **我的网站**
-
-- 生活随笔-编程笔记-书法练习轨迹
-
-| 徐书法 | 地址        |  备注          |
-| -----  | ----------- |  ------------- |
-| 1      | [xushufa.cn]( https://xushufa.cn )            | 书法练习网站。 |
-| 2      | [blog.xushufa.cn]( https://blog.xushufa.cn )  | `vuepress`构建的博客网站。 |
-| 3      | [web.xushufa.cn]( https://web.xushufa.cn )    | `vuepress-theme-reco`构建的博客网站。|
-
-***
