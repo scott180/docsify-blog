@@ -21,13 +21,13 @@
 
 - `java`
 
+  - [java介绍](编程/java/java介绍.md)
   - [javaNote](编程/java/javaNote.md)
   - [排序算法](编程/java/排序算法.md)
-  - [java介绍](编程/java/java介绍.md)
   - [java资料集](编程/java/java资料集.md)
   - [布隆过滤器](编程/java/布隆过滤器.md)
-  - [tomcat笔记](编程/java/tomcat笔记.md)
   - [eclipse笔记](编程/java/eclipse笔记.md)
+  - [tomcat笔记](编程/java/tomcat笔记.md)
   - [cpu过高分析](编程/java/cpu过高分析.md)
   - [mybatis笔记](编程/java/mybatis笔记.md)
   - [springmvc笔记](编程/java/springmvc笔记.md)
