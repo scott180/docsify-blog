@@ -1,4 +1,4 @@
-# window安装consul
+# 本地安装consul
 
 <br />
 

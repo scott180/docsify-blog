@@ -41,8 +41,11 @@
 
 - `java`
 
+  - [javaNote](编程/java/javaNote.md)
+  - [排序算法](编程/java/排序算法.md)
   - [java介绍](编程/java/java介绍.md)
   - [java资料集](编程/java/java资料集.md)
+  - [布隆过滤器](编程/java/布隆过滤器.md)
   - [tomcat笔记](编程/java/tomcat笔记.md)
   - [eclipse笔记](编程/java/eclipse笔记.md)
   - [cpu过高分析](编程/java/cpu过高分析.md)
@@ -50,21 +53,18 @@
   - [springmvc笔记](编程/java/springmvc笔记.md)
   - [servlet-jsp学习](编程/java/servlet-jsp学习.md)
   - [SpringCloud入门](编程/java/SpringCloud入门.md)
-  - [javaNote](编程/java/javaNote.md)
-  - [排序算法](编程/java/排序算法.md)
-  - [布隆过滤器](编程/java/布隆过滤器.md)
   
 - `运维`
 
   - [docker](编程/运维/docker.md)
   - [gitNote](编程/运维/gitNote.md)
+  - [shell语法](编程/运维/shell语法.md)
   - [linuxNote](编程/运维/linuxNote-x.md)
   - [nginx笔记](编程/运维/nginx笔记.md)
-  - [shell语法](编程/运维/shell语法.md)
   - [定时执行脚本](编程/运维/定时执行脚本.md)
-  - [批量推送布署徐书法项目](编程/运维/批量推送布署徐书法项目.md)
   - [gitbook部署博客](编程/运维/gitbook部署博客.md)
   - [vuepress构建项目](编程/运维/vuepress构建项目.md)
+  - [批量推送布署徐书法项目](编程/运维/批量推送布署徐书法项目.md)
   - [gitlab、github绑定自定义域名](编程/运维/gitlab、github绑定自定义域名.md)
   - [git平台docsify布署markdown文件](编程/运维/git平台docsify布署markdown文件.md)
   - [gitlab、github、gitee布署mkdocs主题仓库](编程/运维/gitlab、github、gitee布署mkdocs主题仓库.md)
@@ -80,14 +80,15 @@
   
 - `资料`
 
+  - [npm笔记](编程/资料/npm笔记.md)
   - [jquery笔记](编程/资料/jquery笔记.md)
-  - [javaScript笔记](编程/资料/javaScript笔记.md)
   - [二进制数负数](编程/资料/二进制数负数.md)
-  - [markdown常用语法](编程/资料/markdown常用语法.md)
-  - [window安装consul](编程/资料/window安装consul.md)
-  - [window安装RabbitMQ](编程/资料/window安装RabbitMQ.md)
+  - [javaScript笔记](编程/资料/javaScript笔记.md)
   - [本地安装kafka](编程/资料/本地安装kafka.md)
+  - [本地安装consul](编程/资料/本地安装consul.md)
   - [本地安装zookeeper](编程/资料/本地安装zookeeper.md)
+  - [markdown常用语法](编程/资料/markdown常用语法.md)
+  - [window安装RabbitMQ](编程/资料/window安装RabbitMQ.md)
 
 ---
 
