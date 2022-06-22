@@ -412,14 +412,14 @@ D:\ProgramFiles\git\Git\bin\bash.exe
 5、自动生成作者信息
 file and code Templates -- Includes -- File Header
 /**
- * @author xu
+ * @author xyq
  * @date ${DATE} ${TIME}
  */
 
+ 
 6、代码自动导入包
 Settings→Editor→General→Auto Import
-选中Optimize imports on the fly和Add unambiguous imports on the fly
-
+选中Optimize imports on the fly 和 Add unambiguous imports on the fly
 
 7、代码自动定位文件
 Project - Show Options Menu - Autoscroll From Source
@@ -433,7 +433,7 @@ Project - Show Options Menu - Show Members
 ```
 
 ```
-idea常用插件 Plugins
+idea常用插件 File -- Settings -- Plugins
 lombok
 Free Mybatis plugin    MybatisX
 Spring Assistant 
@@ -565,8 +565,7 @@ tomcat环境变量配置
 
 ### 3.3、postman配置
 
-```
-
+```js
 postman环境变量配置
 --manage environments
 https://blog.csdn.net/mt122/article/details/104530439
@@ -590,7 +589,7 @@ Settings--Proxy
 
 ## 4、springboot项目打包布署
 
-```
+```sh
 springboot项目打包布署
 https://gitlab.com/xuyq123/calligraphy-boot
 
@@ -663,3 +662,4 @@ maven常用打包命令
 | 3      | [web.xushufa.cn]( https://web.xushufa.cn )    | `vuepress-theme-reco`构建的博客网站。|
 
 ***
+

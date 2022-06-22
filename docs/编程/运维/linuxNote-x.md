@@ -155,7 +155,7 @@ N 搜索指定字符串的上一个出现位置
 
 ### 2.3  head tail less more 
 
-``` haskell
+```haskell
 1. 如果你只想看文件的前100行，可以使用head命令，如
 head -100  filename
 2. 如果你想查看文件的后100行，可以使用tail命令，如：
@@ -261,7 +261,7 @@ cat << EOF的语句说明
 
 [grep命令]( http://www.cnblogs.com/end/archive/2012/02/21/2360965.html )
  
-``` vb
+```vb
 查询文件中内容并保存
 	more linux.txt | grep mysql > test.txt      // > 创建新文件
 	cat linux.txt | grep 软件 >> test.txt      // >> 是在文件中追加内容
@@ -305,7 +305,7 @@ $ 匹配正则表达式的结束行
 
 ### 2.6 查看内存
 
-``` haskell
+```haskell
 top
 free -m  
 cat /proc/meminfo 机器的内存使用信息
@@ -467,7 +467,7 @@ mongo
 
 ### 3.3 redis
 
-``` 
+```
 windows下redis安装 
 http://www.runoob.com/redis/redis-install.html
 进入redis目录
@@ -572,7 +572,7 @@ Linux下Tomcat的启动、关闭、杀死进程   （进入tomcat的bin目录 �
 
 ### 3.5 为每个tomcat配置单独的jdk
 
-``` 
+```
 一、安装jdk，如jdk-6u45-linux-x64.bin
 1、添加执行权限 
 	chmod u+x jdk-6u45-linux-x64.bin
@@ -633,7 +633,7 @@ compat-openldap-2.3.43-5.el7.x86_64
 
 ### 3.7 make安装卸载软件
 
-``` 
+```
 用于linux源码安装软件，一般下载源码包得到文件：xxxx.tgz
 
 1、解包软件
@@ -776,7 +776,7 @@ firewall-cmd --reload
 
 ### 4.2 关闭centos的防火墙
 
-``` vb
+```vb
 一、firewall方式
 	firewall-cmd --state    				查看防火墙状态
 	systemctl stop firewalld.service     	关闭防火墙，centos7下
