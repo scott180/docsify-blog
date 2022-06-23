@@ -294,7 +294,7 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 | 序号 | 1    | 2    | 3    | 4    | 5    | 6    |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|  **链接**   | [gitlab_pages]( https://xuyq123.gitlab.io/plain/%E7%AC%94%E5%90%8D%E6%B1%89%E5%AD%97%E9%A2%91%E7%8E%87%E5%88%86%E6%9E%90 )  |  [语雀]( https://www.yuque.com/longguang123/ccgbto/flt0hf )    | [作业部落]( https://www.zybuluo.com/scott180/note/1809817 ) | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247484803&idx=1&sn=b6711609078268e817fd244f9d095078&chksm=cfb5eb72f8c2626471240152663a7ec184dfb677733d194eea4d237d800ed571cc5f643f4fa8&token=1687261351&lang=zh_CN#rd ) | [csdn]( https://blog.csdn.net/xu180/article/details/118940065 )   | [github_pages]( https://scott180.github.io/calligraphy/%E7%AC%94%E5%90%8D%E6%B1%89%E5%AD%97%E9%A2%91%E7%8E%87%E5%88%86%E6%9E%90 )   |
+|  **链接**   | [gitlab_pages]( https://xuyq123.gitlab.io/plain/%E7%AC%94%E5%90%8D%E6%B1%89%E5%AD%97%E9%A2%91%E7%8E%87%E5%88%86%E6%9E%90 )  |  [语雀]( https://www.yuque.com/longguang123/ccgbto/flt0hf )    | [作业部落]( https://www.zybuluo.com/scott180/note/1809817 ) | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247484803&idx=1&sn=b6711609078268e817fd244f9d095078 ) | [csdn]( https://blog.csdn.net/xu180/article/details/118940065 )   | [github_pages]( https://scott180.github.io/calligraphy/%E7%AC%94%E5%90%8D%E6%B1%89%E5%AD%97%E9%A2%91%E7%8E%87%E5%88%86%E6%9E%90 )   |
 
 ---
 
@@ -312,7 +312,7 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 | 序号 | 1    | 2    | 3    | 4    | 5    |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-|  **链接**   | [gitlab_docsify]( https://xuyq123.gitlab.io/myblog-docsify/#/%E6%96%87%E6%A1%A3/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )  |  [美篇]( https://www.meipian.cn/3rzt1rtc ) | [作业部落]( https://www.zybuluo.com/scott180/note/1686777 ) | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247484710&idx=1&sn=3e74cc71e835e6cbc019f1edee8a24d6&chksm=cfb5ebd7f8c262c1edf31245b3e14ded8b8675f22fe432399a307a83e602bae15a021600b949&token=1687261351&lang=zh_CN#rd )   | [github_pages]( https://scott180.github.io/calligraphy/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )   |
+|  **链接**   | [gitlab_docsify]( https://xuyq123.gitlab.io/myblog-docsify/#/%E6%96%87%E6%A1%A3/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )  |  [美篇]( https://www.meipian.cn/3rzt1rtc ) | [作业部落]( https://www.zybuluo.com/scott180/note/1686777 ) | [微信公众号]( https://mp.weixin.qq.com/s?__biz=Mzg4NDY2OTM0Mg==&mid=2247484710&idx=1&sn=3e74cc71e835e6cbc019f1edee8a24d6 )   | [github_pages]( https://scott180.github.io/calligraphy/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )   |
 
 ---
 
