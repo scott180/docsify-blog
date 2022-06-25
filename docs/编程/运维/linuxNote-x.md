@@ -743,19 +743,26 @@ server {
 ### 4.1 查看ip及端口是否可以访问、开放端口
 
 ```basic
-	wget http://127.0.0.1:8080
- 
-	ping + ip： 查看某一个ip地址是否能够连通，如： ping 114.80.67.193
- 
-	telnet ip port ： 查看某一个机器上的某一个端口是否可以访问，如：telnet 114.80.67.193 8080
- 
-	netstat -nal  查看网络通信情况
- 
+下载文件
+wget http://127.0.0.1:8080
+
+查看某一个ip地址是否能够连通
+ping + ip 
+ping 114.80.67.193
+ping xushufa.cn
+
+查看某一个机器上的某一个端口是否可以访问
+telnet ip port
+telnet 114.80.67.193 8080
+
+
+查看网络通信情况
+netstat -nal  
 
 查看端口占用
-	netstat -ntlp   //查看当前所有tcp端口·
-	netstat -ntulp |grep 80   //查看所有80端口使用情况·
-	netstat -an | grep 3306   //查看所有3306端口使用情况·
+netstat -ntlp             //查看当前所有tcp端口·
+netstat -ntulp |grep 80   //查看所有80端口使用情况·
+netstat -an | grep 3306   //查看所有3306端口使用情况·
 	
 	
 查看开放的端口	
@@ -769,6 +776,7 @@ firewall-cmd --zone=public --add-port=8060/tcp --permanent
 
 刷新
 firewall-cmd --reload
+
 ```
 
 ********************************************************************
