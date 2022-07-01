@@ -32,8 +32,7 @@ requirepass 123456
 
 ## 启动 
 
-```
-
+```sh
 启动redis
 ./redis/src/redis-server ./redis/redis.conf &
 
@@ -72,3 +71,44 @@ redis-cli
 config set protected-mode "no"
 
 ```
+
+---
+
+```
+:: StartRedis.bat
+echo "启动redis"
+D: & cd D:\ProgramFiles\Redis-x64-3.2.100
+redis-server.exe redis.windows.conf
+```
+
+```java
+C:\windows\system32>echo "启动redis"
+"启动redis"
+
+C:\windows\system32>D:   & cd D:\ProgramFiles\Redis-x64-3.2.100
+
+D:\ProgramFiles\Redis-x64-3.2.100>redis-server.exe redis.windows.conf
+                _._
+           _.-``__ ''-._
+      _.-``    `.  `_.  ''-._           Redis 3.2.100 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 9976
+  `-._    `-._  `-./  _.-'    _.-'
+ |`-._`-._    `-.__.-'    _.-'_.-'|
+ |    `-._`-._        _.-'_.-'    |           http://redis.io
+  `-._    `-._`-.__.-'_.-'    _.-'
+ |`-._`-._    `-.__.-'    _.-'_.-'|
+ |    `-._`-._        _.-'_.-'    |
+  `-._    `-._`-.__.-'_.-'    _.-'
+      `-._    `-.__.-'    _.-'
+          `-._        _.-'
+              `-.__.-'
+
+[9976] 01 Jul 18:35:20.294 # Server started, Redis version 3.2.100
+[9976] 01 Jul 18:35:20.295 * DB loaded from disk: 0.001 seconds
+[9976] 01 Jul 18:35:20.295 * The server is now ready to accept connections on port 6379
+
+```
+

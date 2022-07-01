@@ -10,7 +10,7 @@
 
 ## 1、markdown转PDF 
 
-```
+```sh
 如何将markdown文件导出为带图片的PDF （《书法练习轨迹--明月几时有》是markdown文件）
 
 ① markdown转PDF
@@ -24,6 +24,7 @@
 
 ```
 
+
 ```
 markdown表格宽度设置
 
@@ -35,7 +36,7 @@ markdown表格宽度设置
 
 ## 2、github、gitee 仓库小问题
 
-```
+```java
 github、gitee 仓库小问题
 
 Ⅰ.在gitee仓库于2021-01-12 、2021-01-26删除了一些大文件，但是这些文件还在提交记录中，仍然占空间，所以仓库显得比较大（290M）。
@@ -88,7 +89,7 @@ https://blog.xushufa.cn ) &ensp;  [git平台docsify布署markdown文件]( https:
 
 > [gitlab、github绑定自定义域名]( https://mkdocs-blog.xushufa.cn ) &ensp; [vuepress构建项目]( https://docsify-blog.xushufa.cn )
 
-```
+```js
 github、gitee、gitlab静态网页发布 
 
 github pages 
@@ -136,7 +137,6 @@ pages:
 
 ---
 
-
 ## 4、名帖    
 
 ```
@@ -145,6 +145,7 @@ pages:
 王羲之-兰亭集序、颜真卿-多宝塔碑、文徵明-小楷赤壁赋。所谓王颜文是也。
 
 ```
+
 > 王羲之-兰亭集序 <br/>
 ![王羲之-兰亭集序]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/王羲之-兰亭集序.jpg )
 

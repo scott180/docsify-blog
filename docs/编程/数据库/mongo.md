@@ -1,38 +1,36 @@
 # mongo
 
-<br />
-
-*   [1、说明](#introducer)
-*   [2、增删改查](#crud)
-*   [3、三种情况下mongo内嵌文档的查询与保存、](#innerDocument)
-
-
- <h2 id="introducer"></h2>
-
 ## 1、说明
-```
-SQL术语/概念 	MongoDB术语/概念 	解释/说明
-database 		database 			数据库
-table 			collection 			数据库表/集合
-row 			document 			数据记录行/文档
-column 			field 				数据字段/域
-index 			index 				索引
-table 			joins 	  			表连接,MongoDB不支持
-primary 		key 	primary key 	主键,MongoDB自动将_id字段设置为主键
-```
 
-```
-启动mongo    /opt/sudytech/mongodb           ./bin/mongod --config mongo.conf
-										     ./bin/mongod --config /opt/sudytech/mongodb/conf/mongo.conf 
+| SQL术语   | MongoDB术语          |  说明                                  |
+| -----     | -----------          |  -------------                         |
+| database 	|	database 		   |  数据库                                | 
+| table 	|	collection 		   |  数据库表/集合                         | 
+| row 		|	document 		   |  数据记录行/文档                       | 
+| column 	|	field 			   |  数据字段/域                           | 
+| index 	|	index 			   |  索引                                  | 
+| table 	|	joins 	  		   |  表连接，MongoDB不支持                 | 
+| primary 	|	key   primary key  |  主键，MongoDB自动将_id字段设置为主键  | 
+
+
+```js
+启动mongo    /opt/sutech/mongodb           ./bin/mongod --config mongo.conf
+										     ./bin/mongod --config /opt/sutech/mongodb/conf/mongo.conf 
 											 
 启动mongo
-  /opt/sudytech/mongodb/bin/mongod --dbpath=/opt/sudytech/mongodb/data --logpath=/opt/sudytech/mongodb/logs --logappend  --port=27017 --fork
+/opt/sutech/mongodb/bin/mongod --dbpath=/opt/sutech/mongodb/data --logpath=/opt/sutech/mongodb/logs --logappend  --port=27017 --fork
   
 登陆mongo
-cd /opt/sudytech/mongodb/bin
+cd /opt/sutech/mongodb/bin
 mongo
 ```
-```
+
+```sh
+显示数据库      show dbs
+显示集合（表）  show collections
+显示文档（行）  db.test.find()
+复制数据库      db.copyDatabase(<from_dbname>, <to_dbname>, <from_hostname>);  例如：db.copyDatabase('test','test1');
+
 创建数据库
 	use test
 	db.test.insert({"name":"111"})
@@ -40,12 +38,7 @@ mongo
 删除数据库	
 	use test
 	db.dropDatabase()
-
-显示数据库      show dbs
-显示集合（表）  show collections
-显示文档（行）  db.test.find()
-复制数据库      db.copyDatabase(<from_dbname>, <to_dbname>, <from_hostname>);  例如：db.copyDatabase('test','test1');
-
+	
 
 按时间查询
 db.getCollection('mongomessage').find({createTime:{$gt:ISODate("2018-06-28T22:00:00.000Z")}}).count
@@ -58,31 +51,60 @@ db.getCollection('mongomessage').find({fromAddress:'uc_b:(71134)教师课表信�
     
 ```  
 
-```
+```java
 导出一个表（文档）  E:\Program Files (x86)\mongo\bin>mongoexport -d ucpplus1 -c mongomsgbody -o e:\mongomsgbody.bak.json
-导入一个表（文档）  E:\Program Files (x86)\mongo\bin>  mongoimport -d test -c mongo1 e:\mongomsgbody.bak.json
+导入一个表（文档）  E:\Program Files (x86)\mongo\bin>mongoimport -d test -c mongo1 e:\mongomsgbody.bak.json
 
 
-导出数据库（备份）  E:\Program Files (x86)\mongo\bin>  mongodump -d ucpplus1 -o e:\my_mongodb_dump
+导出数据库（备份）  E:\Program Files (x86)\mongo\bin>mongodump -d ucpplus1 -o e:\my_mongodb_dump
 导入数据库（还原）  E:\Program Files (x86)\mongo\bin>mongorestore -d ucpplus3 e:\ucpplus1_dump\ucpplus1
+
 （还原时的数据目录必须是原来新建的目录与备份的数据库名称结合。数据库名称与原来一样是还原数据。数据库名称不一样会新建一个数据库）
+
 https://www.cnblogs.com/qingtianyu2015/p/5968400.html
 
 ./mongodump -d ucpplus -o /home/mongobak/ucpplus/
+
 ```
 
-<h2 id="crud"></h2>
+---
 
-## 2、增删改查 
+```js
+
+{ "_id" : ObjectId("4e3f42f36266b5845052c03d"), "Bpid" : [ { "$ref" : "B", "$id" : ObjectId("4e3f3de16266b5845052c036") } ], "value" : 5 }  
+
+http://lhkzyz.iteye.com/blog/1669796
+内嵌文档查询
+    db.teacher.find("$elemMatch":{"students.age":"15","students.hobby":"football"})  
+
+    db.teacher.find({"students:"{"$elemMatch":{"age":"15","hobby":"football"}}})  
+
+
+正则查询 （忽略大小写）
+	db.getCollection('channelmessagestate').find({ "orignTo" : { "$regex" : ".*uc_u:\\(2\\).*" , "$options" : "i"} } )
+	
+	db.getCollection('channelmessagestate').find({"recipientBy.address":{ "$regex" : ".*uc_u:\\(2\\).*" , "$options" : "i"} } )
+
+http://www.runoob.com/mongodb/mongodb-query.html
+
+
+排序  sort()方法可以通过参数指定排序的字段，并使用 1 和 -1 来指定排序的方式，其中 1 为升序排列，而-1是用于降序排列。
+
+db.getCollection('mongomessage').find({}).sort({"createTime":-1})   
+
 ```
+
+## 2、增删改查
+
+```sql
 1 列出并选用
 
 1.1 列出所有数据库
 
-	
 > show dbs 
 local  0.000GB
 myblog 0.000GB
+
 
 1.2 使用某个数据库
 
@@ -103,6 +125,7 @@ sessions
 users
 wangduanduan
 
+
 2 插入数据 insert(value)
 	
 // 在已经存在的集合中插入数据
@@ -113,11 +136,13 @@ Inserted 1 record(s) in 43ms
 > db.students.insert({name:'hh',age:23})
 Inserted 1 record(s) in 72ms
 
+```
+
+```js
 3 查询 find(option)
 
 3.1 查询集合里所有的文档
 
-	
 > db.users.find()
 /* 1 */
 {
@@ -159,13 +184,11 @@ Inserted 1 record(s) in 72ms
 
 注意
 
-	
 // 这是错的，查不到结果
 > db.users.find({_id:'583fb2e9b12f8b7a7aa37572'})
 Fetched 0 record(s) in 1ms
 
 
-	
 // 这是正确的
 > db.users.find({_id:ObjectId('583fb2e9b12f8b7a7aa37572')})
 /* 1 */
@@ -175,9 +198,9 @@ Fetched 0 record(s) in 1ms
   "age" : 34.0
 }
 
+
 3.3 查询集合内文档的个数
 
-	
 > db.users.count()
 4
 
@@ -204,6 +227,7 @@ $ne: 不等于
   "age" : 34.0
 }
 
+
 3.5 逻辑运算符
 
 3.5.1 与
@@ -219,7 +243,6 @@ $ne: 不等于
 
 3.5.2 $in 或
 
-	
 // 查询名字是wangduanduan,或hh的用户
 > db.users.find({name:{$in:['wangduanduan','hh']}})
 /* 1 */
@@ -231,7 +254,6 @@ $ne: 不等于
 
 3.5.3 $nin 非
 
-	
 // 查询名字不是wangduanduan或者hh的用户
 > db.users.find({name:{$nin:['wangduanduan','hh']}})
 /* 1 */
@@ -248,9 +270,9 @@ $ne: 不等于
   "password" : "sdfsdf"
 }
 
+
 3.6 正则匹配
 
-	
 // 查询名字是中含有duan的用户
 > db.users.find({name:/duan/})
 /* 1 */
@@ -267,14 +289,17 @@ $ne: 不等于
   "age" : 45.0
 }
 
+
 3.7 大招$where
 
-	
 // 返回含有login_name字段的文档
 db.getCollection('users').find({$where:function(){
   return !!this.login_name;
 }})
 
+```
+
+```sql
 4 更新 update();
 
 4.1 整体更新
@@ -316,6 +341,7 @@ db.student.update({"name":"李四","class":/大/},{$set:{"teacher":"老师","sch
 // upadate 的第四个参数设置成true的时候，就会批量更新
 > db.users.update({name:'wangduanduan'},{$set:{age:1891}},false,true)
 
+
 5 删除
 
 // 删除某些文档
@@ -325,51 +351,13 @@ db.person.remove({"name":"joe"})
 db.test1.remove({})   删除集合中的文档
 db.test1.drop()       删除集合
 
-复制数据库      db.copyDatabase(<from_dbname>, <to_dbname>, <from_hostname>);  例如：db.copyDatabase('test','test1');
-
-导出一个表（文档）  E:\Program Files (x86)\mongo\bin>mongoexport -d ucpplus1 -c mongomsgbody -o e:\mongomsgbody.bak.json
-导入一个表（文档）  E:\Program Files (x86)\mongo\bin>  mongoimport -d test -c mongo1 e:\mongomsgbody.bak.json
-
-
-导出数据库（备份）  E:\Program Files (x86)\mongo\bin>  mongodump -d ucpplus1 -o e:\my_mongodb_dump
-导入数据库（还原）  E:\Program Files (x86)\mongo\bin>mongorestore -d ucpplus3 e:\ucpplus1_dump\ucpplus1
-（还原时的数据目录必须是原来新建的目录与备份的数据库名称结合。数据库名称与原来一样是还原数据。数据库名称不一样会新建一个数据库）
-https://www.cnblogs.com/qingtianyu2015/p/5968400.html
-
-./mongodump -d ucpplus -o /home/mongobak/ucpplus/
-
-
-{ "_id" : ObjectId("4e3f42f36266b5845052c03d"), "Bpid" : [ { "$ref" : "B", "$id" : ObjectId("4e3f3de16266b5845052c036") } ], "value" : 5 }  
-
-http://lhkzyz.iteye.com/blog/1669796
-内嵌文档查询
-    db.teacher.find("$elemMatch":{"students.age":"15","students.hobby":"football"})  
-
-    db.teacher.find({"students:"{"$elemMatch":{"age":"15","hobby":"football"}}})  
-
-
-	正则查询 （忽略大小写）
-	db.getCollection('channelmessagestate').find({ "orignTo" : { "$regex" : ".*uc_u:\\(2\\).*" , "$options" : "i"} } )
-	db.getCollection('channelmessagestate').find({"recipientBy.address":{ "$regex" : ".*uc_u:\\(2\\).*" , "$options" : "i"} } )
-
-http://www.runoob.com/mongodb/mongodb-query.html
-
-
-排序  sort()方法可以通过参数指定排序的字段，并使用 1 和 -1 来指定排序的方式，其中 1 为升序排列，而-1是用于降序排列。
-
-db.getCollection('mongomessage').find({}).sort({"createTime":-1})   
-
 ```
-
-
- <h2 id="innerDocument"></h2>
 
 ## 3、内嵌文档
 
 > 三种情况下mongo内嵌文档的查询与保存
 
-```
-
+```sql
 一、内嵌文档（一个对象）
 	"recipientBy" : {                                    // 发给用户时收件人类型、id、名称
 			"type" : 0,
@@ -391,8 +379,8 @@ db.demo.update({people_id:2, "albums.id":2}, { $set : {"albums.$.name":6 }})
 db.demo.update({ "_id" : { "$oid" : "5ac2de789e15ae8da0b49493"}},{ "$set" : { "recipientBy.address" : "uc_b:(12)张hezi"}})
 
 ```
-```
 
+```js
 2、内嵌文档（数组内多个对象）
 "mongoChannelTargets" : [                         //收件对象              
         {
@@ -435,9 +423,9 @@ https://blog.csdn.net/leshami/article/details/55192965
 { "mongoChannelTargets.address" : "uc_u:(2)组用户111" , "_id" : { "$oid" : "5ac2de779e15ae8da0b49400"}},{ "$set" : { "mongoChannelTargets.$.address" : "uc_u:(11)张name"}})
 
 ```
-```
 
- 3、内嵌文档（数组）		
+```java
+3、内嵌文档（数组）		
 to" : [                                         //收件人类型、id、名称
         "uc_o:(8)金智",                 
         "uc_g:(3)3", 
@@ -458,3 +446,9 @@ db.fruitshop.find({"fruits":{"$all":["apple","banana"]}});
 http://www.cnblogs.com/ginb/p/6200721.html
 
 ```
+
+---
+
+[mongodb]( https://www.mongodb.com/docs/manual/ ) &ensp; [runoob]( https://www.runoob.com/mongodb/mongodb-tutorial.html ) &ensp; [blog.xushufa.cn]( https://blog.xushufa.cn )
+
+---
