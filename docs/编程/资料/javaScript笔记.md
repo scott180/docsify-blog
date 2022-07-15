@@ -49,8 +49,6 @@ $('body').scrollTop( $('body').height() );
 
 ```
 
-
-
 ```js
 字符串转函数
 var bb = 'function play(){alert("getplay");}';
@@ -76,8 +74,6 @@ layer.closeAll('loading'); //关闭加载层
 layer.closeAll('tips'); //关闭所有的tips层
 
 ```
-
-
 
 ---
 
@@ -139,9 +135,7 @@ function selectSrc(obj){
 
 ---
 
-
 ```
-
 $("#tt").tabs({
 onSelect : function( title ){
 	<%-- if(title == '短信'){
@@ -220,7 +214,6 @@ $('#loginNameInput').textbox('textbox').keyup(function(event) {
 
 ```
 
-
 ## 选择框				
 
 ```js
@@ -294,9 +287,56 @@ function checkboxAndRadioStyle() {
 			
 ```
 
+## css配置
 
+```css
 
-##  radio选中
+//超出部分感叹号表示
+h3.app-name {
+	display: inline-block;
+	max-width: 160px;
+	overflow: hidden; /*超出部分隐藏*/
+	text-overflow: ellipsis; /*超出部分感叹号显示*/
+	white-space: nowrap; /*一行显示*/
+}
+
+//图片圆角
+.user-info.user-avatar img {
+	overflow: hidden;
+	border-radius: 20px;
+	width: 20px;
+}
+
+//获取浏览器宽度
+function getBrowserWidth(){
+	alert($(window).width());
+}
+
+//获取屏幕宽度
+function getScreenWidth(){
+	alert(window.screen.width);
+	}
+
+//css 悬浮事件
+li:hover,.s1:hover{
+		opacity:0.6; //透明度
+		filter:alpha(opacity=60); /* IE8 及更早版本 */
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		border-radius:20px;//边框圆角
+		border:1px solid #aaa;
+	}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li{
+	display:inline-block;
+}
+
+```
+
+## radio选中
 
 ```js
 $("input[name='radioName']").on('ifChecked', function(event){
@@ -362,56 +402,6 @@ $('#field6Box').on('ifUnchecked', function(event){
 
 ```
 
-
-## css配置
-
-```css
-
-//超出部分感叹号表示
-h3.app-name {
-	display: inline-block;
-	max-width: 160px;
-	overflow: hidden; /*超出部分隐藏*/
-	text-overflow: ellipsis; /*超出部分感叹号显示*/
-	white-space: nowrap; /*一行显示*/
-}
-
-//图片圆角
-.user-info.user-avatar img {
-	overflow: hidden;
-	border-radius: 20px;
-	width: 20px;
-}
-
-//获取浏览器宽度
-function getBrowserWidth(){
-	alert($(window).width());
-}
-
-//获取屏幕宽度
-function getScreenWidth(){
-	alert(window.screen.width);
-	}
-
-//css 悬浮事件
-li:hover,.s1:hover{
-		opacity:0.6; //透明度
-		filter:alpha(opacity=60); /* IE8 及更早版本 */
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		border-radius:20px;//边框圆角
-		border:1px solid #aaa;
-	}
-ul{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-}
-li{
-	display:inline-block;
-}
-
-```
-
 ## 正则表达式
 
 ```js	
@@ -453,8 +443,6 @@ return !pattern.exec(value); //不包含
 
 ```
 
-	
-	
 ## validatebox
 
 ```js
@@ -526,3 +514,4 @@ $.extend($.fn.validatebox.defaults.rules, {
  });
 
 ```
+

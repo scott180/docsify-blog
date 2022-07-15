@@ -1,6 +1,6 @@
 # window安装RabbitMQ
 
-<br />
+<br>
 
 > [RabbitMQ_3.8.2--ErLang_otp_win64_22.2下载]( https://download.csdn.net/download/xu180/12305633 )  
 
@@ -13,7 +13,6 @@
 - 设置环境变量，新建 `ERLANG_HOME`
 - 修改环境变量path，增加`Erlang`变量至`path`，`%ERLANG_HOME%\bin`;
 - 打开`cmd`命令框，输入 `erl -version`  验证
-
 
 
 ## 2、安装 RabbitMQ
@@ -46,13 +45,13 @@ D:\ProgramFiles\rabbitmq-server-3.8.2\rabbitmq_server-3.8.2\sbin>rabbitmq-server
 
 ---
 
-```
+```sql
 参考
 https://blog.csdn.net/lihua5419/article/details/93006834
 https://blog.csdn.net/zhm3023/article/details/82217222
 
-RabbitMQ教程 https://blog.csdn.net/hellozpc/article/details/81436980
-erlang官网  https://www.erlang.org/downloads
-rabbitmq官网 https://www.rabbitmq.com/download.html
+RabbitMQ教程  https://blog.csdn.net/hellozpc/article/details/81436980
+erlang官网    https://www.erlang.org/downloads
+rabbitmq官网  https://www.rabbitmq.com/download.html
 ```
 

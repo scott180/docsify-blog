@@ -12,10 +12,11 @@
 | table 	|	joins 	  		   |  表连接，MongoDB不支持                 | 
 | primary 	|	key   primary key  |  主键，MongoDB自动将_id字段设置为主键  | 
 
+---
 
 ```js
 启动mongo    /opt/sutech/mongodb           ./bin/mongod --config mongo.conf
-										     ./bin/mongod --config /opt/sutech/mongodb/conf/mongo.conf 
+										   ./bin/mongod --config /opt/sutech/mongodb/conf/mongo.conf 
 											 
 启动mongo
 /opt/sutech/mongodb/bin/mongod --dbpath=/opt/sutech/mongodb/data --logpath=/opt/sutech/mongodb/logs --logappend  --port=27017 --fork
@@ -24,6 +25,8 @@
 cd /opt/sutech/mongodb/bin
 mongo
 ```
+
+---
 
 ```sh
 显示数据库      show dbs
@@ -50,6 +53,8 @@ db.getCollection('mongomessage').find({fromAddress:'uc_b:(71135)学生课表信�
 db.getCollection('mongomessage').find({fromAddress:'uc_b:(71134)教师课表信息提醒',createTime:{$gt:ISODate("2018-06-28T22:00:00.000Z")}}).count()
     
 ```  
+
+---
 
 ```java
 导出一个表（文档）  E:\Program Files (x86)\mongo\bin>mongoexport -d ucpplus1 -c mongomsgbody -o e:\mongomsgbody.bak.json

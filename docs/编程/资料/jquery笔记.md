@@ -2,50 +2,55 @@
 
 ## 1、导入jquery
 
-```
-黑马第十期
+```js
+jQuery是一个快速、简洁的JavaScript框架，是继Prototype之后又一个优秀的JavaScript代码库（框架）于2006年1月由JohnResig发布。
+jQuery设计的宗旨是“writeLess，DoMore”，即倡导写更少的代码，做更多的事情。
 
-安装插件 jsPlugin4Myeclipse.rar
+
+黑马第十期
 导入类库 <script src="../js/jquery-1.4.2.js"></script>
 
+https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js
+https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js
 
-	window.onload 这个表示加载完页面所有东西以后才执行
-	window.load这个应该只是表明事件方法，但并未执行，比如click表示点击事件，但他并未执行，必须用上onclick他才会执行 
+window.onload  这个表示加载完页面所有东西以后才执行。
+window.load    这个只是表明事件方法，但并未执行，比如click表示点击事件，但他并未执行，必须用上onclick他才会执行。
 
-    window.onload必须等到页面内包括图片的所有元素加载完毕后才能执行，$(document).ready()是DOM结构绘制完毕后就执行，不必等到加载完毕
-    window.onload不能同时编写多个，如果有多个window.onload方法，只会执行一个，$(document).ready()可以同时编写多个，并且都可以得到执行
-    window.onload没有简化写法，$(document).ready(function(){})可以简写成$(function(){})   $().ready(function(){})
+window.onload 必须等到页面内包括图片的所有元素加载完毕后才能执行，$(document).ready()是DOM结构绘制完毕后就执行，不必等到加载完毕。
+window.onload 不能同时编写多个，如果有多个window.onload方法，只会执行一个，$(document).ready()可以同时编写多个，并且都可以得到执行。
+window.onload 没有简化写法，$(document).ready(function(){})可以简写成$(function(){})   $().ready(function(){}) 。
 
 
-	//函数当做参数。函数是一个对象
-		$().ready(L);
-		function L(){
-			alert(222);
-		}	
-		//相当于
-		$().ready(function(){//匿名函数
-			alert(333);
-		});
+//函数当做参数。函数是一个对象
+$().ready(L);
+function L(){
+	alert(222);
+}
+
+//相当于
+$().ready(function(){ //匿名函数
+	alert(333);
+});
 
 ```
 	
-```
+```java
 jquery 和 dom 的转换
-	<script type="text/javascript">
-		window.onload = function(){
-			
-			//dom对象转换jquery
-			var domObj = document.getElementById("username");
-			var jqueryObj = $(domObj);
-			//alert(jqueryObj);
-			
-			//jquery转换dom。jquery是数组
-			var jquery1=$("#username");
-			var dom1=jquery1.get(0);
-			var dom2=jquery1[0];
-			//alert(dom1+"-"+dom2);
-		}
-	</script>
+<script type="text/javascript">
+	window.onload = function(){
+		
+		//dom对象转换jquery
+		var domObj = document.getElementById("username");
+		var jqueryObj = $(domObj);
+		//alert(jqueryObj);
+		
+		//jquery转换dom。jquery是数组
+		var jquery1=$("#username");
+		var dom1=jquery1.get(0);
+		var dom2=jquery1[0];
+		//alert(dom1+"-"+dom2);
+	}
+</script>
 
 ```
 
@@ -112,7 +117,7 @@ jquery 和 dom 的转换
   </script>
 ```
 
-```  
+```js
 层次选择器  子选择器 $("#one>div")
   	<script type="text/javascript">
 		//<input type="button" id="b1" value="改变body内div的颜色">
@@ -265,7 +270,7 @@ table行背景色
   </script>
 ```
  
-``` 
+```js
 表单选择器
 	  <html>
 	  <head>
@@ -360,7 +365,7 @@ table行背景色
 
 ## 3、ajax
 
-```	
+```js
 /**
  * 使用ajax查询数据
  */
@@ -591,7 +596,7 @@ delegate 给未来的元素添加事件
 		});
 ```					
 
-```					
+```js			
 自定义事件					
 		$().ready(function(){
 			
@@ -788,8 +793,7 @@ jquery plugin
 
 ## 5、函数说明
 
-```
-
+```js
 //函数两种创建方式
 		var F1=function(){}
 		function F2(){
@@ -961,6 +965,3 @@ var b=new B('bbb',10);
 b.showName();//B继承了A，所以b也有showName方法。
 
 ```
-
-
-		

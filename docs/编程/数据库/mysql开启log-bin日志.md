@@ -11,15 +11,18 @@
 
 ```sql
 show binary logs;
+
 show master status;
 
 show binlog events in 'mysql-bin.000090' from 242985028 limit 0,1000
 
 ```
+
 ---------------------------------------------------------
 
 - 1、检查是否开启
-```mysql
+
+```sql
 检查是否开启
 show global variables like '%log_bin%';
 log_bin 为 on 则已开启，为 off则未开启。
@@ -31,8 +34,11 @@ show binary logs;
 show master status;
 ```
 
+<br>
+
 - 2、开启log-bin日志记录
-```
+
+```js
 找到my.cnf 中 [mysqld]  添加如下
 -- # binlog 配置
 log-bin = D:\\ProgramFiles\\mysql-5.7.20-winx64\\logs\\mysql-bin.log
@@ -41,8 +47,11 @@ max-binlog-size = 500M
 server-id = 1
 ```
 
+<br>
+
 - 3、查询 
-```mysql
+
+```sql
 SHOW BINLOG EVENTS [IN 'log_name'] [FROM pos] [LIMIT [offset,] row_count]
 
 mysql> show binlog events in 'mysql-bin.000001' from 4 limit 0,5;
@@ -58,16 +67,17 @@ mysql> show binlog events in 'mysql-bin.000001' from 4 limit 0,5;
 5 rows in set (0.00 sec)
 
 ```
-![t](https://img-blog.csdnimg.cn/202008121825027.png#pic_center)
 
+![m]( https://gitcode.net/xu180/imgs/-/raw/master/other/mysql-bin.png )
+
+<br>
 
 4、导出文件
 
-```
+```sql
 mysqlbinlog /var/lib/mysql/mysql-bin.000001 > test.sql;
 
 ```
-
 
 
 ```
@@ -76,10 +86,10 @@ select TABLE_NAME,UPDATE_TIME from information_schema.TABLES where TABLE_SCHEMA=
 
 ```
 
+
 ## 二、general_log日志
 
-```vb
-
+```sh
 是否开启 general_log日志
 show variables where variable_name like "%general_log%" or variable_name="log_output";
 
@@ -93,7 +103,8 @@ select * from mysql.general_log where argument like '%select%'   ORDER BY event_
 
 ```
 
-![1]( https://gitee.com/xy180/imgs/raw/master/other/mysql.general_log.jpg )
+![g]( https://gitcode.net/xu180/imgs/-/raw/master/other/mysql.general_log.jpg )
 
+---
 
 
