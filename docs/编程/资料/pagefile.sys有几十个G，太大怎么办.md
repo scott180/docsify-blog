@@ -54,25 +54,25 @@ pagefile.sys是虚拟内存文件，目地是使用一部分硬盘空间来充�
 
 1、选择工具-文件夹选项 &ensp; [图解]( https://gitcode.net/xu180/document/-/raw/master/imgs/pagefile/111.jpg )
 
-![111]( https://xyqin.coding.net/p/my/d/document/git/raw/master/imgs/pagefile/111.jpg )
+![111]( https://md.xushufa.cn/gitimg/document/imgs/pagefile/111.jpg )
 
 ---
 
 2、查看-取消选中“隐藏受保护的操作系统文件（推荐）”，警告弹窗选择“是” &ensp; [图解]( https://gitcode.net/xu180/document/-/raw/master/imgs/pagefile/222.jpg )
 
-![222]( https://xyqin.coding.net/p/my/d/document/git/raw/master/imgs/pagefile/222.jpg )
+![222]( https://md.xushufa.cn/gitimg/document/imgs/pagefile/222.jpg )
 
 ---
 
 3、确定 &ensp; [图解]( https://gitcode.net/xu180/document/-/raw/master/imgs/pagefile/333.jpg )
 
-![333]( https://xyqin.coding.net/p/my/d/document/git/raw/master/imgs/pagefile/333.jpg )
+![333]( https://md.xushufa.cn/gitimg/document/imgs/pagefile/333.jpg )
 
 ---
 
 4、查看pagefile.sys文件大小 &ensp; [图解]( https://gitcode.net/xu180/document/-/raw/master/imgs/pagefile/444.jpg )
 
-![444]( https://xyqin.coding.net/p/my/d/document/git/raw/master/imgs/pagefile/444.jpg )
+![444]( https://md.xushufa.cn/gitimg/document/imgs/pagefile/444.jpg )
 
 ---
 

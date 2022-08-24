@@ -36,11 +36,11 @@ TTL: 600
 浏览器地址栏可能会提示“不安全” ， 勾选  Enforce HTTPS ，稍后再访问。
 ```
 
-![1]( https://xyqin.coding.net/p/my/d/document/git/raw/master/imgs/other/custom_domain1.png )
+![1]( https://md.xushufa.cn/gitimg/document/imgs/other/custom_domain1.png )
 
 ---
 
-![2]( https://xyqin.coding.net/p/my/d/document/git/raw/master/imgs/other/custom_domain2.png )
+![2]( https://md.xushufa.cn/gitimg/document/imgs/other/custom_domain2.png )
 
 ---
 
@@ -83,7 +83,7 @@ TTL: 600
 注：记录值就是 上一步Pages Domain的 Verification status 的 _gitlab-pages-verification-code.mkdocs-blog.xushufa.cn TXT 后面的值
 ```
 
-![3]( https://xyqin.coding.net/p/my/d/document/git/raw/master/imgs/other/custom_domain3.png )
+![3]( https://md.xushufa.cn/gitimg/document/imgs/other/custom_domain3.png )
 
 - 5、在gitlab pages  -- Pages Domain -- Verification status  <br/>
 点击 Verified 如果有对号 说明域名绑定了。 <br/>

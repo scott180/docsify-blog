@@ -249,6 +249,16 @@ gitbook--20220429
 
 ---
 
+> 征程 &ensp; `发现问题，解决问题。不能解决，换个思路。`
+
+- 八月发现`coding`的图片都打不开了，所有图片链接报错 `{"msg":{"user_not_login":"用户未登录"},"data":{"account_type":"0"},"code":1000}` 。 <br/>
+果然，独立自主，自力更生，鸡蛋不能放在一个篮子里。 <br/>
+靠山山会倒，靠人人会跑，只有自己最可靠。 <br/>
+于是将相关图片都放在自己的服务器[md.xushufa]( https://md.xushufa.cn/gitimg/ )。 <br/>
+--20220820
+
+---
+
 ### 2.4、主题链接
 
 > git平台mkdocs主题仓库
@@ -318,7 +328,7 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 > 开通了微信小程序《书法练习轨迹》。练手项目，学习技术。聊以宣传，延伸轨迹。 [calligraphy-wxMiniProgram]( https://github.com/scott180/calligraphy-wxMiniProgram )  --202202
 
-![c]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/calligraphy-wxMiniProgram.jpg )
+![c]( https://md.xushufa.cn/gitimg/imgs/other/calligraphy-wxMiniProgram.jpg )
 
 ---
 
@@ -517,7 +527,10 @@ cdn npm node
 https://cdn.jsdelivr.net/npm/xushufa-imgs/imgs/mingyue/2021/202112/2021120801.jpg
 https://cdn.jsdelivr.net/npm/xushufa-imgs2/imgs/mingyue/2022/202205/2022050801.jpg
 
-
+xushufa
+https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_weixin.png
+https://md.xushufa.cn/gitimg/document/imgs/shufa/chibifu/s1.jpg
+		
 ```
 
 ---
@@ -558,7 +571,7 @@ https://cdn.jsdelivr.net/npm/xushufa-imgs2/imgs/mingyue/2022/202205/2022050801.j
 
 | 无为徐生   | 微信公众号                                               	 |  &ensp; |  今日头条号        |
 | ---------  | ------------------------------------------------------------- |  -      |  ----------        |
-|  二维码    | ![w]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/wuweixusheng_weixin.png ) | <br/> | ![t]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/wuweixusheng_toutiao.png )     |
+|  二维码    | ![w]( https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_weixin.png ) | <br/> | ![t]( https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_toutiao.png )     |
 
 ***
 

@@ -5,7 +5,7 @@
 > 安装mysql 5.7
 
 ```js
-参考
+压缩包，免安装文件，安装mysql。参考：
 http://blog.xushufa.cn
 http://blog.csdn.net/wengengeng/article/details/52013650
 https://www.cnblogs.com/jyjia/archive/2019/03/07/10490013.html
@@ -17,6 +17,7 @@ https://www.aliyundrive.com/s/pymjQca3DbY
 
 ```
 
+### 1.1、下载软件
 
 ```java
 下载mysql
@@ -50,6 +51,7 @@ https://www.aliyundrive.com/s/pymjQca3DbY
 
 ```
 
+### 1.2、配置环境变量
 
 ```java
 3.配置环境变量
@@ -89,6 +91,8 @@ https://www.aliyundrive.com/s/pymjQca3DbY
     ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';  
 ```
 
+
+### 1.3、注意事项
 
 ```java	
 	
@@ -166,7 +170,9 @@ https://www.cnblogs.com/jyjia/archive/2019/03/07/10490013.html
 
 ```
 
-## 2、基础命令
+## 2、操作语法
+
+### 2.1、基础命令
 
 ```sql
 
@@ -401,9 +407,7 @@ mysqldump -uroot -p –default-character-set=latin1 –set-charset=gbk –skip-o
 
 ```
 
-## 3、高级语法
-
-### 3.1、linux命令
+### 2.2、linux命令
 
 ```sql
 
@@ -418,12 +422,12 @@ usr/lib/mysql 是指：mysql的安装路径
 
 导出数据库 /opt/tech/mysql/bin/mysqldump -uroot -p1234 webpro > /opt/tech/20170814.sql
  
-导入数据  mysql -uroot -pSudy.web123 UCPPLUS < /opt/sql/ucpplus_v4_0_5.sql
+导入数据  mysql -uroot -psd.web123 UCPPLUS < /opt/sql/ucpplus_v4_0_5.sql
 
 mysql导入时出现"ERROR at line : Unknown command '\''."的解决办法
 		 mysql -uroot -p12344  --default-character-set=utf8 IMP_V12_1 < E:\ids-1.1.2.sql
 
-导出查询语句 /opt/sudytech/mysql/bin/mysql -uroot -p12344 -e "use IDSPLUS;select id,loginName from T_USER where id=1\G;" >> /opt/test.txt
+导出查询语句 /opt/sdtech/mysql/bin/mysql -uroot -p12344 -e "use IDSPLUS;select id,loginName from T_USER where id=1\G;" >> /opt/test.txt
 
 导出表   /opt/tech/mysql/bin/mysqldump -uroot -p1234 webpro t_user > /opt/tech/t_user.sql
 
@@ -452,9 +456,9 @@ mysql -u root -p12344
 
 navicat连接mysql失败，授权：
 GRANT ALL PRIVILEGES ON `db1`.* TO 'user1'@'192.171.1.18' identified by 'pwd1' WITH GRANT OPTION;
-GRANT ALL PRIVILEGES ON `IDSPLUS`.* TO 'sudy'@'192.171.1.18' identified by 'shhg12344' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON `IDSPLUS`.* TO 'sd'@'192.171.1.18' identified by 'shhg12344' WITH GRANT OPTION;
 
-grant all privileges on *.* to root@'%' identified by 'Sudy.web123' with grant option;
+grant all privileges on *.* to root@'%' identified by 'sd.web123' with grant option;
 
 -- flush privileges;
 
@@ -486,34 +490,24 @@ SELECT @@GLOBAL.sql_mode;
 lower_case_table_names = 2
 
 启动mysql
-  /opt/sudytech/mysql/support-files/mysql.server start
+  /opt/sdtech/mysql/support-files/mysql.server start
   
-  /opt/sudytech/mysql/bin/mysqld_safe --user=mysql --basedir=/opt/sudytech/mysql --datadir=/opt/sudytech/mysql/data & 
+  /opt/sdtech/mysql/bin/mysqld_safe --user=mysql --basedir=/opt/sdtech/mysql --datadir=/opt/sdtech/mysql/data & 
   
-  cd /opt/sudytech/mysql/
+  cd /opt/sdtech/mysql/
   ./bin/mysqld_safe &
   
   
   chmod -R 775 mysql
   
   
-  cd /data/sudytech/mysql/&&./bin/mysqld_safe &
-  cd /opt/sudytech/mysql/ && bin/mysqld_safe --user=root &
+  cd /data/sdtech/mysql/&&./bin/mysqld_safe &
+  cd /opt/sdtech/mysql/ && bin/mysqld_safe --user=root &
   
 ```
 
-### 3.2、毫秒数字转换为日期
 
-
-```
-
-sql将毫秒数字转换为日期
-SELECT FROM_UNIXTIME(operation_time/1000,"%Y-%m-%d %H:%i:%s") operationDate FROM ins_purchase
-
-
-```
-
-### 3.3、group_concat函数
+### 2.3、group_concat函数
 
 ```sql
 MySQL中group_concat函数
@@ -606,10 +600,9 @@ select id,group_concat(name order by name desc) from aa group by id;
 
 ```
 
-### 3.3、left join左右连接
+### 2.4、left join左右连接
 
-```
-
+```sql
 sql之left join、right join、inner join的区别
 https://www.cnblogs.com/pcjim/articles/799302.html
 
@@ -703,7 +696,7 @@ compopr参数指定关系比较运算符："="， "<"， ">"， "<="， ">=" 或
 ```
 
 
-### 3.4、Case when 的使用方法
+### 2.5、Case when 的使用方法
 
 ```java
 
@@ -838,9 +831,7 @@ CONSTRAINT check_salary CHECK
 
 ```
 
-## 4、其他
-
-### 4.1、复制表结构、表数据
+### 2.6、复制表结构、表数据
 
 ```java
 
@@ -894,12 +885,49 @@ SELECT * INTO 表2 FROM 表1
 
 ```
 
+## 3、小技巧
+
+### 3.1、日期转化与计算
+
+
+```sql
+sql将毫秒数字转换为日期
+SELECT FROM_UNIXTIME(operation_time/1000,"%Y-%m-%d %H:%i:%s") operationDate FROM ins_purchase
 
 ```
+
+```sql
+--时间计算
+SELECT id,car_number,tel,person_liable,result,create_time,
+date_format(create_time, '%H:%i:%s') t1,
+timediff(date_format(create_time, '%H:%i:%s'),'03:00:00') t2,
+(HOUR(timediff(date_format(create_time, '%H:%i:%s'),'03:00:00')) + ROUND(MINUTE(timediff(date_format(create_time, '%H:%i:%s'),'03:00:00'))/60) )
+ t3 FROM `ins_car_use_log` where person_liable like '%林%'
+ order by create_time desc limit 100;
+
+```
+
+
+### 3.2、中文排序
+
+```sql
 sql中文排序 
 SELECT id,name FROM `T_USER` ORDER BY convert(name using gbk)  ASC limit 10,100;
 ```
 
+### 3.3、分组取最值
+
+```sql
+分组取最值
+select * from (select * from ins_delivery_region_sort order by update_time desc limit 99999999) so group by region
+```
+
+```sql
+新增或修改数据
+Insert into fd_supplier VALUES (null,#{supplier_id},#{s_code}) on duplicate key update s_code=#{s_code}
+```
+
+### 3.4、修改root密码
 
 ```js
 	
@@ -921,10 +949,10 @@ mysql> exit;
 ```
 
 
-### 4.2、文档
+### 3.5、文档
 
 - [数据库隔离级别]( https://blog.xushufa.cn )
 
-- [mysql开启log-bin日志]( https://reco-blog.xushufa.cn )
+- [mysql开启log-bin日志]( https://web.xushufa.cn )
 
 
