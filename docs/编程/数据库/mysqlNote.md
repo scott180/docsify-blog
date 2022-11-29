@@ -831,6 +831,21 @@ CONSTRAINT check_salary CHECK
 
 ```
 
+```sql
+-- case when更新
+update ins_xsf_purchase_detail set 
+ purchase_gross_weight = CASE 
+		WHEN product_id = 1 THEN 99
+		WHEN product_id = 2 THEN 1 
+ ELSE	0 end, 
+ gross_price = CASE 
+		WHEN product_id = 2 THEN 900
+		WHEN product_id = 2 THEN 1 
+ ELSE	0 end,gross_weight_source=2
+where purchase_order='HZCCG20220906618201';
+
+```
+
 ### 2.6、复制表结构、表数据
 
 ```java

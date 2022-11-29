@@ -1,6 +1,6 @@
 # vuepress构建项目
 
-## 一、vuepress默认主题
+## 一、vuepress
 
 使用vuepress构建的博客。
 [github]( https://github.com/scott180/vuepress-blog ) &ensp; [vuepress-blog]( https://scott180.github.io/vuepress-blog )  &ensp; [vuepress-calligraphy]( https://scott180.github.io/vuepress-calligraphy )
@@ -137,8 +137,6 @@ echo 'reco-blog.xushufa.cn' > CNAME
 
 ---
 
-
-
 > github Actions pages build and deployment 报错
 
 ```
@@ -171,6 +169,27 @@ Deployment request failed for 5a3201f6016e6e078f0f3c46eb4132a3d9014bdd due to in
 
 ---
 
+>  npm run docs:build 本地打包项目，丢失css样式
+
+- 1、修改`base`字段为 `./`   参考 https://blog.csdn.net/JZevin/article/details/109195652 <br>
+修改 `/docs/.vuepress/config.js` 中配置的`base`字段  <br>
+这里的资源路径不应该是绝对路径，根目录 `/` ，而应该是相对路径 `./` <br>
+
+
+- 2、注释掉 `mode`  参考  https://www.jianshu.com/p/f9b9edd210f8
+
+```c
+找到 node_modules\@vuepress\core\lib\client\app.js文件， 注释掉 'mode'，让它默认哈希模式。
+
+ const router = new Router({
+    base: routerBase,
+    // mode: 'history',
+	
+```
+
+
+---
+
 > 主要命令
 
 ```sh
@@ -182,6 +201,15 @@ npm run docs:build
 
 # 部署
 npm run deploy
+
+```
+
+---
+
+```sh
+git clone git@github.com:scott180/vuepress-blog.git
+
+npm install
 
 ```
 
@@ -216,92 +244,7 @@ Copyright © 2022 · xushufa.cn · 无为徐生 <br/>  [浙ICP备2022008289号-1
 
 
 
-### 1.4 阅读量
-
-参考 [Vuepress-阅读量统计]( https://heshiyu1996.github.io/blog/tool/vuepress-stat/ ) &ensp; [valine]( https://valine.js.org/ ) &ensp; [leancloud]( https://console.leancloud.cn/apps )
-
-项目 [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy )
-
-```
-yarn add leancloud-storage -S
-
-yarn add valine -S
-
-```
-
-创建`Valine.vue` 及 继承默认主题，并在`Page.vue`下引入 `<Valine />`。[commit]( https://github.com/scott180/vuepress-calligraphy/commit/18f3aefd2928e5e445a200842e61f9fa888575c5 )
-
-
-
-### 1.5 时间格式化
-
-[plugin-last-updated]( https://vuepress.vuejs.org/zh/plugin/official/plugin-last-updated.html ) &ensp; [momentjs]( http://momentjs.cn/ )
-
-```
-npm install moment --save
-
-```
-
-```js
-plugins: [
-[
-  '@vuepress/last-updated',
-  {
-	transformer: (timestamp, lang) => {
-	  // 不要忘了安装 moment
-	  const moment = require('moment')
-	  moment.locale(lang)
-	  return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
-	}
-  }
-]
-]
-```
-
-
-```js
-locales: {
-	'/': {
-	  lang: 'zh-CN',
-	  title: 'VuePress',
-	  description: 'Vue 驱动的静态网站生成器'
-	}
-}
-
-```
-
-### 1.6 全局搜索
-
-
-```js
-themeConfig: {
-// algolia 全局搜索
-algolia: {
-  apiKey: '123',
-  indexName: 'xushufa',
-  appId: '456',
-},
-
-官网	
-https://crawler.algolia.com/admin/crawlers/9f0f4253-4d83-44d8-9f0a-472f436581fd/overview
-https://www.algolia.com/apps/ODP1ID8WCB/explorer/browse/xushufa?searchMode=search
-
-教程
-https://docsearch.algolia.com/docs/legacy/config-file/
-https://www.cnblogs.com/yayujs/p/15982507.html
-
-```
-
-```java
-搜索为空，一般是 pathsToMatch 没配置好
-crawler.algolia.com -- Editor -- new Crawle -- pathsToMatch
-
-pathsToMatch: ["https://blog.xushufa.cn/**"]
-
-```
-
-
-## 二、vuepress-theme-reco主题
+## 二、vuepress-theme-reco
 
 使用vuepress-theme-reco构建的博客。
 
@@ -311,7 +254,7 @@ pathsToMatch: ["https://blog.xushufa.cn/**"]
 
 参考 [vuepress]( https://vuepress.vuejs.org/zh/ )  &ensp; [vuepress-theme-reco]( https://vuepress-theme-reco.recoluan.com/views/1.x/configJs.html )  &ensp; [vuepress-reco]( https://github.com/vuepress-reco/vuepress-theme-reco-1.x )  &ensp; [vuepress-theme-reco 主题优化]( https://blog.csdn.net/qq_42937522/article/details/122676915 ) &ensp; [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy )
 
-```
+```sh
 # init
 npm install @vuepress-reco/theme-cli -g
 theme-cli init my-blog
@@ -355,7 +298,7 @@ module.exports = {
 
 根目录创建 `deploy.sh` 文件
 
-```
+```js
 #!/usr/bin/env sh
 
 # 确保脚本抛出遇到的错误
@@ -416,12 +359,178 @@ module.exports = {
 ```
 
 
+
+
+## 三、插件
+
+[插件广场]( https://vuepress-theme-reco.recoluan.com/views/other/recommend.html ) &ensp; [plugin-medium-zoom]( https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html#%E5%AE%89%E8%A3%85 )  &ensp; [medium-zoom]( https://vuepress-community.netlify.app/zh/plugins/medium-zoom/#%E5%AE%89%E8%A3%85 )
+
+
+### 3.1 阅读量
+
+参考 [Vuepress-阅读量统计]( https://heshiyu1996.github.io/blog/tool/vuepress-stat/ ) &ensp; [valine]( https://valine.js.org/ ) &ensp; [leancloud]( https://console.leancloud.cn/apps )
+
+项目 [vuepress-calligraphy]( https://github.com/scott180/vuepress-calligraphy )
+
+```
+yarn add leancloud-storage -S
+
+yarn add valine -S
+
+```
+
+创建`Valine.vue` 及 继承默认主题，并在`Page.vue`下引入 `<Valine />`。[commit]( https://github.com/scott180/vuepress-calligraphy/commit/18f3aefd2928e5e445a200842e61f9fa888575c5 )
+
+
+
+### 3.2 时间格式化
+
+[plugin-last-updated]( https://vuepress.vuejs.org/zh/plugin/official/plugin-last-updated.html ) &ensp; [momentjs]( http://momentjs.cn/ )
+
+```
+npm install moment --save
+
+```
+
+```js
+plugins: [
+[
+  '@vuepress/last-updated',
+  {
+	transformer: (timestamp, lang) => {
+	  // 不要忘了安装 moment
+	  const moment = require('moment')
+	  moment.locale(lang)
+	  return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
+	}
+  }
+]
+]
+```
+
+
+```js
+locales: {
+	'/': {
+	  lang: 'zh-CN',
+	  title: 'VuePress',
+	  description: 'Vue 驱动的静态网站生成器'
+	}
+}
+
+```
+
+
+
+### 3.3 全局搜索
+
+```js
+themeConfig: {
+// algolia 全局搜索
+algolia: {
+  apiKey: '123',
+  indexName: 'xushufa',
+  appId: '456',
+},
+
+官网	
+https://crawler.algolia.com/admin/crawlers/9f0f4253-4d83-44d8-9f0a-472f436581fd/overview
+https://www.algolia.com/apps/ODP1ID8WCB/explorer/browse/xushufa?searchMode=search
+
+教程
+https://docsearch.algolia.com/docs/legacy/config-file/
+https://www.cnblogs.com/yayujs/p/15982507.html
+
+```
+
+```java
+搜索为空，一般是 pathsToMatch 没配置好
+crawler.algolia.com -- Editor -- new Crawle -- pathsToMatch
+
+pathsToMatch: ["https://blog.xushufa.cn/**"]
+
+```
+
+
+
+### 3.4 流程图
+
+```
+参考
+https://vuepress-plugin-mermaidjs.efrane.com/
+https://www.npmjs.com/package/vuepress-plugin-mermaidjs?activeTab=readme
+https://github.com/vuejs/vuepress/issues/111
+```
+
+
+```js
+下载   
+npm install --save-dev vuepress-plugin-mermaidjs
+或
+yarn add -D vuepress-plugin-mermaidjs
+
+
+配置
+// .vuepress/config.js
+module.exports = {
+    // ...
+    plugins: [
+        'vuepress-plugin-mermaidjs'
+    ]
+    // ...
+}
+
+```
+
+```js
+
+引号格式不支持，只能用箭头格式的。
+
+
+添加文件
+// .vuepress/components/mermaid.vue
+
+<template>
+  <div class="mermaid">
+    <slot></slot>
+  </div>
+</template>
+
+<script>
+export default {
+  mounted() {
+    import("mermaid/dist/mermaid").then(m => {
+      m.initialize({
+        startOnLoad: true
+      });
+      m.init();
+    });
+  }
+};
+</script>
+
+
+
+使用这种格式的
+### Random mermaid example
+
+<mermaid>
+graph TD
+  A[Silvester] -->|Get money| B(Go shopping)
+  B --> C{Let me think}
+  C -->|One| D[Laptop]
+  C -->|Two| E[iPhone]
+  C -->|Three| F[Car]
+  C -->|Four| F[Mac]
+</mermaid>
+
+```
+
+
 ---
 
 
-### 2.3 插件 
-
-参考 [插件广场]( https://vuepress-theme-reco.recoluan.com/views/other/recommend.html ) &ensp; [plugin-medium-zoom]( https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html#%E5%AE%89%E8%A3%85 )  &ensp; [medium-zoom]( https://vuepress-community.netlify.app/zh/plugins/medium-zoom/#%E5%AE%89%E8%A3%85 )
+### 3.5 图片放大
 
 > 图片放大
 
@@ -471,14 +580,15 @@ module.exports = {
 }
 ```
 
----
 
+
+### 3.6 展示名人名句
 
 > 默认随机展示名人名句
 
 参考 [vuepress-plugin-boxx]( https://github.com/zpj80231/vuepress-plugin-boxx )
 
-```
+```js
 在文件package.json中的devDependencies下加入"vuepress-plugin-boxx": "0.0.7"：
 
 
@@ -497,7 +607,7 @@ module.exports = {
 
 ```
 
-```
+```sh
 npm install
 
 在文档标题前一行添加 <Boxx/>
@@ -507,19 +617,5 @@ npm install
 
 ---
 
-> 主要命令
 
-```sh
-# 启动 
-npm run dev
-
-# 打包
-npm run build
-
-# 部署
-npm run deploy
-
-```
-
----
 

@@ -257,6 +257,11 @@ gitbook--20220429
 于是将相关图片都放在自己的服务器[md.xushufa]( https://md.xushufa.cn/gitimg/ )。 <br/>
 --20220820
 
+- 九月使用`Typora`，`pandoc`和`MarkText`，`PDFPatcher`将所有`markdown`文件都导出为`pdf`文件。<br/>
+如此，图文一体，文档内容、图片、格式三合一，再也不会少字、丢图、变形。<br/>
+`pdf`是储藏《书法练习轨迹》的最佳文件格式。[gitcode]( https://gitcode.net/xu180/document/-/tree/master/pdf ) &ensp; [coding]( https://xyqin.coding.net/public/my/document/git/files/master/pdf ) <br/>
+--202209
+
 ---
 
 ### 2.4、主题链接
@@ -495,21 +500,31 @@ https://xushufa.cn/%E8%BD%A8%E8%BF%B9/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD
 ```
 书法练习轨迹各git仓库图片链接
 
-gitlab  国外网站，加载慢
-https://gitlab.com/xuyq123/imgs/-/raw/master/mingyue/2021/202105/2021050202.jpg
+github  国外网站，加载慢   cdn
+https://raw.githubusercontent.com/scott180/imgs/master/mingyue/2021/202104/2021042501.jpg
+https://cdn.jsdelivr.net/gh/scott180/imgs/mingyue/2021/202105/2021050202.jpg
 
-coding  加载快，无屏蔽
+coding  加载快，有屏蔽
 https://xyqin.coding.net/p/my/d/imgs/git/raw/master/mingyue/2021/202105/2021042601.jpg
 https://xyqin.coding.net/p/my/d/document/git/raw/master/imgs/calligraphy-wxMiniProgram/calligraphy-wxMiniProgram.jpg
+
+sourceforge 国外网站
+https://sourceforge.net/p/calligraphy/imgs/ci/master/tree/mingyue/2022/202201/2022012001.jpg?format=raw
+
+codeberg 速度较快
+https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.jpg
+
+
+以上基本打不开图片。。。
+
+
+gitlab  国外网站，加载慢
+https://gitlab.com/xuyq123/imgs/-/raw/master/mingyue/2021/202105/2021050202.jpg
 
 gitcode  加载快，无屏蔽
 https://gitcode.net/xu180/imgs/-/raw/master/mingyue/2021/202104/2021042504.jpg
 https://codechina.csdn.net/xu180/imgs/-/raw/master/mingyue/2022/202204/2022040801.jpg
 https://gitcode.net/xu180/document/-/raw/master/imgs/weixin/calligraphy-wxMiniProgram.jpg
-
-github  国外网站，加载慢   cdn
-https://raw.githubusercontent.com/scott180/imgs/master/mingyue/2021/202104/2021042501.jpg
-https://cdn.jsdelivr.net/gh/scott180/imgs/mingyue/2021/202105/2021050202.jpg
 
 gitee   加载快，有屏蔽
 https://gitee.com/xy180/imgs/raw/master/mingyue/2021/202104/2021040202.jpg
@@ -517,11 +532,6 @@ https://gitee.com/xy180/imgs/raw/master/mingyue/2021/202104/2021040202.jpg
 bitbucket 国外网站
 https://bitbucket.org/xu12345/imgs/raw/fac05f5cff30d534a7cf92a9b304b4d7f2df083b/mingyue/2021/202107/2021072402.jpg
 
-sourceforge 国外网站
-https://sourceforge.net/p/calligraphy/imgs/ci/master/tree/mingyue/2022/202201/2022012001.jpg?format=raw
-
-codeberg 速度较快
-https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.jpg
 
 cdn npm node
 https://cdn.jsdelivr.net/npm/xushufa-imgs/imgs/mingyue/2021/202112/2021120801.jpg

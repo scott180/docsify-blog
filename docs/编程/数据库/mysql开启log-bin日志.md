@@ -101,6 +101,9 @@ set global log_output = "table";
 查看sql
 select * from mysql.general_log where argument like '%select%'   ORDER BY event_time DESC limit 100;
 
+清除日志
+TRUNCATE table mysql.general_log
+
 ```
 
 ![g]( https://gitcode.net/xu180/imgs/-/raw/master/other/mysql.general_log.jpg )

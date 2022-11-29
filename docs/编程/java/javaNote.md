@@ -72,7 +72,7 @@ Map<String, List<DeliveryGoodsDO>> deliveryGoodsMap = deliveryGoodsDOS.stream().
 Map<String, DeliveryDO> deliveryOrderMap = deliveryDOS.stream().collect(Collectors.toMap(DeliveryDO::getDeliveryOrder, a -> a));
 
 // list转map-值为单个对象 （如有重复，用第一个）
-Map<String, DeliveryDO> deliveryOrderMap = deliveryDOS.stream().collect(Collectors.toMap(DeliveryDO::getDeliveryOrder, a-> a,(k1,k2)->k2));
+Map<String, DeliveryDO> deliveryOrderMap = deliveryDOS.stream().collect(Collectors.toMap(DeliveryDO::getDeliveryOrder, a-> a,(k1,k2)->k1));
 
 
 // list转map-值为对象的字段
@@ -492,14 +492,14 @@ syso+Alt+/      输出
 
 ### 3.1、jdk java软件
 
-| 软件                              | 下载地址   |
-| --------                          | -----      |
+| 软件     | 下载地址      |
+| -------- | --------      |
 | idea     | [idea官方下载]( https://www.jetbrains.com/idea/download/other.html ) &ensp; [idea2019]( https://www.aliyundrive.com/s/oWgxBBNqGj9 )     |
 | maven    | [maven官方下载]( https://archive.apache.org/dist/maven/maven-3/ )            |
 | mysql    | [mysql_5.7]( https://www.aliyundrive.com/s/pymjQca3DbY )                     |
 | javaSoft | [java软件]( https://www.aliyundrive.com/s/fWXemUwcsUs )  redis/mongo/Navicat/kafka/zookeeper/git/Xshell...                              |
 | tomcat   | [tomcat官网]( https://archive.apache.org/dist/tomcat/ ) &ensp; ([云盘]( https://pan.baidu.com/s/1yPhAfIcACTGkpIOYlEds1g )  密码: j9ug ) |
-| eclipse  | [eclipse官方下载]( http://www.eclipse.org/downloads/packages )    [版本说明]( ./eclipse.md ) |
+| eclipse  | [eclipse官方下载]( http://www.eclipse.org/downloads/packages )               |
 
 ---
 
