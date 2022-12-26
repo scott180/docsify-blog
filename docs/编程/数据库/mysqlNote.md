@@ -600,7 +600,7 @@ select id,group_concat(name order by name desc) from aa group by id;
 
 ```
 
-### 2.4、left join左右连接
+### 2.4、left join左右内外连接
 
 ```sql
 sql之left join、right join、inner join的区别
@@ -696,11 +696,11 @@ compopr参数指定关系比较运算符："="， "<"， ">"， "<="， ">=" 或
 ```
 
 
-### 2.5、Case when 的使用方法
+### 2.5、case when 的使用方法
 
 ```java
 
-Case when 的使用方法
+case when 的使用方法
 https://www.cnblogs.com/yazdao/archive/2009/12/09/1620482.html
 
 Case具有两种格式。简单Case函数和Case搜索函数。
@@ -846,7 +846,7 @@ where purchase_order='HZCCG20220906618201';
 
 ```
 
-### 2.6、复制表结构、表数据
+### 2.6、复制表结构表数据
 
 ```java
 
@@ -966,8 +966,8 @@ mysql> exit;
 
 ### 3.5、文档
 
-- [数据库隔离级别]( https://blog.xushufa.cn )
+- [数据库隔离级别]( https://blog.xushufa.cn/%E7%BC%96%E7%A8%8B/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB.html )
 
-- [mysql开启log-bin日志]( https://web.xushufa.cn )
+- [mysql开启log-bin日志]( https://web.xushufa.cn/docs/bian-cheng/shu-ju-ku/mysqlkai-qi-log-binri-zhi.html )
 
 
