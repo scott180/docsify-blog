@@ -65,7 +65,7 @@ Typora + pandoc 导出pdf时，可以将图片链接换成base64编码，这样�
 且文档的base64图片编码多了，使用Typora报错：该文件过大，因此无法在Typora中呈现。<br/>
 
 >Typora导出pdf
-![1Typora]( https://gitcode.net/xu180/document/-/raw/master/imgs/md2pdf/1Typora.jpg )
+![1Typora]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/1Typora.jpg )
 
 ---
 
@@ -129,7 +129,7 @@ C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe <br/>
 《无为徐生_vscode.pdf》丢失图片，没有书签，格式变化。 <br/>
 
 >vscode导出pdf
-![2vscode]( https://gitcode.net/xu180/document/-/raw/master/imgs/md2pdf/2vscode.jpg )
+![2vscode]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/2vscode.jpg )
 
 ---
 
@@ -152,30 +152,30 @@ MarkText是一个简单开源的 Markdown 编辑器。 https://github.com/markte
 ---
 
 >MarkText导出pdf
-![3MarkText]( https://gitcode.net/xu180/document/-/raw/master/imgs/md2pdf/3MarkText.jpg )
+![3MarkText]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/3MarkText.jpg )
 
 ---
 
 >PDFPatcher生成书签
-![4PDFPatcher]( https://gitcode.net/xu180/document/-/raw/master/imgs/md2pdf/4PDFPatcher.jpg )
+![4PDFPatcher]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/4PDFPatcher.jpg )
 
 >PDFPatcher导入书签
-![5PDFPatcher]( https://gitcode.net/xu180/document/-/raw/master/imgs/md2pdf/5PDFPatcher.jpg )
+![5PDFPatcher]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/5PDFPatcher.jpg )
 
 >PDF书签打开
-![6PDFPatcher]( https://gitcode.net/xu180/document/-/raw/master/imgs/md2pdf/6PDFPatcher.jpg )
+![6PDFPatcher]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/6PDFPatcher.jpg )
 
 ---
 
 ### 2.6 评分
 
-| 评分        | 内容不丢失 | 格式不变形 | 有图片 | 有书签 | 操作简单 | 得分     |
-| ----------  | ---------- | ---------- | ------ | ------ | -------- | -------- |
-| Typora      |   √        |   √        |   ×    |   √    |   √      |  ★★★★    |
+| 评分        | 内容不丢失 | 格式不变形 | 有图片 | 有书签 | 操作简单 | 得分        |
+| ----------  | ---------- | ---------- | ------ | ------ | -------- | ----------- |
+| Typora      |   √        |   √        |   ×    |   √    |   √      |  ★★★★   |
 | pandoc      |   ○        |   ○        |   ○    |   √    |   ○      |  ★★★     |
 | wkhtmltopdf |   ○        |   ○        |   ○    |   √    |   ○      |  ★★★     |
 | vscode      |   √        |   ○        |   ×    |   √    |   ×      |  ★★☆     |
-| MarkText    |   √        |   √        |   √    |   ○    |   √      |  ★★★★☆   |
+| MarkText    |   √        |   √        |   √    |   ○    |   √      |  ★★★★☆ |
 
 
 | 网址        | 官网       | 下载       |

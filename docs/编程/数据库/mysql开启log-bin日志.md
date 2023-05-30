@@ -72,7 +72,7 @@ mysql> show binlog events in 'mysql-bin.000001' from 4 limit 0,5;
 
 <br>
 
-4、导出文件
+- 4、导出文件
 
 ```sql
 mysqlbinlog /var/lib/mysql/mysql-bin.000001 > test.sql;

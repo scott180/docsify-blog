@@ -3,18 +3,18 @@
 
 > docsify搭建的博客网站
 
-### 1.网站
+### 网站
 
 ---
 
 |        | 地址        |  备注          |
 | -----  | ----------- |  ------------- |
-| 1      | [xushufa.cn]( https://xushufa.cn )            | 书法练习网站。 |
-| 2      | [blog.xushufa.cn]( https://blog.xushufa.cn )  | `vuepress`构建的博客网站。 |
-| 3      | [web.xushufa.cn]( https://web.xushufa.cn )    | `vuepress-theme-reco`构建的博客网站。|
+| 1      | [xushufa]( https://xushufa.cn )                  	    | `vuepress-theme-reco`构建的博客网站。|
+| 2      | [vuepress-blog]( https://vuepress-blog.xushufa.cn )  	| `vuepress`构建的博客网站。           |
+| 3      | [mkdocs-blog]( https://xuyq123.gitlab.io/mkdocs-blog )   | `mkdocs`构建的博客网站。             |
 
 
-### 2.文档
+### 文档
 
 ---
 
@@ -25,6 +25,7 @@
   - [日常Note](生活/随笔/日常Note.md)
   - [驾考记事](生活/随笔/驾考记事.md)
   - [健身与学习](生活/随笔/健身与学习.md)
+  - [吉他练习笔记](生活/随笔/吉他练习笔记.md)
   - [二十四式太极拳](生活/随笔/二十四式太极拳.md)
   - [短期远行必备物品](生活/随笔/短期远行必备物品.md)
   - [我的原神旅行观测记录](生活/随笔/我的原神旅行观测记录.md)
@@ -129,10 +130,4 @@
   - [书法练习轨迹remark](书法/轨迹/书法练习轨迹remark.md)
   - [书法练习轨迹--明月几时有-无图版](书法/轨迹/书法练习轨迹--明月几时有-无图版.md)
 
-
-
----
-	
-> 文徵明-小楷赤壁赋 <br/>
-![文徵明-小楷赤壁赋]( https://md.xushufa.cn/gitimg/document/imgs/shufa/文徵明-小楷赤壁赋.jpg )
 

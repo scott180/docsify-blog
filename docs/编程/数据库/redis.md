@@ -2,7 +2,7 @@
 
 ## 安装 
 
-``` sql
+```java
 windows下redis安装 
 http://www.runoob.com/redis/redis-install.html
 进入redis目录

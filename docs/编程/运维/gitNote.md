@@ -429,7 +429,7 @@ ssh-keygen -t rsa
 
 cat ~/.ssh/id_rsa.pub
 
-添加到 https://github.com/settings/keys   依次点击"Setting -> SSH Keys"->"New SSH key"
+添加到 https://github.com/settings/keys   依次点击 Setting -> SSH Keys -> New SSH key
 
 ssh -T git@github.com
 
@@ -439,7 +439,7 @@ git clone git@github.com:scott180/MyNotes.git
 ```
 
 
-### 3.2、提交及更新失败
+### 3.2、git pull冲突
 
 ``` java
 用git pull来更新代码的时候，遇到了下面的问题：
@@ -473,7 +473,6 @@ git pull
 
 
 ```vb
-
 GIT拉取代码的时候提示AUTHENTICATION FAILED FOR []
 
 解决方法：
@@ -485,8 +484,9 @@ git config --system --unset credential.helper
 
 ```
 
-```sql
+### 3.3、git push失败
 
+```sql
 在git（小乌龟）向github远程推送（push）文件是会报一个异常 no supported authentication methods avaiable         
 https://blog.csdn.net/Maxiao1204/article/details/81476618
 
@@ -500,3 +500,37 @@ https://blog.csdn.net/Maxiao1204/article/details/81476618
 这里更改ssh 路径的时候，要把上面的“使用代理服务器” 勾打上，点击应用，再确定
 
 ```
+
+```java
+推送代码时报错如下：
+$ git push
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:uNiVztksCsDhcc0u9e8BujQXVUpKZIDTMczCvj3tD2s.
+Please contact your system administrator.
+Add correct host key in /c/Users/Administrator/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /c/Users/Administrator/.ssh/known_hosts:2
+RSA host key for github.com has changed and you have requested strict checking.
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+
+解决方法：
+1、检查github的秘钥是否与本地一致。
+本地    cat ~/.ssh/id_rsa.pub   查秘钥。
+GitHub  Setting -> SSH Keys-> New SSH key  添加秘钥。
+
+
+2、磁盘 C:\Users\Administrator\.ssh 的 known_hosts 文件，删除 github.com xxx 
+重新推送文件，输入yes即可。
+
+```
+

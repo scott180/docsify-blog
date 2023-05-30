@@ -930,6 +930,7 @@ sql中文排序
 SELECT id,name FROM `T_USER` ORDER BY convert(name using gbk)  ASC limit 10,100;
 ```
 
+
 ### 3.3、分组取最值
 
 ```sql
@@ -941,6 +942,7 @@ select * from (select * from ins_delivery_region_sort order by update_time desc 
 新增或修改数据
 Insert into fd_supplier VALUES (null,#{supplier_id},#{s_code}) on duplicate key update s_code=#{s_code}
 ```
+
 
 ### 3.4、修改root密码
 
@@ -964,7 +966,27 @@ mysql> exit;
 ```
 
 
-### 3.5、文档
+### 3.5、Deadlock found
+
+```js
+https://blog.csdn.net/qq_44240587/article/details/108400666   死锁
+Mysql报Deadlock found when trying to get lock; try restarting transaction问题解决!!
+
+
+行级锁在使用的时候并不是直接锁掉这行记录,而是锁索引
+如果一条sql用到了主键索引(mysql主键自带索引),mysql会锁住主键索引;
+如果一条sql操作了非主键索引,mysql会先锁住非主键索引,再锁定主键索引.
+
+
+select * from information_schema.INNODB_TRX  
+
+kill 进程ID
+
+  
+```
+
+
+### 3.6、文档
 
 - [数据库隔离级别]( https://blog.xushufa.cn/%E7%BC%96%E7%A8%8B/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB.html )
 
