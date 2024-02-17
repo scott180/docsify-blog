@@ -6,7 +6,7 @@
 
 ```js
 压缩包，免安装文件，安装mysql。参考：
-http://blog.xushufa.cn
+http://xushufa.cn
 http://blog.csdn.net/wengengeng/article/details/52013650
 https://www.cnblogs.com/jyjia/archive/2019/03/07/10490013.html
 
@@ -20,20 +20,17 @@ https://www.aliyundrive.com/s/pymjQca3DbY
 ### 1.1、下载软件
 
 ```java
-下载mysql
+>下载mysql
+进入官网：https://www.mysql.com/
+单击【Downloads】选项卡
+最下面有个【 MySQL Community Edition  (GPL)】，单击【Community (GPL) Downloads »】
+单击【MySQL Community Server (GPL)】下的【DOWNLOAD】
+在弹出的页面上下载【Windows (x86, 64-bit), ZIP Archive】
 
-    进入官网：https://www.mysql.com/
-
-    单击【Downloads】选项卡
-    最下面有个【 MySQL Community Edition  (GPL)】，单击【Community (GPL) Downloads »】
-    单击【MySQL Community Server (GPL)】下的【DOWNLOAD】
-    在弹出的页面上下载【Windows (x86, 64-bit), ZIP Archive】
-
-安装mysql
+>安装mysql
 压缩包相当于免安装文件，要想使用它，需要配置正确，并通过服务来启动数据库服务。
 1.把压缩包解压到你喜欢的位置
 本示例解压到：D:\mysql-5.7.13-winx64，文件夹下
-
 
 
 2.创建my.ini文件（在 D:\mysql-5.7.13-winx64 目录），内容如下：
@@ -42,11 +39,10 @@ https://www.aliyundrive.com/s/pymjQca3DbY
     port=3306  
     basedir  ="D:\\mysql-5.7.13-winx64\\"  
     datadir  ="F:\\mysqlData\\"  
-      
-      
+
     max_allowed_packet = 32M  
 
- 注意，basedir和datadir是必须要配置的，basedir就是你解压的目录。官方文档上说，如果你喜欢用反斜杠，则要用双反斜杠，斜杠的话就不用这样。即：D:\\mysql-5.7.13-winx64\\ 或：D:/mysql-5.7.13-winx64/
+注意，basedir和datadir是必须要配置的，basedir就是你解压的目录。官方文档上说，如果你喜欢用反斜杠，则要用双反斜杠，斜杠的话就不用这样。即：D:\\mysql-5.7.13-winx64\\ 或：D:/mysql-5.7.13-winx64/
 由于本人喜欢把数据库的数据文件独立出来，所以就把datadir配置到其它地方，方便管理。另外，创建该目录。
 
 ```
@@ -273,6 +269,7 @@ mysql> SELECT 1+
   尽管服务器理解刚才描述的注释句法，但 MySQL 客户端的语法分析在 /* ... */ 注释方式上还有所限止： 
   单引号和双引号被用来标志一个被引用字符串的开始，即使是在一个注释中。如果注释中的引号没有另一个引号与之配对，那和语法分析程序就不会认为注释结束。如果你以交互式运行 mysql，你会产生困惑，因为提示符从 mysql> 变为 '> 或 ">。
 
+  '
 
 -- mysql的自动递增auto_increment（类似oracle的序列 sequence）
 create table article(
@@ -853,49 +850,43 @@ where purchase_order='HZCCG20220906618201';
 Mysql复制表结构、表数据的方法
 
 1、复制表结构及数据到新表（不包含主键、索引、分区等）
-
 CREATE TABLE 新表 SELECT * FROM 旧表
-
 或 CREATE TABLE 新表 AS SELECT * FROM 旧表
 
 这种方法将旧表基本结构和数据复制到新表。
-
 不过这种方法的一个最不好的地方就是新表中没有了旧表的主键、索引、Extra（auto_increment，字符集编码及排序）、注释、分区等属性 以及触发器、外键等。
 
+
 2、只复制表结构到新表
-
 CREATE TABLE 新表 SELECT * FROM 旧表 WHERE 1=2 （只是第一种方式去除掉数据）
-
 CREATE TABLE 新表 LIKE 旧表
 
 这种方式的复制可以复制旧表的主键、索引、Extra（auto_increment，字符集编码及排序）、注释、分区等属性。但是不包含触发器、外键等
 
+
 3、复制旧表的数据到新表
-
 INSERT INTO 新表 SELECT * FROM 旧表
-
 INSERT INTO 新表(字段1,字段2,.......) SELECT 字段1,字段2,...... FROM 旧表
 
 上面两条语句的前提是新表已经存在
 
-4、复制表结构及数据到新表（包含主键、索引、分区等）
 
+4、复制表结构及数据到新表（包含主键、索引、分区等）
 结合上述第2、3点，即：
 
 先 CREATE TABLE 新表 LIKE 旧表
-
 然后 INSERT INTO 新表 SELECT * FROM 旧表
 
-5、可以将表1结构复制到表2（mysql不支持）
 
+5、可以将表1结构复制到表2（mysql不支持）
 SELECT * INTO 表2 FROM 表1 WHERE 1=2
 
-6、可以将表1内容全部复制到表2（mysql不支持）
 
+6、可以将表1内容全部复制到表2（mysql不支持）
 SELECT * INTO 表2 FROM 表1
 
-7、 show create table 旧表;
 
+7、 show create table 旧表;
 这样会将旧表的创建命令列出。我们只需要将该命令拷贝出来，更改table的名字，就可以建立一个完全一样的表
 
 ```
@@ -906,7 +897,7 @@ SELECT * INTO 表2 FROM 表1
 
 
 ```sql
-sql将毫秒数字转换为日期
+--sql将毫秒数字转换为日期
 SELECT FROM_UNIXTIME(operation_time/1000,"%Y-%m-%d %H:%i:%s") operationDate FROM ins_purchase
 
 ```
@@ -922,29 +913,84 @@ timediff(date_format(create_time, '%H:%i:%s'),'03:00:00') t2,
 
 ```
 
-
-### 3.2、中文排序
-
 ```sql
-sql中文排序 
-SELECT id,name FROM `T_USER` ORDER BY convert(name using gbk)  ASC limit 10,100;
+--时间增减
+select DATE_ADD( now(), INTERVAL -2 DAY ) from dual
+
+SELECT id,product_id productId,sales  FROM ins_period_sales where create_time > DATE_ADD( now(), INTERVAL -2 DAY ) 
+
 ```
 
 
-### 3.3、分组取最值
+### 3.2、指定排序
 
 ```sql
-分组取最值
+-- 中文排序 
+SELECT id,name FROM `T_USER` ORDER BY convert(name using gbk)  ASC limit 10,100;
+```
+
+```sql
+-- 指定字段值排序
+SELECT id,name FROM `T_USER` ORDER BY FIELD( status, 0,2,1,3 ) ASC;
+```
+
+### 3.3、截取字符串
+
+```sql
+-- SUBSTRING  从指定角标开始截取
+-- LOCATE     查找字符串中指定字符的位置
+
+select id, mode_name, action_name, goods_handle_id, handle_name, handle_time, mark,SUBSTRING(info, 
+LOCATE('283510',info) , 200) log from ins_handle_log where goods_handle_id in (12257) order by id desc
+
+```
+
+```
+SUBSTRING_INDEX - 按分隔符截取字符串
+SUBSTRING_INDEX(str, delimiter, count)
+返回一个 str 的子字符串，在 delimiter 出现 count 次的位置截取。
+
+如果 count > 0，从则左边数起，且返回位置前的子串；
+如果 count < 0，从则右边数起，且返回位置后的子串。
+delimiter 是大小写敏感，且是多字节安全的。
+
+mysql> SELECT SUBSTRING_INDEX('www.mysql.com', '.', 2);
+        -> 'www.mysql'
+mysql> SELECT SUBSTRING_INDEX('www.mysql.com', '.', -2);
+        -> 'mysql.com'
+		
+```
+
+```
+LEFT(str,len)
+从左边开始截取，str：被截取字符串；len：截取长度
+
+RIGHT(str,len)
+从右边开始截取，str：被截取字符串；len：截取长度
+
+SUBSTR(str, pos, len)
+与SUBSTRING(str, pos, len)函数的使用一样
+
+MID(str, pos, len)
+与SUBSTRING(str, pos, len)函数的使用一样
+
+```
+
+
+### 3.4、分组取最值
+
+```sql
+-- 分组取最值
 select * from (select * from ins_delivery_region_sort order by update_time desc limit 99999999) so group by region
 ```
 
 ```sql
-新增或修改数据
+-- 新增或修改数据
 Insert into fd_supplier VALUES (null,#{supplier_id},#{s_code}) on duplicate key update s_code=#{s_code}
 ```
 
 
-### 3.4、修改root密码
+### 3.5、修改root密码
 
 ```js
 	
@@ -966,30 +1012,63 @@ mysql> exit;
 ```
 
 
-### 3.5、Deadlock found
+### 3.6、死锁Deadlock
 
 ```js
-https://blog.csdn.net/qq_44240587/article/details/108400666   死锁
 Mysql报Deadlock found when trying to get lock; try restarting transaction问题解决!!
+https://blog.csdn.net/qq_44240587/article/details/108400666   
 
-
-行级锁在使用的时候并不是直接锁掉这行记录,而是锁索引
+行级锁在使用的时候并不是直接锁掉这行记录,而是锁索引.
 如果一条sql用到了主键索引(mysql主键自带索引),mysql会锁住主键索引;
 如果一条sql操作了非主键索引,mysql会先锁住非主键索引,再锁定主键索引.
 
 
+--查询一下mysql的事务处理表
 select * from information_schema.INNODB_TRX  
 
+--杀掉进程
 kill 进程ID
 
-  
+
+```
+
+```java
+如何检测锁定表（由LOCK TABLE锁定）
+https://www.toutiao.com/article/7237364692283458106
+
+SHOW ENGINE INNODB STATUS;
+该命令会输出当前 InnoDB 存储引擎的详细状态信息，其中包括事务、锁定和死锁等信息。
+
+SHOW OPEN TABLES;
+该命令会返回一个表格，其中显示了所有打开的表的详细信息，包括库名、表名、表类型、锁类型等。
+
+
+```
+
+```
+mysql数据库死锁：Deadlock found when trying to get lock; try restarting transaction
+https://www.w3cschool.cn/article/3739209.html
+
+减少死锁：
+使用事务，不使用 lock tables 。
+保证没有长事务。
+操作完之后立即提交事务，特别是在交互式命令行中。
+如果在用 (SELECT ... FOR UPDATE or SELECT ... LOCK IN SHARE MODE)，尝试降低隔离级别。
+修改多个表或者多个行的时候，将修改的顺序保持一致。
+创建索引，可以使创建的锁更少。
+最好不要用 (SELECT ... FOR UPDATE or SELECT ... LOCK IN SHARE MODE)。
+如果上述都无法解决问题，那么尝试使用 lock tables t1, t2, t3 锁多张表
+
+
 ```
 
 
-### 3.6、文档
+### 3.7、文档
 
-- [数据库隔离级别]( https://blog.xushufa.cn/%E7%BC%96%E7%A8%8B/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB.html )
+- [linux笔记]( https://gitlab.com/xuyq123/mynotes/-/blob/master/%E8%BF%90%E7%BB%B4/linuxNote-x.md )
 
-- [mysql开启log-bin日志]( https://web.xushufa.cn/docs/bian-cheng/shu-ju-ku/mysqlkai-qi-log-binri-zhi.html )
+- [数据库隔离级别]( https://xushufa.cn/docs/bian-cheng/shu-ju-ku/shu-ju-ku-ge-chi-ji-bie.html )
+
+- [mysql开启log-bin日志]( https://xushufa.cn/docs/bian-cheng/shu-ju-ku/mysqlkai-qi-log-binri-zhi.html )
 
 

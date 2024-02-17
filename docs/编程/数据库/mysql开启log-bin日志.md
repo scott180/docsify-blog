@@ -62,7 +62,7 @@ mysql> show binlog events in 'mysql-bin.000001' from 4 limit 0,5;
 | mysql-bin.000001 | 123 | Previous_gtids |         1 |         154 |                                       |
 | mysql-bin.000001 | 154 | Anonymous_Gtid |         1 |         219 | SET @@SESSION.GTID_NEXT= 'ANONYMOUS'  |
 | mysql-bin.000001 | 219 | Query          |         1 |         292 | BEGIN                                 |
-| mysql-bin.000001 | 292 | Table_map      |         1 |         375 | table_id: 125 (test.ins_car_team)    |
+| mysql-bin.000001 | 292 | Table_map      |         1 |         375 | table_id: 125 (test.ins_car_team)     |
 +------------------+-----+----------------+-----------+-------------+---------------------------------------+
 5 rows in set (0.00 sec)
 

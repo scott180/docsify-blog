@@ -474,7 +474,7 @@ Version: 1.4.0, Server: localhost:8080, Active Profiles: none
                                                                                 
 ```
 
-[xushufa]( https://md.xushufa.cn/gitimg/document/imgs/other/xushufa.png )
+[xushufa]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/other/xushufa.png )
 
 
 ## hello

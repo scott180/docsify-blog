@@ -11,7 +11,7 @@
 
 右击C盘，选择【属性】--【常规】--【磁盘清理】。稍等片刻，选择要删除的文件，确定。<br>
 
-![c1]( https://md.xushufa.cn/gitimg/document/imgs/pagefile/c1.jpg )
+![c1]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/pagefile/c1.jpg )
 
 
 	
@@ -19,7 +19,7 @@
 
 推荐使用`Folder Size`工具，扫描磁盘，查看所有文件夹大小，自主判断垃圾文件，手动删除。<br>
 
-![c2]( https://md.xushufa.cn/gitimg/document/imgs/pagefile/c2.jpg )
+![c2]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/pagefile/c2.jpg )
 
 ---
 
@@ -49,7 +49,7 @@
 - 2.之后点击系统保护设置，选择你想删除的磁盘，点击配置。<br>
 - 3.勾选禁用系统保护，删除此驱动的所有还原点。之后System Volume Information中的内容就会被自动清理了。<br>
 
-![c3]( https://md.xushufa.cn/gitimg/document/imgs/pagefile/c3.jpg )
+![c3]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/pagefile/c3.jpg )
 
 
 

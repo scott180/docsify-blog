@@ -1,7 +1,7 @@
 # java资料集
 
 ## 序
-[blog]( https://blog.xushufa.cn )  &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes )  &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 ) &ensp; [csdn]( https://blog.csdn.net/xu180 ) &ensp;  [stackoverflow]( https://stackoverflow.com/questions/tagged/java ) &ensp; [segmentfault]( https://segmentfault.com/ )
+[blog]( https://xushufa.cn )  &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes )  &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 ) &ensp; [csdn]( https://blog.csdn.net/xu180 ) &ensp;  [stackoverflow]( https://stackoverflow.com/questions/tagged/java ) &ensp; [segmentfault]( https://segmentfault.com/ )
 
 
 ## 1、java
@@ -265,7 +265,15 @@ java工程师 简历									|	[链接]( https://blog.csdn.net/qq_35729285/artic
 知识就是财富。<br/>
 学如逆水行舟，不进则退。学而时习之，不亦说乎。<br/>
 未雨绸缪，不要等到35岁才开始有危机感，那就是你被淘汰的时候。<br/>
--- to myself
+-- 2021
+
+>
+选择大于努力。<br/>
+-- 2022
+
+>
+天下大势，浩浩汤汤。<br/>
+-- 2023
 
 java诞生已经三十年，这个行业已是一片红海，相当成熟以及残酷。需要面向招聘学习，社会以及企业要求什么，你就要会什么。
 

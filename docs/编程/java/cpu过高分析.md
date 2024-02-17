@@ -9,11 +9,11 @@
 ## 命令
 
 ```shell
-[root@localhost ~]# top         --查看cpu	 
-[root@localhost ~]# top -p 6734 -H        --观察该进程中所有线程的CPU占用
-[root@localhost ~]# printf "%x\n" 6759    --找出CPU消耗较多的线程id，转16进制
+[root@localhost ~]# top         					--查看cpu	 
+[root@localhost ~]# top -p 6734 -H        			--观察该进程中所有线程的CPU占用
+[root@localhost ~]# printf "%x\n" 6759    			--找出CPU消耗较多的线程id，转16进制
 1a67
-[root@localhost ~]# jstack 6734|grep 1a67 -A 30        --打印堆栈信息，提交开发分析处理
+[root@localhost ~]# jstack 6734|grep 1a67 -A 30     --打印堆栈信息，提交开发分析处理
 
 
 ```
@@ -58,10 +58,10 @@
 --------------------------------------
 
 ```shell
-[root@localhost ~]# printf "%x\n" 6759    --找出CPU消耗较多的线程id，转16进制
+[root@localhost ~]# printf "%x\n" 6759    				--找出CPU消耗较多的线程id，转16进制
 1a67
  
-[root@localhost ~]# jstack 6734|grep 1a67 -A 30        --打印堆栈信息，提交开发分析处理
+[root@localhost ~]# jstack 6734|grep 1a67 -A 30			--打印堆栈信息，提交开发分析处理
 
 "startJob_Worker-5" prio=10 tid=0x00007f15c4c07800 nid=0x1a67 runnable [0x00007f159cc74000]
    java.lang.Thread.State: RUNNABLE
@@ -255,5 +255,16 @@
 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
 
 "startJob_Worker-1" prio=10 tid=0x00007f15c4aff800 nid=0x1a63 runnable [0x00007f159d077000]
+
+```
+
+
+
+## polarDB
+
+```
+20210430 项目经常内存过载原因查询。
+使用java自带的jvisualvm以及jpofiler分析内存，查无所得。
+根据polarDB数据库的记录查到sql的执行情况，原来是条件为空时没判断好，查到了一千万条包裹商品的记录，占用了内存，导致项目挂掉。
 
 ```

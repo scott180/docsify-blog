@@ -333,7 +333,7 @@ docsify是跟mkdocs类似的工具，可将markdown文件布署成静态网页�
 
 > 开通了微信小程序《书法练习轨迹》。练手项目，学习技术。聊以宣传，延伸轨迹。 [calligraphy-wxMiniProgram]( https://github.com/scott180/calligraphy-wxMiniProgram )  --202202
 
-![c]( https://md.xushufa.cn/gitimg/imgs/other/calligraphy-wxMiniProgram.jpg )
+![c]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/weixin/calligraphy-wxMiniProgram.jpg )
 
 ---
 
@@ -515,6 +515,15 @@ codeberg 速度较快
 https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.jpg
 
 
+cdn npm node
+https://cdn.jsdelivr.net/npm/xushufa-imgs/imgs/mingyue/2021/202112/2021120801.jpg
+https://cdn.jsdelivr.net/npm/xushufa-imgs2/imgs/mingyue/2022/202205/2022050801.jpg
+
+xushufa
+https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_weixin.png
+https://md.xushufa.cn/gitimg/document/imgs/shufa/chibifu/s1.jpg
+
+
 以上基本打不开图片。。。
 
 
@@ -531,16 +540,9 @@ https://gitee.com/xy180/imgs/raw/master/mingyue/2021/202104/2021040202.jpg
 
 bitbucket 国外网站
 https://bitbucket.org/xu12345/imgs/raw/fac05f5cff30d534a7cf92a9b304b4d7f2df083b/mingyue/2021/202107/2021072402.jpg
+https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/pagefile/1.jpg
 
-
-cdn npm node
-https://cdn.jsdelivr.net/npm/xushufa-imgs/imgs/mingyue/2021/202112/2021120801.jpg
-https://cdn.jsdelivr.net/npm/xushufa-imgs2/imgs/mingyue/2022/202205/2022050801.jpg
-
-xushufa
-https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_weixin.png
-https://md.xushufa.cn/gitimg/document/imgs/shufa/chibifu/s1.jpg
-		
+	
 ```
 
 ---
@@ -564,7 +566,7 @@ https://md.xushufa.cn/gitimg/document/imgs/shufa/chibifu/s1.jpg
 
 > **平台**
 
-- 若有志同道合的小伙伴想联系本人，可通过以下方式发邮件或私信。路漫漫其修远兮，吾将上下而求索。共勉。
+- 若有志同道合的小伙伴想联系本人，可通过以下方式发邮件或私信。路漫漫其修远兮，吾将上下而求索。共勉。 --202210
 
 | 平台           | 链接           |
 | -------------- | -------------- |
@@ -581,7 +583,7 @@ https://md.xushufa.cn/gitimg/document/imgs/shufa/chibifu/s1.jpg
 
 | 无为徐生   | 微信公众号                                               	 |  &ensp; |  今日头条号        |
 | ---------  | ------------------------------------------------------------- |  -      |  ----------        |
-|  二维码    | ![w]( https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_weixin.png ) | <br/> | ![t]( https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_toutiao.png )     |
+|  二维码    | ![w]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/weixin/wuweixusheng_weixin.png ) | <br/> | ![t]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/toutiao/wuweixusheng_toutiao.png )     |
 
 ***
 

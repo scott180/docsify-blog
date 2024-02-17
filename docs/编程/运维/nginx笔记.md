@@ -263,7 +263,7 @@ https://blog.csdn.net/ywb201314/article/details/51909976
 
 ---
 
-```linux
+```c
 #打开定时任务
 crontab -e
 

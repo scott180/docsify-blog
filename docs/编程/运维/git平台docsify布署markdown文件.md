@@ -2,7 +2,7 @@
 
 <br />
 
-`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )
+`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://github.com/scott180/docsify-blog )
 
 ## 本地安装
 
@@ -10,7 +10,7 @@
 docsify 可以快速帮你生成文档网站。不同于GitBook、Hexo的地方是它不会生成静态的 .html 文件，所有转换工作都是在运行时。
 
 // 首先安装node
-https://gitlab.com/xuyq123/mynotes/-/blob/master/%E5%85%B6%E4%BB%96/nodejs%20&%20vue.md
+https://gitlab.com/xuyq123/mynotes/-/blob/master/%E8%B5%84%E6%96%99/nodejs%E4%B8%8Enpm%E7%AC%94%E8%AE%B0.md
 
 // 安装docsify
 npm i docsify-cli -g   

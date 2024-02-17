@@ -2,7 +2,7 @@
 
 <br />
 
-> [blog]( https://blog.xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 )   
+> [blog]( https://xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 )   
 
 
 ------------------------
@@ -12,7 +12,7 @@
 ### 1.1、常用命令
 
 
-[git知识大全]( https://gitee.com/help/articles/4122 )
+[git知识大全]( https://gitee.com/help/articles/4122 ) &ensp; [Git教程]( https://www.liaoxuefeng.com/wiki/896043488029600 )
 ```vb
 提交代码
  git add .
@@ -439,7 +439,22 @@ git clone git@github.com:scott180/MyNotes.git
 ```
 
 
-### 3.2、git pull冲突
+### 3.2、github登录不上
+
+```
+参考 https://blog.csdn.net/ych9527/article/details/114372201
+
+1、查询github域名
+搜索DNS查询 http://tool.chinaz.com/dns/?type=1&host=github.com&ip=.   得到IP
+
+2、修改系统hosts文件
+在 C:\Windows\System32\drivers\etc\hosts 加上如下文本
+13.229.188.59 github.com
+
+```
+
+
+### 3.3、git pull冲突
 
 ``` java
 用git pull来更新代码的时候，遇到了下面的问题：
@@ -484,7 +499,7 @@ git config --system --unset credential.helper
 
 ```
 
-### 3.3、git push失败
+### 3.4、git push失败
 
 ```sql
 在git（小乌龟）向github远程推送（push）文件是会报一个异常 no supported authentication methods avaiable         
@@ -533,4 +548,31 @@ GitHub  Setting -> SSH Keys-> New SSH key  添加秘钥。
 重新推送文件，输入yes即可。
 
 ```
+
+
+### 3.5、Git bash Error
+
+
+```
+问题：打开 git bash 报错
+Git bash Error: Could not fork child process: There are no available terminals (-1)
+
+参考：
+https://blog.csdn.net/qq_26910073/article/details/80046283
+https://juejin.cn/post/6904071917209124872
+
+
+解决方法：
+1、打开命令行控制台
+win+r，输入 cmd
+
+2、tasklist 查看 git-bash.exe 和 bash.exe的进程
+
+3、终止相应进程号：
+taskkill /pid 12345 -t -f
+
+```
+
+
+
 

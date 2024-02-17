@@ -454,6 +454,6 @@ http://www.cnblogs.com/ginb/p/6200721.html
 
 ---
 
-[mongodb]( https://www.mongodb.com/docs/manual/ ) &ensp; [runoob]( https://www.runoob.com/mongodb/mongodb-tutorial.html ) &ensp; [blog.xushufa.cn]( https://blog.xushufa.cn )
+[mongodb]( https://www.mongodb.com/docs/manual/ ) &ensp; [runoob]( https://www.runoob.com/mongodb/mongodb-tutorial.html ) &ensp; [xushufa.cn]( https://xushufa.cn )
 
 ---

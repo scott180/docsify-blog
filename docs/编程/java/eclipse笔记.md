@@ -4,7 +4,7 @@
 ## 1、快捷键
 
 ```java
----------------------eclipse快捷键---------------------
+eclipse快捷键
 
 sout			打印
 Shift+Enter		另起一行
@@ -44,10 +44,10 @@ syso+Alt+/        输出
 ---
 
 ```java
----------------------windows常用快捷键---------------------
+windows常用快捷键
 
-Ctrl+C  复制选中内容
-Ctrl+V  粘贴复制内容
+Ctrl+C  复制
+Ctrl+V  粘贴
 Ctrl+S  保存
 Ctrl+A  选中全部内容
 Ctrl+X  剪切
@@ -60,10 +60,16 @@ Ctrl+N  新建一个空白文档
 Ctrl+P  打开"打印"对话框
 Ctrl+O  打开文档
 
-Ctrl+Shift  输入法切换
-Ctrl+Home   光标快速移到文件头
-Ctrl+End    光标快速移到文件尾
-Alt+Tab     程序切换
+Ctrl+Shift	输入法切换
+Ctrl+Home	光标快速移到文件头
+Ctrl+End	光标快速移到文件尾
+
+Ctrl+Shift+End	选中当前到末尾所有内容
+Ctrl+Shift+Esc	打开任务管理器
+Ctrl+Shift+Del	浏览器打开清除缓存对话框
+
+Alt+Tab     程序切换（小图标）
+Win+Tab     程序切换（大图标）
 
 Win     显示开始菜单
 Win+L   锁定计算机
@@ -71,11 +77,15 @@ Win+E   启动"我的电脑"
 Win+D   快速显示桌面
 Win+R   打开电脑"运行"对话框
 
-F2   文件夹改名
+F2   文件改名
 F5   浏览器页面刷新
 F11  浏览器进入全屏状态
 F12  浏览器打开调试
 
+Shift+PgUp	向上选中内容
+Shift+PgDn	向下选中内容
+
+Shift+光标+右键	 选中内容
 
 ```
 

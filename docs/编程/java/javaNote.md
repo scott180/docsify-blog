@@ -1,6 +1,13 @@
 # javaNote
 
-## 1、java常用方法
+## 1、java编程
+
+[calligraphy-boot]( https://gitlab.com/xuyq123/calligraphy-boot )  &ensp; [util]( https://gitlab.com/xuyq123/calligraphy-boot/-/blob/dev_20210728/calligraphy-boot-common/src/main/java/com/xu/calligraphy/boot/common/util/LogisticsUtil.java )
+
+### 1.1、常用方法
+
+> @Data、JSON、@JsonFormat、ThreadPoolTaskExecutor、@MapKey、@Select
+> Map遍历、创建数组、快速添加list、UnsupportOperationException
 
 ```java
 @Data
@@ -26,7 +33,15 @@ private Date createTime;
 
 Assert.isTrue(!StringUtils.isEmpty(param.getPhone()), "联系方式不能为空");
 
+ExecutorService ex = Executors.newCachedThreadPool();
+Runtime.getRuntime().availableProcessors();
+ThreadPoolTaskExecutor
+CountDownLatch
+CyclicBarrier 
 
+```
+
+```java
 @MapKey("operatorId")
 List<Map<Integer, String>> queryOperatorList();
 
@@ -35,9 +50,121 @@ List<Map<Integer, String>> queryOperatorList();
 	GROUP BY operator_id
 </select>
 
+
+@Select("<script>" +
+        "select process_instance_id processInstanceId, business_id businessId, " +
+        "settlement_no settlementNo, price, status, create_time createTime " +
+        "from ins_settlement_process " +
+        "WHERE settlement_no in " +
+        "<foreach collection= 'billOrderList' item= 'billOrder' open='(' separator= ',' close=')'>" +
+        "#{billOrder} " +
+        "</foreach> order by create_time desc " +
+        "</script>")
+List<SettlementProcessInstanceDO> querySettlementProcessInstanceList(@Param("billOrderList") List<String> billOrderList);
+
+
 ```
 
-### 1.1、lambda表达式
+
+```java
+
+// java中Map遍历的四种方式
+https://www.cnblogs.com/damoblog/p/9124937.html
+
+Map<String,String> map = new HashMap<String,String>();
+map.put("熊大", "棕色");
+map.put("熊二", "黄色");
+
+
+for(Map.Entry<String, String> entry : map.entrySet()){
+    String mapKey = entry.getKey();
+    String mapValue = entry.getValue();
+    System.out.println(mapKey+":"+mapValue);
+}
+
+ map.entrySet().forEach(en->{
+                en.getKey();
+                en.getValue();
+            });
+
+//key
+for(String key : map.keySet()){
+    System.out.println(key);
+}
+//value
+for(String value : map.values()){
+    System.out.println(value);
+}
+
+
+Iterator<Entry<String, String>> entries = map.entrySet().iterator();
+while(entries.hasNext()){
+    Entry<String, String> entry = entries.next();
+    String key = entry.getKey();
+    String value = entry.getValue();
+    System.out.println(key+":"+value);
+}
+
+
+for(String key : map.keySet()){
+    String value = map.get(key);
+    System.out.println(key+":"+value);
+}
+
+
+```
+
+
+```java
+// 创建数组的四种方法
+int[] a1;
+int[] a2 = {1, 2, 3};
+int[] a3 = new int[]{1, 2, 3};
+
+int[] a4 = new int[3];
+a4[0] = 1;
+a4[2] = 2;
+a4[3] = 3;
+
+```
+
+```java
+// 几个快速添加list的方法
+1. 使用Collections.addAll()方法，前提还是需要手动 new ArrayList
+ArrayList<String> s = new ArrayList();
+Collections.addAll(s,"1","2","3")
+
+2. 使用Arrays.asList(...args) 直接返回一个List
+List<String> s = Arrays.asList("1","2","3")
+// 可能会抛异常 UnsupportOperationException
+
+3. 如果引入了Guava的工具包，可以使用他的Lists.newArrayList(...args)方法
+List<String> list = Lists.newArrayList("1","2","3")
+
+4. 如果是Java9，可以使用自带的List类
+List<String> s = List.of("1","2","3")
+
+```
+
+```
+使用Arrays.asList()报错 UnsupportOperationException 原因
+
+常常使用Arrays.asLisvt()后调用add，remove这些method时出现java.lang.UnsupportedOperationException异常。这是由于：
+Arrays.asLisvt() 返回java.util.Arrays$ArrayList， 而不是ArrayList。
+
+Arrays$ArrayList和ArrayList都是继承AbstractList，remove，add等 method在AbstractList中是默认throw UnsupportedOperationException而且不作任何操作。
+ArrayList override这些method来对list进行操作，但是Arrays$ArrayList没有override remove(int)，add(int)等，所以throw UnsupportedOperationException。
+
+解决方法：
+List<String> list=new ArrayList(Arrays.asList(nameList));
+ 
+```
+
+
+
+### 1.2、lambda表达式
+
+> AtomicInteger、stream/map/filter/mapToInt/reduce/groupingBy/toMap/max、Optional、flatmap、peek
 
 ```java
 
@@ -55,9 +182,13 @@ List<Integer> interceptProductIdList = interceptGoodsNumDAOS.stream().map(dao ->
 List<DeliveryPackageDO> mainPackageDOList = packageDOS.stream().filter(dao -> dao.getTitle().equals(DriverPackageUtil.MAIN_PACKAGE_TEXT)).collect(Collectors.toList());
 
 
-// 求和
-Integer sum = detailDAOS.stream().mapToInt(DeliveryPackageGoodsDetailDAO::getNum).sum()
+// 求和  值为null时会报错 No value present
+Integer sum = detailDAOS.stream().mapToInt(DeliveryPackageGoodsDetailDAO::getNum).sum();
+BigDecimal paymentAmount = purchaserAmountMap.values().stream().map(SupplierBillDetailVO::getAmount).reduce(BigDecimal.ZERO, BigDecimal::add);
 BigDecimal paymentAmount = purchaserAmountMap.values().stream().map(SupplierBillDetailVO::getAmount).reduce(BigDecimal::add).get();
+
+// filter过滤空值且使用BigDecimal.ZERO 则不报错
+list.stream().filter(val->val.getSalesAmount()!=null).map(SupplierJointSalesDO::getSalesAmount).reduce(BigDecimal.ZERO,BigDecimal::add);
 
 
 /*** list转map */
@@ -124,57 +255,143 @@ basketList.parallelStream().collect(Collectors.groupingBy(item -> item.getAddrTe
 
 ```
 
-### 1.2、Map遍历
+---
+
+---
 
 ```java
+JAVA8 中的flatmap
 
-java中Map遍历的四种方式
-https://www.cnblogs.com/damoblog/p/9124937.html
+使用flatMap方法的效果是，各个数组并不是分别映射一个流，而是映射成流的内容，所有使用map(Array::stream)时生成的单个流被合并起来，即扁平化为一个流。
+https://blog.csdn.net/liyantianmin/article/details/96178586
+https://blog.csdn.net/zhuwukai/article/details/82888316
+https://www.jianshu.com/p/ecb8e8f77a89
 
-Map<String,String> map = new HashMap<String,String>();
-map.put("熊大", "棕色");
-map.put("熊二", "黄色");
+ public static void main(String[] args) {
+	List<User> uList = Lists.newArrayList();
+	User u1 = new User();
+	u1.setAddr("a1;a2;a3;a4;a5");
 
+	User u2 = new User();
+	u2.setAddr("b1;b2;b3;b4;b5");
 
-for(Map.Entry<String, String> entry : map.entrySet()){
-    String mapKey = entry.getKey();
-    String mapValue = entry.getValue();
-    System.out.println(mapKey+":"+mapValue);
+	uList.add(u1);
+	uList.add(u2);
+
+	List<String> addrList = uList.stream().map(x -> x.getAddr()).flatMap(x-> Arrays.stream(x.split(";"))).collect(Collectors.toList());
+	//或者
+	List<String> ridStrList = uList.stream().map(x -> x.getAddr()).map(x -> x.split(";")).flatMap(Arrays::stream).collect(Collectors.toList());
+	System.out.println(addrList);
 }
 
- map.entrySet().forEach(en->{
-                en.getKey();
-                en.getValue();
-            });
-
-//key
-for(String key : map.keySet()){
-    System.out.println(key);
-}
-//value
-for(String value : map.values()){
-    System.out.println(value);
-}
-
-
-Iterator<Entry<String, String>> entries = map.entrySet().iterator();
-while(entries.hasNext()){
-    Entry<String, String> entry = entries.next();
-    String key = entry.getKey();
-    String value = entry.getValue();
-    System.out.println(key+":"+value);
+@Data
+@NoArgsConstructor
+public class User{
+	private   String addr;
 }
 
 
-for(String key : map.keySet()){
-    String value = map.get(key);
-    System.out.println(key+":"+value);
+---
+
+
+public static class User {
+        private String name;
+        private List<String> relativeUsers;
 }
+
+List<String> strings = users.stream()
+  .flatMap(user -> user.getRelativeUsers().stream())
+  .collect(Collectors.toList());
+	
+```
 
 
 ```
+Java 8 Stream peek 与 map的区别
+原文链接：https://blog.csdn.net/tckt75433/article/details/81510743
+总结：peek接收一个没有返回值的λ表达式，可以做一些输出，外部处理等。map接收一个有返回值的λ表达式，之后Stream的泛型类型将转换为map参数λ表达式返回的类型。
 
-### 1.3、java排序
+```
+
+
+
+### 1.3、通用工具
+
+> 深度复制、正则分割中文和数字、特殊字符检测、sql注入检测
+
+```java
+<dependency>
+    <groupId>net.sf.dozer</groupId>
+    <artifactId>dozer</artifactId>
+    <version>5.5.1</version>
+</dependency>
+
+
+/**
+ * 深度复制
+ * @param sourceObject
+ * @param targetObject
+ */
+public static void copyPropertiesByDeep(Object sourceObject, Object targetObject) {
+    DozerBeanMapper dozerBeanMapper = new DozerBeanMapper();
+    dozerBeanMapper.map(sourceObject, targetObject);
+}
+
+	
+	
+	
+/**
+ * 正则分割中文和数字
+ *
+ * @param region
+ * @return
+ */
+public static List spitRegion(String region) {
+	Pattern REGION_PATTERN = Pattern.compile("[\\u4e00-\\u9fa5]+|\\d+");
+	
+    List<String> list = new ArrayList<>();
+    Matcher m = REGION_PATTERN.matcher(region);
+    while (m.find()) {
+        list.add(m.group());
+    }
+    return list;
+}
+	
+```
+
+```java
+
+    /**
+     * 特殊字符检测
+     *
+     * @param str
+     * @return
+     */
+    public static Boolean filterString(String str) {
+        String regEx = "[`~!@#$%^&*()+=|{}':;'\\[\\].<>/?~！@#￥%……&*（）——+|{}【】‘；：”“’。，、？]";
+        Pattern p = Pattern.compile(regEx);
+        Matcher m = p.matcher(str);
+        return m.replaceAll("").trim().length() != str.length();
+    }
+
+    /**
+     * sql注入检测
+     *
+     * @param str
+     * @return
+     */
+    public static Boolean filterStringSql(String str) {
+        Pattern pattern = Pattern.compile("\\b(and|exec|insert|select|drop|grant|alter|delete|update|count|chr|mid|master|truncate|char|declare|or)\\b|(\\*|;|\\+|'|%)");
+        Matcher matcher = pattern.matcher(str.toString().toLowerCase());
+        return matcher.find();
+    }
+```
+
+
+
+### 1.4、java排序
+
+> Arrays.sort、Collections.sort、new Comparator、compareTo、stream/Comparator/comparing
 
 ```java
 java排序
@@ -293,106 +510,23 @@ public static TreeMap<String, List<LogisticsStatisticsDAO>> getCustomSortTreeMap
 	
 ```
 
-### 1.4、flatmap,peek,newArrayList
+### 1.5、死锁Deadlock
 
-```java
-JAVA8 中的flatmap
+```
+--查询一下mysql的事务处理表
+select * from information_schema.INNODB_TRX  
 
-使用flatMap方法的效果是，各个数组并不是分别映射一个流，而是映射成流的内容，所有使用map(Array::stream)时生成的单个流被合并起来，即扁平化为一个流。
-https://blog.csdn.net/liyantianmin/article/details/96178586
-https://blog.csdn.net/zhuwukai/article/details/82888316
-https://www.jianshu.com/p/ecb8e8f77a89
+--杀掉进程
+kill 进程ID
 
- public static void main(String[] args) {
-	List<User> uList = Lists.newArrayList();
-	User u1 = new User();
-	u1.setAddr("a1;a2;a3;a4;a5");
+详情见笔记
+https://gitlab.com/xuyq123/mynotes/-/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/mysqlNote.md?ref_type=heads#user-content-36%E6%AD%BB%E9%94%81deadlock
 
-	User u2 = new User();
-	u2.setAddr("b1;b2;b3;b4;b5");
+https://xushufa.cn/docs/bian-cheng/shu-ju-ku/mysqlnote.html
 
-	uList.add(u1);
-	uList.add(u2);
-
-	List<String> addrList = uList.stream().map(x -> x.getAddr()).flatMap(x-> Arrays.stream(x.split(";"))).collect(Collectors.toList());
-	//或者
-	List<String> ridStrList = uList.stream().map(x -> x.getAddr()).map(x -> x.split(";")).flatMap(Arrays::stream).collect(Collectors.toList());
-	System.out.println(addrList);
-}
-
-@Data
-@NoArgsConstructor
-public class User{
-	private   String addr;
-}
-
-
----
-
-
-public static class User {
-        private String name;
-        private List<String> relativeUsers;
-}
-
-List<String> strings = users.stream()
-  .flatMap(user -> user.getRelativeUsers().stream())
-  .collect(Collectors.toList());
-	
 ```
 
 
-```
-Java 8 Stream peek 与 map的区别
-原文链接：https://blog.csdn.net/tckt75433/article/details/81510743
-总结：peek接收一个没有返回值的λ表达式，可以做一些输出，外部处理等。map接收一个有返回值的λ表达式，之后Stream的泛型类型将转换为map参数λ表达式返回的类型。
-
-```
-
-```java
-// 创建数组的四种方法
-int[] a1;
-int[] a2 = {1, 2, 3};
-int[] a3 = new int[]{1, 2, 3};
-
-int[] a4 = new int[3];
-a4[0] = 1;
-a4[2] = 2;
-a4[3] = 3;
-
-```
-
-```java
-几个快速添加list的方法
-1. 使用Collections.addAll()方法，前提还是需要手动 new ArrayList
-ArrayList<String> s = new ArrayList();
-Collections.addAll(s,"1","2","3")
-
-2. 使用Arrays.asList(...args) 直接返回一个List
-List<String> s = Arrays.asList("1","2","3")
-// 可能会抛异常 UnsupportOperationException
-
-3. 如果引入了Guava的工具包，可以使用他的Lists.newArrayList(...args)方法
-List<String> list = Lists.newArrayList("1","2","3")
-
-4. 如果是Java9，可以使用自带的List类
-List<String> s = List.of("1","2","3")
-
-```
-
-```
-使用Arrays.asList()报错 UnsupportOperationException 原因
-
-常常使用Arrays.asLisvt()后调用add，remove这些method时出现java.lang.UnsupportedOperationException异常。这是由于：
-Arrays.asLisvt() 返回java.util.Arrays$ArrayList， 而不是ArrayList。
-
-Arrays$ArrayList和ArrayList都是继承AbstractList，remove，add等 method在AbstractList中是默认throw UnsupportedOperationException而且不作任何操作。
-ArrayList override这些method来对list进行操作，但是Arrays$ArrayList没有override remove(int)，add(int)等，所以throw UnsupportedOperationException。
-
-解决方法：
-List<String> list=new ArrayList(Arrays.asList(nameList));
- 
-```
 
 ---
 
@@ -530,12 +664,12 @@ syso+Alt+/      输出
 ---
 
 ```
-java  mysql  maven  
-idea  git  navicat notepad++  
+java mysql maven  
+idea git navicat notepad++  
 postman xshell fillder typora VMware
 redis mongo kafka zookeeper tomcat eclipse
-python  nodejs vue 
-火绒安全软件 向日葵 Everything
+python nodejs npm vue github gitlab gitee gitcode
+Google Chrome 火绒安全软件 向日葵 Everything
 ```
 
 ---
@@ -583,10 +717,10 @@ https://www.jianshu.com/p/391e995881c0
 
 --Tests
 var jsonData = JSON.parse(responseBody);
-postman.setGlobalVariable("webToken", jsonData.data.token);
+tests["success"] = jsonData.code === 200;
+postman.setGlobalVariable("authorityToken", jsonData.data.token);
  
 
- 
 postman 出现Error: connect ECONNREFUSED 127.0.0.1:端口
 https://blog.csdn.net/weixin_45993202/article/details/109072188
 
@@ -644,7 +778,7 @@ maven常用打包命令
 
 | 平台           | 链接           |
 | -------------- | -------------- |
-|  **项目仓库**  | [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [github]( https://github.com/scott180/calligraphy )  &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitee]( https://gitee.com/xy180/calligraphy ) &ensp; [sourceforge]( https://sourceforge.net/p/calligraphy/code )  &ensp; [vuepress]( https://scott180.github.io/vuepress-calligraphy )    |
+|  **项目仓库**  | [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitcode]( https://gitcode.net/xu180/MyNotes ) &ensp; [github]( https://github.com/scott180/MyNotes )  &ensp; [bitbucket]( https://bitbucket.org/xu12345/calligraphy ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [sourceforge]( https://sourceforge.net/p/calligraphy/code )  &ensp; [vuepress]( https://scott180.github.io/vuepress-blog )    |
 |  **资讯账号**  | [微信公众号]( https://mp.weixin.qq.com/s/HmdDsCaeumuZg_DfitIdlw ) &ensp; [头条]( https://www.toutiao.com/c/user/token/MS4wLjABAAAA2_bWhiknCbcKNu4c6VTM2B7m2vr7zBrh0x6fSyOrtGU ) &ensp;  [豆瓣]( https://www.douban.com/people/80730595/photos ) &ensp;  [知乎]( https://www.zhihu.com/people/xu-xian-sheng-72-29/posts )     |
 |  **个人邮箱**  | 1021151991@qq.com   |
 
@@ -652,12 +786,11 @@ maven常用打包命令
 
 > **公众号**
 
-- 注册了微信公众号及今日头条号：[**无为徐生**]( https://scott180.github.io/calligraphy/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )，以后会将书法练习轨迹、程序员笔记以及一些随笔感想更新在此。<br/>
-- 每周一会在无为徐生**微信公众号**同步《书法练习轨迹》，持续更新，敬请关注。
+- 注册了微信公众号及今日头条号：[**无为徐生**]( https://scott180.github.io/calligraphy/%E6%97%A0%E4%B8%BA%E5%BE%90%E7%94%9F )，将书法练习轨迹、程序员笔记以及一些随笔感想更新在此。<br/>
 
 | 无为徐生   | 微信公众号                                               	 |  &ensp; |  今日头条号        |
 | ---------  | ------------------------------------------------------------- |  -      |  ----------        |
-|  二维码    | ![w]( https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_weixin.png ) | <br/> | ![t]( https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_toutiao.png )     |
+|  二维码    | ![w]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/weixin/wuweixusheng_weixin.png ) | <br/> | ![t]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/toutiao/wuweixusheng_toutiao.png )     |
 
 ***
 

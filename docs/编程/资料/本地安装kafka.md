@@ -2,7 +2,7 @@
 
 ## 一、安装方法
 
-前提 ： [本地安装zookeeper]( https://blog.xushufa.cn ) 
+前提 ： [本地安装zookeeper]( https://xushufa.cn ) 
 
 1、下载 [kafka_2.13-2.5.1.tgz]( https://download.csdn.net/download/xu180/13060538 ) 文件 （带src是源码 如：kafka-2.5.1-src.tgz ，不能安装）
 

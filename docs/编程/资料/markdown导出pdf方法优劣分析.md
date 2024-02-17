@@ -4,7 +4,7 @@
 
 `md2pdf`  `pandoc`  `Typora`  `MarkText`  `PDFPatcher`  --20220903
 
-> [xushufa]( https://web.xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) 
+> [xushufa]( https://xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) 
 
 
 
@@ -12,7 +12,7 @@
 
 ### 1.1 目标
 
-markdown导出pdf期望达到理想效果：
+markdown导出pdf期望达到的理想效果：
 - **内容不丢失**，标题、正文、高亮、代码块等内容不会丢失，即使是代码块也能无损导出。
 - **格式不变形**，字体、样式与markdown看到的基本一致。
 - **有图片**，markdown的图片不论是网络链接还是base64都能正常导出。
@@ -43,7 +43,7 @@ markdown相关操作，格式转换与项目布署。
 
 - gitlab、github、gitee布署`mkdocs`主题仓库
 - git平台`docsify`布署markdown文件
-- `vuepress`构建项目 https://blog.xushufa.cn
+- `vuepress`构建项目 https://xushufa.cn
 - `gitbook`部署博客  https://scott180.github.io/gitbook-blog
 
 
@@ -65,7 +65,7 @@ Typora + pandoc 导出pdf时，可以将图片链接换成base64编码，这样�
 且文档的base64图片编码多了，使用Typora报错：该文件过大，因此无法在Typora中呈现。<br/>
 
 >Typora导出pdf
-![1Typora]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/1Typora.jpg )
+![1Typora]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/md2pdf/1Typora.jpg )
 
 ---
 
@@ -129,7 +129,7 @@ C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe <br/>
 《无为徐生_vscode.pdf》丢失图片，没有书签，格式变化。 <br/>
 
 >vscode导出pdf
-![2vscode]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/2vscode.jpg )
+![2vscode]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/md2pdf/2vscode.jpg )
 
 ---
 
@@ -152,22 +152,22 @@ MarkText是一个简单开源的 Markdown 编辑器。 https://github.com/markte
 ---
 
 >MarkText导出pdf
-![3MarkText]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/3MarkText.jpg )
+![3MarkText]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/md2pdf/3MarkText.jpg )
 
 ---
 
 >PDFPatcher生成书签
-![4PDFPatcher]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/4PDFPatcher.jpg )
+![4PDFPatcher]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/md2pdf/4PDFPatcher.jpg )
 
 >PDFPatcher导入书签
-![5PDFPatcher]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/5PDFPatcher.jpg )
+![5PDFPatcher]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/md2pdf/5PDFPatcher.jpg )
 
 >PDF书签打开
-![6PDFPatcher]( https://md.xushufa.cn/gitimg/document/imgs/md2pdf/6PDFPatcher.jpg )
+![6PDFPatcher]( https://bitbucket.org/xu12345/document/raw/114a5f5c292cc412cd46304dc1d20cfda7c7a7f8/imgs/md2pdf/6PDFPatcher.jpg )
 
 ---
 
-### 2.6 评分
+## 3 评分
 
 | 评分        | 内容不丢失 | 格式不变形 | 有图片 | 有书签 | 操作简单 | 得分        |
 | ----------  | ---------- | ---------- | ------ | ------ | -------- | ----------- |
@@ -187,9 +187,4 @@ MarkText是一个简单开源的 Markdown 编辑器。 https://github.com/markte
 综上，`MarkText`四星半夺得魁首，`Typora`屈居亚席。总之： <br/>
 操作markdown文件，使用`Typora`最方便。 <br/>
 导出markdown为pdf，`MarkText`搭配`PDFPatcher`最优秀。 <br/>
-
-
-
-
-
 

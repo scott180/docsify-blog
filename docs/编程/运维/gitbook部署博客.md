@@ -3,26 +3,34 @@
 ## 基础命令 
 
 ```sh
-安装GitBook
-npm install gitbook-cli -g
+GitBook可以看作个人的一本电子书。它用MarkDown编写，可以自动生成网页或者PDF等，生成网页可以通过插件配置目录和搜索功能等。
 
-验证
-gitbook -V
 
-安装依赖
-gitbook install
+安装	npm install gitbook-cli -g
+验证	gitbook -V
+安装依赖	gitbook install
 
-运行
-gitbook serve
-
-打包
-gitbook build
-
-卸载
-npm uninstall -g gitbook
-
+运行	gitbook serve
+打包	gitbook build
+卸载	npm uninstall -g gitbook
 
 ```
+
+```
+开启github pages 
+1、gitbook build生成_book目录，将_book改成docs
+2、位置：Setting - GitHub Pages - Save  
+3、选择目录docs
+发布成功https://scott180.github.io/gitbook-calligraphy/
+
+
+后续更新
+1、运行gitbook serve
+2、修改_book为docs
+3、提交文件
+
+```
+
 
 ```sh
 版本
@@ -36,9 +44,7 @@ v14.17.5
 $ npm -v
 6.14.14
 
-```
 
-```
 配置说明
 https://www.gitbook.com
 https://www.cnblogs.com/zhangycun/p/15099747.html
@@ -114,17 +120,6 @@ book.json
 }
 
 
-
-```
-
-```
-开启github pages 
-
-1、gitbook build生成_book目录，将_book改成docs
-
-2、位置：Setting - GitHub Pages - Save  
-选择目录docs
-发布成功https://scott180.github.io/gitbook-calligraphy/
 
 ```
 
